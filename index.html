@@ -109,30 +109,6 @@
   <script src="data/c-em-a3-his.js"></script>
   <script src="data/c-em-a3-geo.js"></script>
   <!-- Aplicação -->
-  <script>
-  window.__errosCarga = [];
-  window.addEventListener("error", function (e) {
-    window.__errosCarga.push((e.message || "?") + " @ " + (e.filename || "").split("/").pop() + ":" + (e.lineno || "?"));
-  });
-  window.addEventListener("unhandledrejection", function (e) {
-    window.__errosCarga.push("promise: " + ((e.reason && e.reason.message) || e.reason));
-  });
-  document.addEventListener("DOMContentLoaded", function () {
-    setTimeout(function () {
-      var app = document.getElementById("app");
-      if (app && app.innerHTML.length === 0) {
-        var d = document.createElement("pre");
-        d.style.cssText = "background:#fdecea;color:#b3261e;padding:12px;font-size:12px;white-space:pre-wrap;border-radius:8px";
-        d.textContent = "DEBUG app vazio. Erros: " + JSON.stringify(window.__errosCarga) +
-          " | App: " + typeof window.App + " | Views: " + typeof window.Views +
-          " | Estado: " + typeof window.Estado + " | Dados: " + typeof window.Dados +
-          " | Estrutura: " + typeof window.GuiaEstrutura +
-          " | Conteudo: " + (typeof window.GuiaConteudo !== "undefined" ? Object.keys(window.GuiaConteudo).length : "?");
-        document.body.insertBefore(d, document.body.firstChild);
-      }
-    }, 3000);
-  });
-  </script>
   <script src="js/dados.js"></script>
   <script src="js/estado.js"></script>
   <script src="js/views.js"></script>

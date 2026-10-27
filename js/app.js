@@ -118,5 +118,18 @@
   // API usada pelas views (recarregar a tela atual)
   window.App = { rotear: rotear };
 
-  rotear();
+  function iniciar() { rotear(); }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", iniciar);
+  } else {
+    iniciar();
+  }
+  // Rede de segurança: se por qualquer motivo (cache parcial, corrida de rede)
+  // a tela não renderizar, tenta de novo após a carga completa.
+  window.addEventListener("load", function () {
+    setTimeout(function () {
+      var a = document.getElementById("app");
+      if (a && a.children.length === 0) rotear();
+    }, 500);
+  });
 })();
