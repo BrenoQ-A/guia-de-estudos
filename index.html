@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colégio Horizonte — Fundamental e Médio</title>
+  <meta name="description" content="Simulador de colégio: estude do 1º ano do Ensino Fundamental à 3ª série do Ensino Médio, com aulas, provas, boletim e certificado final.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho-inner">
+      <a class="logo" href="#/inicio">
+        <span class="logo-emoji">🎓</span>
+        <span class="logo-texto">
+          <strong>Colégio Horizonte</strong>
+          <small>Do 1º ano ao Ensino Médio</small>
+        </span>
+      </a>
+      <nav class="nav" id="nav-principal">
+        <a href="#/inicio" data-rota="inicio">🏫 Início</a>
+        <a href="#/boletim" data-rota="boletim">📋 Boletim</a>
+        <a href="#/exame" data-rota="exame" id="nav-exame">📝 Exame Final</a>
+        <a href="#/certificado" data-rota="certificado">🏅 Certificado</a>
+      </nav>
+      <div class="aluno-chip" id="aluno-chip"></div>
+      <button class="btn btn-ghost btn-pequeno" id="btn-reiniciar" title="Apagar progresso e começar de novo">⚙️</button>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="rodape">
+    <span>Colégio Horizonte · Estudos do Ensino Fundamental ao Médio · Seu progresso fica salvo neste navegador</span>
+  </footer>
+
+  <!-- Estrutura da escola -->
+  <script src="data/estrutura.js"></script>
+  <!-- Conteúdo das disciplinas -->
+  <script src="data/c-f1-a1-por.js"></script>
+  <script src="data/c-f1-a1-mat.js"></script>
+  <script src="data/c-f1-a1-cie.js"></script>
+  <script src="data/c-f1-a1-his.js"></script>
+  <script src="data/c-f1-a1-geo.js"></script>
+  <script src="data/c-f1-a2-por.js"></script>
+  <script src="data/c-f1-a2-mat.js"></script>
+  <script src="data/c-f1-a2-cie.js"></script>
+  <script src="data/c-f1-a2-his.js"></script>
+  <script src="data/c-f1-a2-geo.js"></script>
+  <script src="data/c-f1-a3-por.js"></script>
+  <script src="data/c-f1-a3-mat.js"></script>
+  <script src="data/c-f1-a3-cie.js"></script>
+  <script src="data/c-f1-a3-his.js"></script>
+  <script src="data/c-f1-a3-geo.js"></script>
+  <script src="data/c-f1-a4-por.js"></script>
+  <script src="data/c-f1-a4-mat.js"></script>
+  <script src="data/c-f1-a4-cie.js"></script>
+  <script src="data/c-f1-a4-his.js"></script>
+  <script src="data/c-f1-a4-geo.js"></script>
+  <script src="data/c-f1-a5-por.js"></script>
+  <script src="data/c-f1-a5-mat.js"></script>
+  <script src="data/c-f1-a5-cie.js"></script>
+  <script src="data/c-f1-a5-his.js"></script>
+  <script src="data/c-f1-a5-geo.js"></script>
+  <script src="data/c-f2-a6-por.js"></script>
+  <script src="data/c-f2-a6-mat.js"></script>
+  <script src="data/c-f2-a6-cie.js"></script>
+  <script src="data/c-f2-a6-his.js"></script>
+  <script src="data/c-f2-a6-geo.js"></script>
+  <script src="data/c-f2-a6-ing.js"></script>
+  <script src="data/c-f2-a7-por.js"></script>
+  <script src="data/c-f2-a7-mat.js"></script>
+  <script src="data/c-f2-a7-cie.js"></script>
+  <script src="data/c-f2-a7-his.js"></script>
+  <script src="data/c-f2-a7-geo.js"></script>
+  <script src="data/c-f2-a7-ing.js"></script>
+  <script src="data/c-f2-a8-por.js"></script>
+  <script src="data/c-f2-a8-mat.js"></script>
+  <script src="data/c-f2-a8-cie.js"></script>
+  <script src="data/c-f2-a8-his.js"></script>
+  <script src="data/c-f2-a8-geo.js"></script>
+  <script src="data/c-f2-a8-ing.js"></script>
+  <script src="data/c-f2-a9-por.js"></script>
+  <script src="data/c-f2-a9-mat.js"></script>
+  <script src="data/c-f2-a9-cie.js"></script>
+  <script src="data/c-f2-a9-his.js"></script>
+  <script src="data/c-f2-a9-geo.js"></script>
+  <script src="data/c-f2-a9-ing.js"></script>
+  <script src="data/c-em-a1-por.js"></script>
+  <script src="data/c-em-a1-mat.js"></script>
+  <script src="data/c-em-a1-fis.js"></script>
+  <script src="data/c-em-a1-qui.js"></script>
+  <script src="data/c-em-a1-bio.js"></script>
+  <script src="data/c-em-a1-his.js"></script>
+  <script src="data/c-em-a1-geo.js"></script>
+  <script src="data/c-em-a2-por.js"></script>
+  <script src="data/c-em-a2-mat.js"></script>
+  <script src="data/c-em-a2-fis.js"></script>
+  <script src="data/c-em-a2-qui.js"></script>
+  <script src="data/c-em-a2-bio.js"></script>
+  <script src="data/c-em-a2-his.js"></script>
+  <script src="data/c-em-a2-geo.js"></script>
+  <script src="data/c-em-a3-por.js"></script>
+  <script src="data/c-em-a3-mat.js"></script>
+  <script src="data/c-em-a3-fis.js"></script>
+  <script src="data/c-em-a3-qui.js"></script>
+  <script src="data/c-em-a3-bio.js"></script>
+  <script src="data/c-em-a3-his.js"></script>
+  <script src="data/c-em-a3-geo.js"></script>
+  <!-- Aplicação -->
+  <script src="js/dados.js"></script>
+  <script src="js/estado.js"></script>
+  <script src="js/views.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
