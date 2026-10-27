@@ -1,4 +1,4 @@
-// Embaralha as alternativas de todas as questões do Colégio Horizonte,
+// Embaralha as alternativas de todas as questões do Guia de Estudos,
 // corrigindo o índice da resposta correta. Uso: node tools/embaralhar.js
 // Roda sobre data/c-*.js e reescreve os arquivos no mesmo formato.
 
@@ -56,7 +56,7 @@ for (const arquivo of arquivos) {
   require(path.join(pasta, arquivo));
 }
 
-const C = global.window.ColegioConteudo;
+const C = global.window.GuiaConteudo;
 
 for (const arquivo of arquivos) {
   const m = arquivo.match(/^c-(.+)\.js$/);
@@ -72,9 +72,9 @@ for (const arquivo of arquivos) {
 
   // Reescreve o arquivo
   const linhas = [];
-  linhas.push("window.ColegioConteudo = window.ColegioConteudo || {};");
+  linhas.push("window.GuiaConteudo = window.GuiaConteudo || {};");
   linhas.push("");
-  linhas.push("window.ColegioConteudo[" + JSON.stringify(id) + "] = {");
+  linhas.push("window.GuiaConteudo[" + JSON.stringify(id) + "] = {");
   linhas.push("  aulas: [");
   c.aulas.forEach(aula => {
     linhas.push("    {");
@@ -124,7 +124,7 @@ for (const arquivo of arquivos) {
   delete require.cache[require.resolve(path.join(pasta, arquivo))];
   require(path.join(pasta, arquivo));
 }
-const C2 = global.window.ColegioConteudo;
+const C2 = global.window.GuiaConteudo;
 for (const arquivo of arquivos) {
   const id = arquivo.match(/^c-(.+)\.js$/)[1];
   const c = C2[id];

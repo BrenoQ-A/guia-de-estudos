@@ -1,5 +1,5 @@
 // ============================================================
-// Colégio Horizonte — estado e progresso do aluno
+// Guia de Estudos — estado e progresso do aluno
 // Persistência em localStorage. Regras escolares:
 //   · Aula concluída: nota da atividade ≥ 5,0 (4 questões)
 //   · Disciplina aprovada: nota da prova ≥ 6,0 (6 questões)
@@ -11,7 +11,7 @@
 window.Estado = (function () {
   "use strict";
 
-  var CHAVE = "colegio-horizonte-v1";
+  var CHAVE = "guia-de-estudos-v1";
   var PONTOS_AULA = 10;
   var PONTOS_PROVA = 25;
   var PONTOS_EXAME = 100;

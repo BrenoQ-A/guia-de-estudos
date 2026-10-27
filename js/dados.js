@@ -1,5 +1,5 @@
 // ============================================================
-// Colégio Horizonte — camada de dados
+// Guia de Estudos — camada de dados
 // Junta a estrutura (segmentos, anos, disciplinas) com o
 // conteúdo (aulas, provas, banco do exame final).
 // ============================================================
@@ -7,8 +7,8 @@
 window.Dados = (function () {
   "use strict";
 
-  var E = window.ColegioEstrutura;
-  var C = window.ColegioConteudo || {};
+  var E = window.GuiaEstrutura;
+  var C = window.GuiaConteudo || {};
 
   // Curso completo, na ordem escolar
   var CURSO = E.segmentos.map(function (seg) {

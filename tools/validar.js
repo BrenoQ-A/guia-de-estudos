@@ -1,4 +1,4 @@
-// Validação dos arquivos de conteúdo do Colégio Horizonte.
+// Validação dos arquivos de conteúdo do Guia de Estudos.
 // Uso: node tools/validar.js
 // Verifica sintaxe (carregando cada arquivo), presença de conteúdo
 // para todas as 70 disciplinas e as regras de schema.
@@ -13,7 +13,7 @@ const raiz = path.join(__dirname, "..");
 
 // 1. estrutura
 require(path.join(raiz, "data", "estrutura.js"));
-const E = global.window.ColegioEstrutura;
+const E = global.window.GuiaEstrutura;
 
 // ids esperados
 const esperados = [];
@@ -36,7 +36,7 @@ for (const f of arquivos) {
     console.log("ERRO DE SINTAXE em " + f + ": " + e.message);
   }
 }
-const C = global.window.ColegioConteudo || {};
+const C = global.window.GuiaConteudo || {};
 
 let erros = 0, avisos = 0;
 const err = (msg) => { console.log("  ✗ " + msg); erros++; };

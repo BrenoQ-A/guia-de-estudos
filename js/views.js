@@ -1,5 +1,5 @@
 // ============================================================
-// Colégio Horizonte — telas (views)
+// Guia de Estudos — telas (views)
 // Renderizam as rotas: início, ano, disciplina, aula, prova,
 // boletim, exame final e certificado.
 // ============================================================
@@ -161,7 +161,7 @@ window.Views = (function () {
   }
 
   // ============================================================
-  // TELA: Início (matrícula + corredor da escola)
+  // TELA: Início (perfil + trilha de anos)
   // ============================================================
   function inicio(container) {
     var perfil = window.Estado.perfil();
@@ -178,8 +178,8 @@ window.Views = (function () {
     var apres = el("div", "hero-apresentacao");
     apres.appendChild(el("h1", null, "Bem-vindo(a) de volta, " + perfil.nome + "! 👋"));
     apres.appendChild(el("p", null,
-      "Este é o seu colégio. Caminhe pelos corredores, entre nas salas, " +
-      "estude as aulas de cada disciplina e vença as provas para avançar de ano. " +
+      "Este é o seu guia de estudos. " +
+      "Avance ano a ano, do 1º ano do Fundamental à 3ª série do Médio, vencendo as provas de cada disciplina. " +
       "Ao concluir tudo, o Exame Final de Certificação te espera."));
     var acoes = el("div", "hero-acoes");
     if (prox) {
@@ -198,7 +198,7 @@ window.Views = (function () {
     hero.appendChild(apres);
 
     var carteira = el("aside", "carteirinha");
-    carteira.appendChild(el("div", "cab", "Carteira estudantil · " + window.Dados.escola.anoLetivo));
+    carteira.appendChild(el("div", "cab", "Painel de progresso · " + window.Dados.escola.anoLetivo));
     var alunoBox = el("div", "aluno");
     alunoBox.appendChild(el("span", "avatar", perfil.avatar));
     var nomeBox = el("div");
@@ -223,7 +223,7 @@ window.Views = (function () {
       geral.aprovadas + " de " + geral.total + " disciplinas concluídas");
     container.appendChild(barraGeral);
 
-    // ----- corredores da escola -----
+    // ----- trilha de anos -----
     var mapa = window.Estado.mapaDesbloqueio();
     window.Dados.curso.forEach(function (seg) {
       var sec = el("section", "segmento");
@@ -271,9 +271,9 @@ window.Views = (function () {
 
   function montarMatricula() {
     var card = el("section", "card matricula");
-    card.appendChild(el("h2", null, "📋 Matrícula no Colégio Horizonte"));
+    card.appendChild(el("h2", null, "📚 Vamos começar!"));
     card.appendChild(el("p", null,
-      "Antes de entrar nas salas, faça sua matrícula: escolha um avatar e diga como quer ser chamado(a)."));
+      "Escolha um avatar e diga como quer ser chamado(a). Seu progresso fica salvo neste navegador."));
 
     var escolhido = AVATARES[0];
     var avatares = el("div", "avatares");
@@ -301,7 +301,7 @@ window.Views = (function () {
     aviso.style.display = "none";
     card.appendChild(aviso);
 
-    var b = el("button", "btn btn-primario btn-bloco", "✅ Confirmar matrícula");
+    var b = el("button", "btn btn-primario btn-bloco", "✅ Começar a estudar");
     b.addEventListener("click", function () {
       var nome = input.value.trim();
       if (nome.length < 2) {
@@ -317,15 +317,15 @@ window.Views = (function () {
   }
 
   // ============================================================
-  // TELA: Sala do ano (lista de disciplinas)
+  // TELA: Ano (lista de disciplinas)
   // ============================================================
   function ano(container, anoId) {
     var ano = window.Dados.getAno(anoId);
     if (!ano) { container.appendChild(avisoNaoEncontrado("ano")); return; }
     if (!window.Estado.anoDesbloqueado(anoId)) {
-      container.appendChild(trava("🔒 Sala trancada",
+      container.appendChild(trava("🔒 Bloqueado",
         "Este ano ainda não foi liberado. Conclua todas as disciplinas do ano anterior para avançar.",
-        "#/inicio", "Voltar ao corredor"));
+        "#/inicio", "Voltar ao início"));
       return;
     }
 
@@ -334,7 +334,7 @@ window.Views = (function () {
     m.appendChild(document.createTextNode(" › " + ano.segmentoNome + " › " + ano.rotulo));
     container.appendChild(m);
 
-    var tit = el("h1", null, "Sala do " + ano.rotulo + " 🚪");
+    var tit = el("h1", null, "📚 " + ano.rotulo);
     tit.style.fontFamily = "Georgia, serif";
     container.appendChild(tit);
 
@@ -445,7 +445,7 @@ window.Views = (function () {
         " questões sobre tudo o que você estudou. Precisa de nota 6,0 ou mais para ser aprovado(a). " +
         (pInfo ? "Sua melhor nota até agora: " + window.Estado.notaTexto(pInfo.nota) + ". " : "") +
         "Boa prova!"));
-      provaCard.appendChild(botaoLink("#/prova/" + d.id, "🚪 Entrar na sala da prova", "btn btn-primario"));
+      provaCard.appendChild(botaoLink("#/prova/" + d.id, "📝 Fazer a prova", "btn btn-primario"));
     } else {
       var restam = ds.totalAulas - ds.aulasFeitas;
       provaCard.appendChild(el("p", null,
@@ -575,7 +575,7 @@ window.Views = (function () {
     if (!d || !d.conteudo) { container.appendChild(avisoNaoEncontrado("prova")); return; }
     var ds = window.Estado.disciplinaStats(d);
     if (!ds.provaLiberada) {
-      container.appendChild(trava("🔒 Prova trancada",
+      container.appendChild(trava("🔒 Prova bloqueada",
         "Conclua todas as aulas de " + d.nome + " para liberar a prova.",
         "#/disciplina/" + d.id, "Voltar à disciplina"));
       return;
@@ -610,7 +610,7 @@ window.Views = (function () {
         var r = window.Estado.registrarProva(d.id, acertos, total);
         var acoes = [];
         if (r.aprovado) {
-          acoes.push(botaoLink("#/ano/" + d.anoId, "Voltar à sala do ano →", "btn btn-verde"));
+          acoes.push(botaoLink("#/ano/" + d.anoId, "Voltar à lista de disciplinas →", "btn btn-verde"));
           acoes.push(botaoLink("#/boletim", "Ver boletim 📋", "btn btn-secundario"));
         } else {
           acoes.push(botaoRecarregar("🔄 Refazer a prova"));
@@ -629,7 +629,7 @@ window.Views = (function () {
     }));
 
     wrap.appendChild(el("p", null, ""));
-    wrap.appendChild(botaoLink("#/disciplina/" + d.id, "← Sair da sala de prova", "btn btn-secundario sem-impressao"));
+    wrap.appendChild(botaoLink("#/disciplina/" + d.id, "← Voltar à disciplina", "btn btn-secundario sem-impressao"));
     container.appendChild(wrap);
   }
 
@@ -701,7 +701,7 @@ window.Views = (function () {
       var geral = window.Estado.progressoGeral();
       var t = trava("🔒 Exame ainda não liberado",
         "O Exame Final abre quando você for aprovado(a) em todas as " + geral.total +
-        " disciplinas do colégio (Fundamental I ao Médio). Faltam " + (geral.total - geral.aprovadas) + " disciplinas.",
+        " disciplinas do guia (Fundamental I ao Médio). Faltam " + (geral.total - geral.aprovadas) + " disciplinas.",
         "#/inicio", "Continuar estudando");
       container.appendChild(t);
       var barra = barraDeProgresso(geral.percentual, "Progresso do curso completo");
@@ -713,10 +713,10 @@ window.Views = (function () {
 
     // ----- introdução -----
     var intro = el("section", "card exame-trava");
-    intro.appendChild(el("div", "icone", "🎓"));
+    intro.appendChild(el("div", "icone", "🏆"));
     intro.appendChild(el("h2", null, "Parabéns, você chegou ao fim do percurso!"));
     intro.appendChild(el("p", null,
-      "O Exame Final de Certificação tem 30 questões sorteadas de todo o colégio — 10 do Fundamental I, " +
+      "O Exame Final de Certificação tem 30 questões sorteadas de todo o guia — 10 do Fundamental I, " +
       "10 do Fundamental II e 10 do Ensino Médio. Você precisa acertar 70% (21 questões) para receber " +
       "seu certificado de conclusão. Não há limite de tentativas; cada exame sorteia questões novas."));
     if (info) {
@@ -746,7 +746,7 @@ window.Views = (function () {
 
       container.appendChild(montarQuiz({
         titulo: "Exame Final — 30 questões",
-        instrucao: "Responda com calma. Acertando 21 de 30 você recebe o certificado do Colégio Horizonte.",
+        instrucao: "Responda com calma. Acertando 21 de 30 você recebe o certificado do Guia de Estudos.",
         questoes: questoes,
         textoBotao: "Entregar exame",
         aoEntregar: function (acertos, total) {
@@ -800,11 +800,11 @@ window.Views = (function () {
       " · " + window.Estado.pontos() + " pontos de mérito acumulados."));
     var assinaturas = el("div", "assinaturas");
     var a1 = el("div");
-    a1.appendChild(el("strong", null, "Direção do Colégio Horizonte"));
+    a1.appendChild(el("strong", null, "Guia de Estudos"));
     a1.appendChild(el("div", null, "Ensino Fundamental e Médio"));
     var a2 = el("div");
-    a2.appendChild(el("strong", null, "Secretaria Acadêmica"));
-    a2.appendChild(el("div", null, "Registro escolar nº HZ-" + String(Date.now()).slice(-6)));
+    a2.appendChild(el("strong", null, "Certificação de conclusão"));
+    a2.appendChild(el("div", null, "Registro de conclusão nº GD-" + String(Date.now()).slice(-6)));
     assinaturas.appendChild(a1);
     assinaturas.appendChild(a2);
     moldura.appendChild(assinaturas);

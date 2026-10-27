@@ -1,8 +1,8 @@
 // ============================================================
-// Colégio Horizonte — roteador e inicialização
+// Guia de Estudos — roteador e inicialização
 // Rotas (hash):
-//   #/inicio                      corredor da escola
-//   #/ano/{anoId}                 sala do ano (disciplinas)
+//   #/inicio                      tela inicial
+//   #/ano/{anoId}                 disciplinas do ano
 //   #/disciplina/{discId}         aulas da disciplina + prova
 //   #/aula/{discId}/{aulaId}      conteúdo + atividade
 //   #/prova/{discId}              prova da disciplina
@@ -106,7 +106,7 @@
 
   document.getElementById("btn-reiniciar").addEventListener("click", function () {
     var ok = confirm(
-      "Isso apaga sua matrícula, todo o progresso, notas e pontos, e começa o ano letivo do zero.\n\n" +
+      "Isso apaga seu perfil e todo o progresso (notas e pontos), recomeçando do zero.\n\n" +
       "Tem certeza que quer reiniciar?");
     if (ok) {
       window.Estado.reiniciar();

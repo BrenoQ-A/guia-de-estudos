@@ -1,13 +1,12 @@
 // ============================================================
-// Colégio Horizonte — Estrutura do curso (o "prédio da escola":
-// segmentos, anos e disciplinas). O conteúdo de cada disciplina
+// Guia de Estudos — Estrutura do curso (segmentos, anos e disciplinas). O conteúdo de cada disciplina
 // fica em data/c-<id>.js (ex.: data/c-f1-a1-mat.js).
 // ============================================================
 
-window.ColegioEstrutura = {
+window.GuiaEstrutura = {
   escola: {
-    nome: "Colégio Horizonte",
-    moto: "Do 1º ano ao Ensino Médio, um horizonte de cada vez.",
+    nome: "Guia de Estudos",
+    moto: "Um passo de cada vez, do Fundamental ao Médio.",
     anoLetivo: "2026"
   },
 

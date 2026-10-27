@@ -1,6 +1,6 @@
-window.ColegioConteudo = window.ColegioConteudo || {};
+window.GuiaConteudo = window.GuiaConteudo || {};
 
-window.ColegioConteudo["em-a3-geo"] = {
+window.GuiaConteudo["em-a3-geo"] = {
   aulas: [
     {
       id: "em-a3-geo-1",

@@ -1,8 +1,8 @@
-# 🎓 Colégio Horizonte
+# 📚 Guia de Estudos
 
-Aplicação web de estudos que simula um colégio completo: do **1º ano do Ensino
+Guia de estudos pessoal: todo o conteúdo escolar do **1º ano do Ensino
 Fundamental** à **3ª série do Ensino Médio** (12 anos/séries letivas, 70
-disciplinas, 210 aulas), com atividades, provas, boletim escolar e um
+disciplinas, 210 aulas), com atividades, provas, painel de progresso e um
 **Exame Final de Certificação** com certificado para imprimir.
 
 ## Como executar
@@ -20,9 +20,9 @@ Depois abra `http://localhost:8931`.
 > Também funciona abrindo o `index.html` direto no navegador (duplo clique),
 > pois todo o conteúdo é carregado via tags `<script>`.
 
-## Como funciona (regras da escola)
+## Como funciona (regras do guia)
 
-1. **Matrícula** — no primeiro acesso, o aluno escolhe avatar e nome.
+1. **Perfil** — no primeiro acesso, você escolhe avatar e nome.
 2. **Corredor** — a tela inicial mostra os três segmentos e as "portas" de cada
    ano/série. Cada ano só desbloqueia quando o anterior for concluído.
 3. **Disciplinas** — cada ano tem suas disciplinas (5 no Fundamental I,

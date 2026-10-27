@@ -1,6 +1,6 @@
 # 🚀 Guia de Deploy — GitHub Pages
 
-O Colégio Horizonte é 100% estático (HTML/CSS/JS, sem backend), então o
+O Guia de Estudos é 100% estático (HTML/CSS/JS, sem backend), então o
 GitHub Pages o hospeda gratuitamente com HTTPS. O repositório local já está
 inicializado com o commit inicial. Faltam apenas seus passos:
 
@@ -8,7 +8,7 @@ inicializado com o commit inicial. Faltam apenas seus passos:
 
 1. Crie uma conta em [github.com](https://github.com) (se ainda não tiver).
 2. Acesse [github.com/new](https://github.com/new) e crie um repositório:
-   - **Nome:** `colegio-horizonte`
+   - **Nome:** `guia-de-estudos`
    - **Visibilidade:** Public (necessário para Pages no plano gratuito)
    - **NÃO** marque "Add a README" (já temos um).
 
@@ -17,7 +17,7 @@ inicializado com o commit inicial. Faltam apenas seus passos:
 No terminal, dentro da pasta `colegio/`:
 
 ```bash
-git remote add origin https://github.com/SEU_USUARIO/colegio-horizonte.git
+git remote add origin https://github.com/SEU_USUARIO/guia-de-estudos.git
 git push -u origin main
 ```
 
@@ -38,7 +38,7 @@ o login automaticamente se você tiver o Git Credential Manager.
 O site fica no ar em:
 
 ```
-https://SEU_USUARIO.github.io/colegio-horizonte/
+https://SEU_USUARIO.github.io/guia-de-estudos/
 ```
 
 Com HTTPS automático. Compartilhe o link com quem quiser estudar!
