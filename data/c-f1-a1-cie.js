@@ -4,82 +4,79 @@ window.GuiaConteudo["f1-a1-cie"] = {
   aulas: [
     {
       id: "f1-a1-cie-1",
-      titulo: "O corpo humano e a higiene",
+      titulo: "O corpo humano: partes e cuidados básicos com a saúde",
       blocos: [
-        { tipo: "paragrafo", texto: "Nosso corpo é uma máquina incrível! Ele tem várias partes, e cada uma faz algo importante para a gente viver, brincar e aprender." },
-        { tipo: "titulo", texto: "As partes do corpo" },
-        { tipo: "lista", itens: ["Cabeça: onde ficam os olhos, nariz, boca e orelhas", "Tronco: o 'meio' do corpo, onde ficam o coração e o estômago", "Braços e mãos: para pegar, escrever e abraçar", "Pernas e pés: para andar, correr e pular"] },
-        { tipo: "titulo", texto: "Cuidando do corpo" },
-        { tipo: "paragrafo", texto: "Para o corpo ficar forte e saudável, precisamos de alguns cuidados todos os dias. Isso se chama higiene." },
-        { tipo: "lista", itens: ["Tomar banho todos os dias", "Escovar os dentes depois de comer", "Lavar as mãos antes de comer e depois de ir ao banheiro", "Cortar as unhas e pentear os cabelos"] },
-        { tipo: "dica", texto: "Lavar as mãos com água e sabão por 20 segundos (tempo de cantar Parabéns pra Você duas vezes!) mata os germes." },
-        { tipo: "atencao", texto: "Os germes são tão pequenininhos que não vemos a olho nu, mas eles existem! Por isso a higiene é importante mesmo quando as mãos parecem limpas." }
+        { tipo: "paragrafo", texto: "O corpo humano organiza-se em três regiões: cabeça, tronco e membros (superiores e inferiores). Conhecer essa divisão é útil na vida adulta: descrever com precisão onde dói ou onde houve um acidente acelera o atendimento médico e evita diagnósticos confusos." },
+        { tipo: "titulo", texto: "As três regiões do corpo" },
+        { tipo: "lista", itens: ["Cabeça: abriga o cérebro e os órgãos dos sentidos — olhos, ouvidos, nariz e boca", "Tronco: contém os órgãos vitais, como coração, pulmões e estômago", "Membros superiores: braços e mãos, voltados ao alcance e à manipulação de objetos", "Membros inferiores: pernas e pés, responsáveis pela sustentação e pela locomoção"] },
+        { tipo: "titulo", texto: "Cuidados básicos com a saúde" },
+        { tipo: "paragrafo", texto: "Prevenção custa menos que tratamento. Os hábitos de maior impacto são: alimentação equilibrada, hidratação constante, sono de 7 a 8 horas por noite e higiene das mãos. Eles reduzem a frequência de infecções e o desgaste do corpo ao longo dos anos." },
+        { tipo: "exemplo", texto: "Lavar as mãos antes de preparar alimentos interrompe a principal via de transmissão dos micro-organismos que causam infecções intestinais — uma medida simples, sem custo, com efeito direto na saúde." },
+        { tipo: "dica", texto: "Memorize por função: a cabeça pensa e percebe, o tronco processa e mantém a vida, os membros agem e deslocam o corpo. Associar região a função fixa a divisão com menos esforço." },
+        { tipo: "atencao", texto: "Erro comum de prova: colocar o coração ou os pulmões fora do tronco. Ambos ficam no tronco, protegidos pelas costelas; a cabeça contém apenas o cérebro e os órgãos dos sentidos." }
       ],
       atividade: [
-        { pergunta: "Onde ficam os olhos, o nariz e a boca?", alternativas: ["No tronco", "Na cabeça", "Nos braços", "Nas pernas"], correta: 1, explicacao: "Todos esses órgãos dos sentidos ficam na cabeça." },
-        { pergunta: "Quando devemos lavar as mãos?", alternativas: ["Só quando alguém manda", "Só uma vez por semana", "Antes de comer e depois de ir ao banheiro", "Só quando estão visivelmente sujas"], correta: 2, explicacao: "Lavar as mãos antes de comer e depois do banheiro evita doenças." },
-        { pergunta: "O coração fica em qual parte do corpo?", alternativas: ["Nos pés", "Nas mãos", "Na cabeça", "No tronco"], correta: 3, explicacao: "O coração fica no tronco (dentro do peito)." },
-        { pergunta: "O que a higiene diária evita?", alternativas: ["Tomar banho", "Doenças e germes", "Crescer alto", "Comer bem"], correta: 1, explicacao: "A higiene protege o corpo de germes e doenças." }
+        { pergunta: "Quais são as três regiões principais do corpo humano?", alternativas: ["cérebro, coração e pulmões", "cabeça, ossos e sangue", "cabeça, tronco e membros", "tronco, pele e órgãos"], correta: 2, explicacao: "O corpo divide-se em cabeça, tronco e membros; órgãos e sistemas ficam dentro dessas regiões." },
+        { pergunta: "O coração está localizado em qual região do corpo?", alternativas: ["membros superiores", "cabeça", "membros inferiores", "tronco"], correta: 3, explicacao: "O coração fica no tronco, junto aos pulmões, protegido pelas costelas." },
+        { pergunta: "Qual hábito é um cuidado preventivo com a saúde?", alternativas: ["ignorar sintomas leves por semanas", "lavar as mãos antes de preparar alimentos", "tomar o remédio prescrito a outra pessoa", "dormir apenas quatro horas por noite"], correta: 1, explicacao: "A higiene das mãos interrompe a transmissão de micro-organismos e previne infecções." },
+        { pergunta: "Os órgãos dos sentidos — olhos, ouvidos, nariz e boca — localizam-se na:", alternativas: ["cabeça", "coluna", "tronco", "pernas"], correta: 0, explicacao: "A cabeça abriga o cérebro e os órgãos da visão, audição, olfato e paladar." }
       ]
     },
     {
       id: "f1-a1-cie-2",
-      titulo: "Os animais: domésticos e selvagens",
+      titulo: "Os animais: domésticos e selvagens, características",
       blocos: [
-        { tipo: "paragrafo", texto: "Os animais são seres vivos como nós: nascem, crescem, se alimentam e precisam de cuidado. Existem milhões de tipos de animais no mundo!" },
-        { tipo: "titulo", texto: "Animais domésticos" },
-        { tipo: "paragrafo", texto: "Animais domésticos são aqueles que vivem com as pessoas, em casas, fazendas ou sítios. Eles estão acostumados com a companhia humana." },
-        { tipo: "lista", itens: ["Cachorro e gato: bichos de estimação", "Vaca e galinha: vivem em fazendas", "Cavalo e coelho: podem ser domésticos também"] },
-        { tipo: "titulo", texto: "Animais selvagens" },
-        { tipo: "paragrafo", texto: "Animais selvagens vivem livres na natureza, em florestas, savanas, oceanos e rios. Eles não dependem das pessoas para sobreviver." },
-        { tipo: "exemplo", texto: "A onça-pintada, a arara, o tubarão e o macaco são animais selvagens brasileiros ou de outras partes do mundo." },
-        { tipo: "titulo", texto: "Como os animais nascem" },
-        { tipo: "paragrafo", texto: "Alguns nascem de ovos, como galinhas, tartarugas e peixes. Outros nascem direitinhos da mãe, como cachorros, gatos e a gente mesmo!" },
-        { tipo: "atencao", texto: "Animais selvagens nunca devem ser tirados da natureza para virar bicho de estimação. Eles ficam tristes e doentes longe do seu lar." }
+        { tipo: "paragrafo", texto: "Animais são seres vivos pluricelulares que obtêm alimento a partir de outros organismos. Um critério prático de classificação é a relação com o ser humano: animais domésticos convivem sob manejo humano; animais selvagens vivem em habitat natural, sem essa dependência." },
+        { tipo: "titulo", texto: "Domésticos e selvagens" },
+        { tipo: "paragrafo", texto: "Cão, gato e galinha são domésticos: passaram por gerações de adaptação à convivência com pessoas. Onça, tucano e boto são selvagens. Criar animais silvestres como animal de estimação é proibido no Brasil pela Lei de Crimes Ambientais e representa risco sanitário." },
+        { tipo: "lista", itens: ["Alimentação: herbívoro (come plantas), carnívoro (come carne) e onívoro (come os dois)", "Cobertura do corpo: pelos (mamíferos), penas (aves) e escamas (répteis e peixes)", "Reprodução: vivíparo (o filhote nasce da mãe) e ovíparo (nasce de ovo)"] },
+        { tipo: "exemplo", texto: "A galinha é doméstica e ovípara, pois põe os ovos de que nascem os pintainhos. O cão é doméstico, vivíparo e onívoro. A onça-pintada é selvagem, vivípara e carnívora." },
+        { tipo: "dica", texto: "O prefixo omni- significa tudo em latim: onívoro come de tudo. Herbívoro vem de erva (planta) e carnívoro de carne. Associar a origem do termo evita confusão entre as categorias." },
+        { tipo: "atencao", texto: "Erro comum de prova: tratar 'selvagem' como sinônimo de 'perigoso'. Um tucano é selvagem sem ser predador. O critério da classificação é o habitat e a independência do ser humano, não a agressividade." }
       ],
       atividade: [
-        { pergunta: "Qual é um animal DOMÉSTICO?", alternativas: ["Arara", "Tubarão", "Onça-pintada", "Cachorro"], correta: 3, explicacao: "O cachorro vive com as pessoas: é doméstico." },
-        { pergunta: "Onde vivem os animais selvagens?", alternativas: ["Em fazendas", "Em casas", "Na natureza, livres", "Em pet shops"], correta: 2, explicacao: "Selvagens vivem livres na natureza." },
-        { pergunta: "Qual animal nasce de OVO?", alternativas: ["Coelho", "Gato", "Galinha", "Cachorro"], correta: 2, explicacao: "A galinha nasce de ovo; cães, gatos e coelhos nascem da mãe." },
-        { pergunta: "Por que não devemos tirar animais da natureza?", alternativas: ["Porque eles ficam tristes e doentes fora do habitat", "Porque não sabem brincar", "Porque crescem demais", "Porque são caros"], correta: 0, explicacao: "Cada animal precisa do seu habitat natural para viver bem." }
+        { pergunta: "Qual é o critério que distingue animais domésticos de animais selvagens?", alternativas: ["o porte físico", "a convivência e a dependência em relação ao ser humano", "o tipo de alimentação", "a quantidade de patas"], correta: 1, explicacao: "Domésticos foram adaptados ao convívio humano; selvagens vivem em habitat natural sem essa dependência." },
+        { pergunta: "Um animal que se alimenta exclusivamente de plantas é classificado como:", alternativas: ["carnívoro", "onívoro", "herbívoro", "vivíparo"], correta: 2, explicacao: "Herbívoro deriva de erva: alimenta-se de vegetais, como o boi." },
+        { pergunta: "A vaca, que come capim, e a onça-pintada, que caça outros animais, classificam-se respectivamente como:", alternativas: ["carnívora e herbívora", "onívora e herbívora", "herbívora e onívora", "herbívora e carnívora"], correta: 3, explicacao: "Vaca é herbívora (come plantas); onça é carnívora (come carne de outros animais)." },
+        { pergunta: "Animais cujos filhotes nascem de ovos são chamados de:", alternativas: ["ovíparos", "vivíparos", "mamíferos", "onívoros"], correta: 0, explicacao: "Ovíparo é o animal cujos filhotes nascem de ovos, como galinhas e tartarugas." }
       ]
     },
     {
       id: "f1-a1-cie-3",
-      titulo: "As plantas: partes e cuidados",
+      titulo: "As plantas: partes e o que precisam para viver",
       blocos: [
-        { tipo: "paragrafo", texto: "As plantas são seres vivos muito especiais: elas fazem o próprio alimento usando a luz do Sol e ainda nos dão frutas, sombra e ar fresco!" },
-        { tipo: "titulo", texto: "As partes da planta" },
-        { tipo: "lista", itens: ["Raiz: fica escondida na terra e bebe a água", "Caule: sustenta a planta e leva a água para cima", "Folhas: capturam a luz do Sol para fazer o alimento", "Flor e fruto: a flor vira fruto, e o fruto guarda as sementes"] },
-        { tipo: "exemplo", texto: "Pense na mangueira: as raízes bebem água, o tronco (caule) segura os galhos, as folhas pegam o Sol e os frutos são as mangas, que guardam caroços (sementes)." },
+        { tipo: "paragrafo", texto: "As plantas são seres vivos que produzem o próprio alimento por fotossíntese — o processo que combina luz solar, água e gás carbônico para gerar energia e liberar oxigênio. Por essa razão, a presença das plantas sustenta a respiração de praticamente todas as formas de vida." },
+        { tipo: "titulo", texto: "Partes da planta e suas funções" },
+        { tipo: "lista", itens: ["Raiz: fixa a planta ao solo e absorve água e sais minerais", "Caule: sustenta as demais partes e transporta a seiva entre raiz e folhas", "Folhas: realizam a fotossíntese e as trocas de gases com o ar", "Flores e frutos: participam da reprodução; o fruto protege as sementes"] },
         { tipo: "titulo", texto: "O que a planta precisa para viver" },
-        { tipo: "paragrafo", texto: "Toda planta precisa de quatro coisas: água, luz do Sol, ar e terra (solo) com nutrientes. Faltando uma delas, a planta fraqueja e pode morrer." },
-        { tipo: "dica", texto: "Se você tem uma plantinha, observe as folhas: amareladas podem ser falta de água ou de luz. Cada espécie tem sua necessidade." },
-        { tipo: "atencao", texto: "Regar demais também mata! Raiz afogada em água apodrece. Água na medida certa é o ideal." }
+        { tipo: "paragrafo", texto: "Quatro fatores sustentam uma planta: luz, água, ar e nutrientes do solo. A falta de qualquer um deles limita o crescimento; por isso a mesma espécie se desenvolve de formas diferentes conforme o ambiente em que é cultivada." },
+        { tipo: "exemplo", texto: "Uma planta de apartamento com folhas amareladas quase sempre sofre com falta de luz ou com rega mal ajustada. Mover o vaso para perto da janela e estabelecer intervalos regulares de rega resolve a maior parte dos casos." },
+        { tipo: "atencao", texto: "Erro comum: regar em excesso. Com o solo encharcado, falta oxigênio às raízes, que apodrecem e param de absorver água. Excesso de rega mata a planta tanto quanto a seca." },
+        { tipo: "dica", texto: "Memorize a sequência de baixo para cima: a raiz absorve, o caule transporta, a folha produz. Cada parte depende do funcionamento da anterior." }
       ],
       atividade: [
-        { pergunta: "Qual parte da planta bebe a água da terra?", alternativas: ["Fruto", "Folha", "Flor", "Raiz"], correta: 3, explicacao: "A raiz absorve a água e os nutrientes do solo." },
-        { pergunta: "Qual parte da planta captura a luz do Sol?", alternativas: ["Sementes", "Folhas", "Caule", "Raiz"], correta: 1, explicacao: "As folhas usam a luz do Sol para fabricar o alimento da planta." },
-        { pergunta: "O que a flor se transforma depois?", alternativas: ["Em fruto", "Em terra", "Em raiz", "Em caule"], correta: 0, explicacao: "Depois de polinizada, a flor se transforma em fruto." },
-        { pergunta: "O que a planta NÃO precisa para viver?", alternativas: ["Ar", "Luz do Sol", "Água", "Chocolate"], correta: 3, explicacao: "Plantas precisam de água, luz, ar e solo — chocolate não!" }
+        { pergunta: "Qual parte da planta é responsável por absorver água e sais minerais do solo?", alternativas: ["folha", "caule", "raiz", "flor"], correta: 2, explicacao: "A raiz fixa a planta ao solo e realiza a absorção de água e nutrientes." },
+        { pergunta: "A fotossíntese é o processo pelo qual a planta:", alternativas: ["produz seu próprio alimento utilizando luz solar, água e gás carbônico", "absorve insetos do solo", "libera apenas gás carbônico para o ar", "perde as folhas no inverno"], correta: 0, explicacao: "Na fotossíntese, a folha combina luz, água e gás carbônico para produzir energia, liberando oxigênio." },
+        { pergunta: "Para sobreviver, uma planta precisa basicamente de:", alternativas: ["somente de água", "luz, água, ar e nutrientes do solo", "somente de terra seca", "escuridão e calor constante"], correta: 1, explicacao: "A ausência de qualquer um desses fatores compromete o crescimento e pode matar a planta." },
+        { pergunta: "A função principal do caule é:", alternativas: ["realizar a fotossíntese", "produzir sementes", "absorver sais minerais", "sustentar a planta e transportar a seiva"], correta: 3, explicacao: "O caule sustenta as demais partes e conduz a seiva entre raízes e folhas." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "Quais são as partes principais do corpo humano?", alternativas: ["Cabeça, tronco e membros", "Só cabeça e pernas", "Só braços", "Raiz e caule"], correta: 0, explicacao: "O corpo se divide em cabeça, tronco e membros (braços e pernas)." },
-      { pergunta: "Para que serve lavar as mãos com sabão?", alternativas: ["Para ficar com frio", "Para deixar cheiroso só", "Para eliminar germes e evitar doenças", "Não serve para nada"], correta: 2, explicacao: "O sabão remove germes que causam doenças." },
-      { pergunta: "Animais selvagens são aqueles que...", alternativas: ["dão dinheiro", "vivem só em fazendas", "vivem livres na natureza", "vivem em casas"], correta: 2, explicacao: "Selvagens vivem na natureza, sem depender de humanos." },
-      { pergunta: "Qual desses animais nasce de ovo?", alternativas: ["Gato", "Cachorro", "Bezerro", "Tartaruga"], correta: 3, explicacao: "A tartaruga nasce de ovo; os outros nascem da mãe." },
-      { pergunta: "Qual parte da planta sustenta e leva a água para cima?", alternativas: ["Raiz", "Flor", "Caule", "Fruto"], correta: 2, explicacao: "O caule sustenta a planta e conduz a água das raízes às folhas." },
-      { pergunta: "O que a planta precisa para fazer seu alimento?", alternativas: ["Escuridão total", "Luz do Sol", "Refrigerante", "Ventilador"], correta: 1, explicacao: "Com a luz do Sol, as folhas fabricam o alimento da planta." }
+      { pergunta: "Em qual região do corpo humano ficam os pulmões?", alternativas: ["tronco", "cabeça", "membros superiores", "membros inferiores"], correta: 0, explicacao: "Pulmões e coração situam-se no tronco, protegidos pela caixa torácica." },
+      { pergunta: "O ser humano, que consome carne, vegetais e frutas, é classificado como:", alternativas: ["herbívoro", "carnívoro", "ovíparo", "onívoro"], correta: 3, explicacao: "Onívoro é o animal que se alimenta tanto de origem animal quanto vegetal." },
+      { pergunta: "O gato e o leão compartilham a seguinte característica:", alternativas: ["são ovíparos", "são herbívoros", "são vivíparos e carnívoros", "são todos selvagens"], correta: 2, explicacao: "Ambos geram filhotes (vivíparos) e alimentam-se de carne (carnívoros); o gato, porém, é doméstico." },
+      { pergunta: "A principal função das folhas é:", alternativas: ["fixar a planta ao solo", "realizar a fotossíntese", "proteger as sementes", "armazenar água das raízes"], correta: 1, explicacao: "Nas folhas ocorre a fotossíntese e a troca de gases com a atmosfera." },
+      { pergunta: "A causa mais comum de morte de plantas cultivadas em vasos é:", alternativas: ["regas em excesso ou falta de luz", "excesso de oxigênio no ar", "falta de insetos polinizadores", "quantidade de vento na varanda"], correta: 0, explicacao: "Rega excessiva apodrece as raízes, e a falta de luz reduz a fotossíntese." },
+      { pergunta: "Qual conduta integra os cuidados básicos com a saúde?", alternativas: ["compartilhar objetos de uso pessoal", "dormir de 7 a 8 horas por noite", "usar medicamentos prescritos para outra pessoa", "adiar consultas de rotina indefinidamente"], correta: 1, explicacao: "O sono adequado fortalece a imunidade e faz parte da prevenção básica." }
     ]
   },
   exameFinal: [
-    { pergunta: "Higiene é o conjunto de cuidados que temos para...", alternativas: ["manter o corpo limpo e saudável", "brincar melhor", "ficar ricos", "aprender a ler"], correta: 0, explicacao: "Higiene é o conjunto de hábitos de limpeza que protegem a saúde." },
-    { pergunta: "Qual alternativa só tem animais SELVAGENS?", alternativas: ["Onça, arara, tubarão", "Coelho, ovelha, pato", "Cavalo, galinha, porco", "Cão, gato, vaca"], correta: 0, explicacao: "Onça, arara e tubarão vivem livres na natureza." },
-    { pergunta: "A sequência da vida da planta é: semente → ...", alternativas: ["flor → raiz → caule", "fruto → flor → planta", "raiz → semente → ar", "planta → flor → fruto com sementes"], correta: 3, explicacao: "Da semente nasce a planta, que floresce e depois dá frutos com novas sementes." },
-    { pergunta: "Regar a planta EM EXCESSO...", alternativas: ["pode apodrecer as raízes e matá-la", "faz ela crescer o dobro", "deixa a folha mais verde", "não faz diferença"], correta: 0, explicacao: "Água demais afoga a raiz; o equilíbrio é importante." },
-    { pergunta: "Por que as plantas são importantes para nós?", alternativas: ["Deixam o ar sujo", "Não são importantes", "Só servem de enfeite", "Dão comida, sombra e oxigênio"], correta: 3, explicacao: "As plantas nos alimentam, dão sombra e liberam o oxigênio que respiramos." }
+    { pergunta: "O tronco humano abriga órgãos como:", alternativas: ["cérebro e olhos", "coração e pulmões", "mãos e pés", "dentes e língua"], correta: 1, explicacao: "O tronco contém os órgãos vitais; cérebro e olhos ficam na cabeça." },
+    { pergunta: "São exemplos de animais domésticos:", alternativas: ["onça-pintada e tucano", "boto e anta", "cão, gato e galinha", "tubarão e baleia"], correta: 2, explicacao: "Cão, gato e galinha vivem sob manejo humano há gerações; os demais são selvagens." },
+    { pergunta: "As funções principais da raiz são:", alternativas: ["fixar a planta e absorver água e sais minerais", "produzir flores e frutos", "realizar a fotossíntese", "transportar a seiva pelas folhas"], correta: 0, explicacao: "A raiz ancora a planta ao solo e capta água e nutrientes." },
+    { pergunta: "A fotossíntese libera para a atmosfera:", alternativas: ["gás carbônico", "oxigênio", "nitrogênio", "metano"], correta: 1, explicacao: "A folha consome gás carbônico e devolve oxigênio ao ar." },
+    { pergunta: "Um filhote que nasce diretamente do corpo da mãe indica que a espécie é:", alternativas: ["ovípara", "herbívora", "selvagem", "vivípara"], correta: 3, explicacao: "Vivíparo é o animal cujo filhote se desenvolve dentro da mãe, como cães e gatos." }
   ]
 };

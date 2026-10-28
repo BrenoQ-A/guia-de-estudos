@@ -4,82 +4,85 @@ window.GuiaConteudo["f1-a2-geo"] = {
   aulas: [
     {
       id: "f1-a2-geo-1",
-      titulo: "Cidade e campo: semelhanças e diferenças",
+      titulo: "Cidade e campo: complementaridade econômica",
       blocos: [
-        { tipo: "paragrafo", texto: "Onde você mora: na cidade ou no campo? Os dois lugares são cheios de vida, mas têm paisagens e jeitos de viver bem diferentes!" },
-        { tipo: "titulo", texto: "Como é a cidade" },
-        { tipo: "lista", itens: ["Muitas casas, prédios e prédios altos", "Ruas asfaltadas, carros e ônibus", "Escolas, hospitais, mercados e shoppings", "Muita gente morando perto umas das outras"] },
-        { tipo: "titulo", texto: "Como é o campo" },
-        { tipo: "lista", itens: ["Fazendas, sítios, plantações e pastos", "Muita natureza: árvores, rios e animais", "Casas mais espalhadas, com mais silêncio", "Pessoas que cultivam alimentos e criam bichos"] },
-        { tipo: "exemplo", texto: "O avô da Júlia mora na fazenda e acorda cedo para ordenhar as vacas. A prima da Júlia mora na cidade grande e pega ônibus para a escola. Os dois lugares são diferentes, mas os dois têm casa, escola e pessoas trabalhando!" },
-        { tipo: "titulo", texto: "Cidade e campo se ajudam" },
-        { tipo: "paragrafo", texto: "O campo produz o arroz, o feijão, a fruta e o leite que chegam às mesas da cidade. A cidade produz tratores, remédios, roupas e livros que vão para o campo. Um lugar precisa do outro! Não existe lugar melhor ou pior: os dois são diferentes e se completam." }
+        { tipo: "paragrafo", texto: "Cidade e campo não são ambientes opostos, mas interdependentes: o campo produz matérias-primas e alimentos; a cidade processa, comercializa e presta serviços. Toda cadeia de abastecimento atravessa os dois." },
+        { tipo: "titulo", texto: "Características do meio urbano" },
+        { tipo: "lista", itens: ["Alta densidade de edificações e população", "Economia dominada pelos setores secundário (indústria) e terciário (comércio e serviços)", "Infraestrutura concentrada: hospitais, universidades, tribunais, redes de transporte", "Dependência externa de alimentos e água"] },
+        { tipo: "titulo", texto: "Características do meio rural" },
+        { tipo: "paragrafo", texto: "Economia dominada pelo setor primário: agricultura, pecuária, extrativismo e mineração. Menor densidade populacional e maior relação direta com o ecossistema local — mas não 'atrasado': o agronegócio moderno usa satélites, drones e automação." },
+        { tipo: "exemplo", texto: "O trajeto do café da manhã ilustra a interdependência: a soja e a carne nascem no campo (produção), passam pela indústria de processamento na cidade (agroindústria) e chegam ao mercado e ao aplicativo de entrega (serviços). Nenhum elo sobrevive sozinho." },
+        { tipo: "titulo", texto: "Fluxos entre os dois meios" },
+        { tipo: "paragrafo", texto: "Do campo para a cidade: alimentos, matérias-primas, trabalhadores sazonais. Da cidade para o campo: máquinas, insumos (fertilizantes), serviços técnicos, saúde e educação. O êxodo rural (migração campo → cidade) foi o grande movimento do Brasil do século XX; hoje há movimento reverso em regiões agrícolas prósperas." },
+        { tipo: "dica", texto: "Questões de prova adoram a armadilha 'campo = atraso'. Não caia nela: rural moderno é tecnológico e capitalizado. O critério geográfico é a função econômica, não o nível de desenvolvimento." },
+        { tipo: "atencao", texto: "A fronteira entre urbano e rural é definida por LEI municipal (perímetro urbano), não por aparência. Uma fazenda tecnológica é área rural; um bairro rural de pequenas casas pode ser urbano se estiver dentro do perímetro." }
       ],
       atividade: [
-        { pergunta: "O que é mais comum no campo?", alternativas: ["Shoppings grandes", "Plantações e criação de animais", "Prédios altos", "Engarrafamento de carros"], correta: 3, explicacao: "No campo predominam fazendas, plantações e animais." },
-        { pergunta: "O que a cidade recebe do campo?", alternativas: ["Ônibus", "Arroz, frutas, leite e outros alimentos", "Prédios", "Shoppings"], correta: 1, explicacao: "O campo produz os alimentos que abastecem as mesas da cidade." },
-        { pergunta: "Como são as casas no campo?", alternativas: ["Todas iguais na mesma rua", "Embaixo da terra", "Mais espalhadas, com natureza por perto", "Todas empilhadas em prédios"], correta: 2, explicacao: "No campo as casas ficam mais afastadas umas das outras, cercadas de natureza." },
-        { pergunta: "Cidade e campo se relacionam...", alternativas: ["brigando sempre", "trocando produtos e se ajudando", "só nas férias", "sem nenhuma ligação"], correta: 1, explicacao: "O campo envia alimentos e a cidade envia produtos e serviços: eles se completam." }
+        { pergunta: "O setor econômico dominante no meio rural é o...", alternativas: ["terciário", "primário", "secundário", "quaternário"], correta: 1, explicacao: "Agricultura, pecuária e extração: setor primário." },
+        { pergunta: "Cidades dependem do campo principalmente para...", alternativas: ["serviços financeiros", "alimentos e matérias-primas", "internet", "energia elétrica só"], correta: 1, explicacao: "O abastecimento urbano nasce da produção rural." },
+        { pergunta: "O êxodo rural é a migração...", alternativas: ["campo → cidade", "cidade → campo", "entre países", "entre bairros"], correta: 0, explicacao: "Movimento característico do Brasil do século XX." },
+        { pergunta: "O limite entre zona urbana e rural é definido por...", alternativas: ["aparência das casas", "lei municipal (perímetro urbano)", "densidade de árvores", "opinião dos moradores"], correta: 1, explicacao: "É um recorte legal, delimitado pelo município." }
       ]
     },
     {
       id: "f1-a2-geo-2",
-      titulo: "Moradias e tipos de trabalho",
+      titulo: "Moradia e trabalho: tipos e relações",
       blocos: [
-        { tipo: "paragrafo", texto: "As pessoas moram de jeitos diferentes e trabalham de muitos jeitos também. Conhecer as moradias e os trabalhos ajuda a entender como cada lugar do Brasil vive!" },
+        { tipo: "paragrafo", texto: "Moradia e trabalho são as duas dimensões que estruturam a vida econômica de qualquer pessoa — e ambas variam conforme o ambiente (urbano/rural) e a condição social." },
         { tipo: "titulo", texto: "Tipos de moradia" },
-        { tipo: "lista", itens: ["Casa: moradia comum em bairros, com quintal em muitas delas", "Apartamento: moradia em prédios, nas cidades grandes", "Casa de madeira e palha: comum em algumas regiões do Brasil", "Palafita: casa construída sobre a água, como na região Norte"] },
-        { tipo: "exemplo", texto: "Na cidade de Manaus, algumas moradias são palafitas, erguidas sobre as águas do rio. No sertão do Nordeste, há casas de taipa. Em São Paulo, há muitos prédios com apartamentos. Cada moradia responde ao lugar onde as pessoas vivem!" },
-        { tipo: "titulo", texto: "Trabalhos da cidade" },
-        { tipo: "paragrafo", texto: "Na cidade as pessoas trabalham em escolas, hospitais, lojas, bancos, fábricas, restaurantes e escritórios. Há professores, médicos, motoristas, padeiros, vendedores e muitos outros ofícios." },
-        { tipo: "titulo", texto: "Trabalhos do campo" },
-        { tipo: "paragrafo", texto: "No campo as pessoas plantam arroz, feijão, milho e verduras, colhem frutas, criam vacas, galinhas e peixes. São os trabalhadores rurais que colocam comida na mesa de todo o Brasil." },
-        { tipo: "dica", texto: "Pergunte aos adultos da sua casa qual é o trabalho deles e onde eles trabalham. Você vai descobrir quantos trabalhos diferentes existem perto de você!" }
+        { tipo: "lista", itens: ["Casa isolada: predominante no rural e em loteamentos", "Apartamento: verticalização urbana, maior densidade por terreno", "Condomínio: espaço privado com áreas comuns reguladas", "Habitações informais: favelas, cortiços e ocupações — ausência de título ou infraestrutura completa", "Moradia coletiva institucional: repúblicas estudantis, alojamentos"] },
+        { tipo: "titulo", texto: "Tipos de trabalho" },
+        { tipo: "paragrafo", texto: "No urbano: serviços (comércio, saúde, educação, transporte), indústria, construção civil e setor público. No rural: lavoura, pecuária, agroindústria e extrativismo. Em ambos: trabalho formal (com carteira e direitos) e informal (autônomos, diaristas, aplicativos) — o informal corresponde a cerca de 40% da força de trabalho brasileira." },
+        { tipo: "exemplo", texto: "O entregador de aplicativo trabalha na cidade, mas depende da estrada rural para o frete de insumos do mercado onde compra; o trabalhador rural depende do posto de saúde urbano. Moradia e trabalho conectam os dois meios em redes diárias de deslocamento (commuting)." },
+        { tipo: "titulo", texto: "Direito à moradia" },
+        { tipo: "paragrafo", texto: "A Constituição de 1988 lista a moradia como direito social (art. 6º). O déficit habitacional brasileiro soma milhões de domicílios — por isso políticas como Minha Casa Minha Vida e regularização fundiária são temas geográficos e políticos centrais." },
+        { tipo: "dica", texto: "Para questões de moradia × trabalho: pense no deslocamento diário (custo e tempo) como elo entre as duas dimensões. Cidades grandes 'exportam' trabalhadores para periferias e 'importam' trabalhadores para o centro." },
+        { tipo: "atencao", texto: "Formal ≠ essencial: o informal (autônomo, aplicativo) sustenta a economia real. A diferença é de PROTEÇÃO legal (férias, previdência), não de importância econômica." }
       ],
       atividade: [
-        { pergunta: "O que é uma palafita?", alternativas: ["Um tipo de barco", "Um prédio muito alto", "Uma casa construída sobre a água", "Uma escola rural"], correta: 3, explicacao: "Palafita é uma casa erguida sobre estacas, sobre a água, comum na região Norte." },
-        { pergunta: "Onde são mais comuns apartamentos?", alternativas: ["Nas fazendas", "Nos prédios das cidades grandes", "Nos pastos", "No meio da floresta"], correta: 0, explicacao: "Apartamentos ficam em prédios, muito comuns nas cidades grandes." },
-        { pergunta: "Quem cultiva os alimentos que comemos?", alternativas: ["Os lojistas", "Os trabalhadores do campo", "Os motoristas de ônibus", "Os professores"], correta: 3, explicacao: "São os trabalhadores rurais que plantam e criam os alimentos que chegam à nossa mesa." },
-        { pergunta: "Qual desses trabalhos é típico da cidade?", alternativas: ["Ordenhador de vacas", "Pastor de ovelhas", "Colhedor de laranjas", "Motorista de ônibus"], correta: 2, explicacao: "Motorista de ônibus trabalha no transporte urbano, típico das cidades." }
+        { pergunta: "A verticalização urbana (prédios altos) resulta da...", alternativas: ["falta de interesse imobiliário", "maior densidade em terrenos limitados", "falta de cimento", "clima"], correta: 1, explicacao: "Terreno caro e escasso empurram a construção para cima." },
+        { pergunta: "O trabalho informal se caracteriza por...", alternativas: ["carteira assinada", "ausência de vínculo e proteção legal", "salário alto garantido", "só existir no campo"], correta: 1, explicacao: "Sem contrato formal: sem férias, FGTS ou previdência obrigatória." },
+        { pergunta: "A moradia como direito social está prevista na...", alternativas: ["Lei Áurea", "Constituição de 1988 (art. 6º)", "CLT", "Lei de Terras"], correta: 1, explicacao: "Art. 6º da Constituição Cidadã." },
+        { pergunta: "O deslocamento diário entre moradia e trabalho chama-se...", alternativas: ["migração definitiva", "movimento pendular", "êxodo rural", "turismo"], correta: 1, explicacao: "Pendular: vai e volta diário entre casa e trabalho." }
       ]
     },
     {
       id: "f1-a2-geo-3",
-      titulo: "Noções de mapa: legenda e planta simples",
+      titulo: "Noções de mapa: legenda, escala e planta",
       blocos: [
-        { tipo: "paragrafo", texto: "Um mapa é um desenho que mostra um lugar visto de cima, como se fosse um passarinho voando. Com ele, conseguimos achar ruas, escolas, parques e muito mais!" },
-        { tipo: "titulo", texto: "O que tem num mapa" },
-        { tipo: "lista", itens: ["Título: diz o que o mapa mostra", "Símbolos: desenhos pequenos que representam lugares", "Legenda: a chave que explica o que cada símbolo significa", "Seta do norte: mostra para onde fica o Norte"] },
-        { tipo: "titulo", texto: "A legenda é a chave do mapa" },
-        { tipo: "paragrafo", texto: "Cada símbolo do mapa tem um significado. A legenda junta todos os símbolos e explica cada um. Sem a legenda, o mapa fica um bicho de sete cabeças!" },
-        { tipo: "exemplo", texto: "Numa planta da escola, um quadradinho preto pode ser a sala de aula, um triângulo verde pode ser o pátio e um círculo azul pode ser a cantina. A legenda explica: quadradinho preto = sala de aula!" },
-        { tipo: "titulo", texto: "A planta da sua casa ou escola" },
-        { tipo: "paragrafo", texto: "A planta é um mapa bem simples, de um lugar pequeno. Você pode desenhar a planta da sua sala: um retângulo para a cama, um quadrado para o guarda-roupa e um círculo para a mesa. Depois faça a legenda!" },
-        { tipo: "paragrafo", texto: "Os mapas ajudam a gente a se localizar, planejar viagens e conhecer lugares que nunca visitamos. Toda cidade, estado e país pode aparecer num mapa." }
+        { tipo: "paragrafo", texto: "Mapa é a representação gráfica do espaço em escala reduzida. Ler mapas é uma competência técnica com regras próprias: título, legenda, escala e orientação formam o pacote mínimo de interpretação." },
+        { tipo: "titulo", texto: "Elementos de um mapa" },
+        { tipo: "lista", itens: ["Título: informa o tema e o recorte (ex.: 'Bairros do município X — 2024')", "Legenda: dicionário de símbolos e cores — sem ela, o mapa é indecifrável", "Escala: relação entre distância no mapa e no terreno", "Orientação: rosa dos ventos ou seta do norte", "Fonte e data: quem produziu e quando (mapas envelhecem!)"] },
+        { tipo: "titulo", texto: "Escala numérica" },
+        { tipo: "exemplo", texto: "Escala 1:50.000 significa que 1 cm no mapa representa 50.000 cm (500 m) no terreno. Para medir: distância no mapa × denominador da escala = distância real. Planta de apartamento (1:100): cada 1 cm vale 1 m — por isso cabe tudo num papel." },
+        { tipo: "titulo", texto: "Planta, mapa e planta baixa" },
+        { tipo: "paragrafo", texto: "PLANTA é a representação de área pequena com alto detalhe (quarteirão, apartamento, terreno). MAPA cobre áreas maiores com menos detalhe (cidade, estado, país). A planta baixa de imóvel é o exemplo cotidiano: vista de cima, paredes, portas e medidas." },
+        { tipo: "dica", texto: "Regra de ouro da escala: quanto MAIOR o número do denominador, MENOR a escala e maior a área representada (1:1.000.000 = mapa de país; 1:100 = planta de sala). Grandes números = pouco detalhe." },
+        { tipo: "atencao", texto: "Mapas envelhecem: uma planta de 2010 não mostra o prédio construído em 2018. Sempre verifique a data e a fonte — mapa sem fonte não é confiável para decisão." }
       ],
       atividade: [
-        { pergunta: "Para que serve um mapa?", alternativas: ["Para contar histórias", "Para desenhar bichos", "Para mostrar um lugar visto de cima", "Para medir peso"], correta: 0, explicacao: "O mapa é a representação de um lugar visto de cima, como de um avião." },
-        { pergunta: "O que é a legenda de um mapa?", alternativas: ["A borda do papel", "O nome do mapa", "O desenho maior do mapa", "A parte que explica o que cada símbolo significa"], correta: 1, explicacao: "A legenda é a chave do mapa: explica o significado de cada símbolo usado." },
-        { pergunta: "O que a seta do norte indica?", alternativas: ["Onde tem água", "Onde fica a escola", "Quantas pessoas moram no lugar", "Para onde fica o Norte"], correta: 3, explicacao: "A seta do norte serve para orientar quem lê o mapa." },
-        { pergunta: "A planta de um lugar é...", alternativas: ["uma árvore desenhada", "um mapa simples de um lugar pequeno", "uma foto tirada do espaço", "um tipo de flor"], correta: 1, explicacao: "Planta é a representação simples de um espaço pequeno, como uma casa ou escola." }
+        { pergunta: "A legenda de um mapa equivale a...", alternativas: ["o título", "o dicionário de símbolos e cores", "a borda", "a data"], correta: 1, explicacao: "Explica o significado de cada convenção gráfica." },
+        { pergunta: "Na escala 1:100.000, 2 cm no mapa valem...", alternativas: ["200 m", "2 km", "20 km", "200 km"], correta: 1, explicacao: "2 × 100.000 cm = 200.000 cm = 2 km." },
+        { pergunta: "A representação detalhada de um apartamento em vista superior é...", alternativas: ["um mapa-múndi", "uma planta baixa", "um globo", "uma carta náutica"], correta: 1, explicacao: "Planta: área pequena, alto detalhe." },
+        { pergunta: "Mapa sem fonte e data é problemático porque...", alternativas: ["fica bonito demais", "não se pode verificar confiabilidade e atualidade", "não tem cores", "é ilegal"], correta: 1, explicacao: "Fonte e data permitem avaliar credibilidade e atualização." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "Qual é uma semelhança entre cidade e campo?", alternativas: ["Nos dois só existem plantações", "Nos dois lugares vivem pessoas com casa, trabalho e escola", "Nos dois só existem prédios", "Nenhum lugar tem escolas"], correta: 1, explicacao: "Tanto na cidade quanto no campo há moradias, trabalho e escolas." },
-      { pergunta: "A plantação de arroz e a criação de vacas acontecem principalmente...", alternativas: ["no prédio", "na praia", "no shopping", "no campo"], correta: 3, explicacao: "As plantações e a criação de animais são atividades do campo." },
-      { pergunta: "O apartamento é uma moradia que fica...", alternativas: ["num prédio", "no pasto", "dentro da floresta", "sobre o rio"], correta: 1, explicacao: "O apartamento fica num prédio, comum nas cidades grandes." },
-      { pergunta: "Quem leva os alimentos do campo até a cidade?", alternativas: ["Os prédios", "As vacas", "Ninguém, eles voam", "Os motoristas de caminhão e os transportes"], correta: 0, explicacao: "Os caminhões e outros transportes levam a produção do campo até as cidades." },
-      { pergunta: "Para que serve a legenda do mapa?", alternativas: ["Para enfeitar o papel", "Para colorir o mapa", "Para dizer a temperatura", "Para explicar o que cada símbolo significa"], correta: 3, explicacao: "A legenda explica cada símbolo usado no mapa." },
-      { pergunta: "Visto de cima, de um avião, um lugar aparece num...", alternativas: ["mapa ou planta", "espelho", "livro de contas", "caderno de caligrafia"], correta: 0, explicacao: "Mapas e plantas mostram os lugares vistos de cima." }
+      { pergunta: "O campo fornece à cidade principalmente...", alternativas: ["serviços bancários", "alimentos e matérias-primas", "consultórios", "prédios"], correta: 1, explicacao: "Produção primária abastece a cadeia urbana." },
+      { pergunta: "A cidade devolve ao campo...", alternativas: ["alimentos crus", "máquinas, insumos e serviços", "população sem função", "nada"], correta: 1, explicacao: "Indústria e serviços sustentam a produção rural." },
+      { pergunta: "Habitações informais são caracterizadas por...", alternativas: ["título de propriedade", "ausência de título ou infraestrutura completa", "altura de 20 andares", "preço de mercado"], correta: 1, explicacao: "Favelas e ocupações: informalidade jurídica e/ou urbanística." },
+      { pergunta: "O movimento pendular conecta...", alternativas: ["dois países", "moradia e trabalho diariamente", "dois hemisférios", "campo e fazenda só"], correta: 1, explicacao: "Vaivém cotidiano casa-trabalho nas metrópoles." },
+      { pergunta: "A rosa dos ventos indica...", alternativas: ["a escala", "a orientação (norte/sul/leste/oeste)", "a legenda", "a data do mapa"], correta: 1, explicacao: "Elemento de orientação cartográfica." },
+      { pergunta: "Planta e mapa se distinguem por...", alternativas: ["área e nível de detalhe", "cores", "ano", "autor"], correta: 0, explicacao: "Planta: área pequena e detalhada; mapa: área ampla." }
     ]
   },
   exameFinal: [
-    { pergunta: "O campo ajuda a cidade principalmente...", alternativas: ["emprestando prédios", "vendendo carros", "fazendo engarrafamento", "fornecendo alimentos"], correta: 1, explicacao: "O campo fornece arroz, feijão, frutas, leite e outros alimentos para a cidade." },
-    { pergunta: "A casa construída sobre a água é chamada de...", alternativas: ["barraca", "casinha de cachorro", "arranha-céu", "palafita"], correta: 2, explicacao: "Palafita é a casa erguida sobre estacas na água, comum na região Norte." },
-    { pergunta: "Professora, médico e padeiro são exemplos de...", alternativas: ["brincadeiras", "moradias", "animais do campo", "trabalhos da cidade"], correta: 1, explicacao: "São profissões e trabalhos típicos das cidades." },
-    { pergunta: "Num mapa, os símbolos representam...", alternativas: ["as cores do arco-íris", "lugares e coisas do espaço representado", "o tamanho das pessoas", "os desenhos dos personagens"], correta: 2, explicacao: "Cada símbolo representa um elemento do lugar, como rios, ruas ou escolas." },
-    { pergunta: "Para desenhar a planta do seu quarto, você deve...", alternativas: ["desenhar o céu", "desenhar os móveis vistos de cima e criar uma legenda", "fotografar o teto", "escrever uma redação"], correta: 1, explicacao: "A planta desenha o ambiente visto de cima, com os móveis e uma legenda explicando." }
+    { pergunta: "Cidade e campo se relacionam por...", alternativas: ["independência total", "fluxos de complementaridade econômica", "rivalidade sem trocas", "igualdade de funções"], correta: 1, explicacao: "Produção rural × processamento e serviços urbanos." },
+    { pergunta: "Setor primário corresponde a...", alternativas: ["serviços", "agricultura e extração", "indústria", "comércio"], correta: 1, explicacao: "Retira recursos diretamente da natureza." },
+    { pergunta: "O déficit habitacional indica...", alternativas: ["excesso de casas", "déficit de moradias dignas disponíveis", "sobrando de terrenos", "falta de trabalho"], correta: 1, explicacao: "Millhões de famílias sem moradia adequada ou regular." },
+    { pergunta: "A escala 1:1.000.000 representa...", alternativas: ["uma sala", "um quarteirão", "áreas vastas como países", "um sofá"], correta: 2, explicacao: "Denominador gigante: escala pequena, área enorme." },
+    { pergunta: "A data no mapa serve para...", alternativas: ["decorar", "avaliar se a informação está atualizada", "calcular distância", "colorir"], correta: 1, explicacao: "Mapas desatualizados induzem a erros de decisão." }
   ]
 };

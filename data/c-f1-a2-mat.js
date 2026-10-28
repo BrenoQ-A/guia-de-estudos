@@ -6,82 +6,82 @@ window.GuiaConteudo["f1-a2-mat"] = {
       id: "f1-a2-mat-1",
       titulo: "Adição e subtração até 100 com reagrupamento",
       blocos: [
-        { tipo: "paragrafo", texto: "Agora as contas ficam mais desafiadoras: vamos somar e subtrair números em que as unidades passam de 9 ou faltam!" },
-        { tipo: "titulo", texto: "Somando com reagrupamento" },
-        { tipo: "paragrafo", texto: "Quando as unidades somadas passam de 9, transformamos 10 unidades em 1 dezena. Isso é o reagrupamento (também chamado de 'vai um')." },
-        { tipo: "exemplo", texto: "47 + 38: unidades 7 + 8 = 15. Guardamos 5 e reagrupamos 10 unidades virando 1 dezena extra. Dezenas: 4 + 3 + 1 = 8. Resultado: 85." },
-        { tipo: "titulo", texto: "Subtraindo com reagrupamento" },
-        { tipo: "paragrafo", texto: "Na subtração, quando a unidade de cima é menor que a de baixo, pegamos emprestada 1 dezena e quebramos em 10 unidades." },
-        { tipo: "exemplo", texto: "52 − 27: 2 é menor que 7. Pegamos 1 dezena do 5 (que vira 4) e juntamos às unidades: 12 − 7 = 5. Dezenas: 4 − 2 = 2. Resultado: 25." },
-        { tipo: "dica", texto: "Sempre comece a conta pelas UNIDADES (coluna da direita) e depois vá para as dezenas." },
-        { tipo: "atencao", texto: "Esquecer o 'vai um' é o erro mais comum! Anote a dezena extra bem pequena em cima da coluna das dezenas." }
+        { tipo: "paragrafo", texto: "O reagrupamento é o mecanismo que sustenta todas as operações com números maiores que 9. Dominá-lo aqui evita erros mecânicos em porcentagem, álgebra e cálculo mais adiante." },
+        { tipo: "titulo", texto: "Reagrupamento na adição" },
+        { tipo: "paragrafo", texto: "Quando a soma das unidades excede 9, dez unidades são convertidas em uma dezena — o chamado 'vai um'. É a mesma lógica de trocar dez notas de 10 por uma de 100." },
+        { tipo: "exemplo", texto: "47 + 38: unidades 7 + 8 = 15; reserva-se o 5 e converte-se 10 unidades em 1 dezena. Dezenas: 4 + 3 + 1 = 8. Resultado: 85." },
+        { tipo: "titulo", texto: "Reagrupamento na subtração" },
+        { tipo: "paragrafo", texto: "Quando a unidade do minuendo é menor que a do subtraendo, toma-se emprestada 1 dezena da casa vizinha, que é desmembrada em 10 unidades." },
+        { tipo: "exemplo", texto: "52 − 27: 2 é menor que 7; toma-se 1 dezena do 5 (que passa a 4) e soma-se às unidades: 12 − 7 = 5. Dezenas: 4 − 2 = 2. Resultado: 25." },
+        { tipo: "dica", texto: "Opere sempre da direita para a esquerda (unidades primeiro). Anotar o 'vai um' sobre a coluna das dezenas reduz erros de distração." },
+        { tipo: "atencao", texto: "O erro mais frequente é omitir o 'vai um' na coluna das dezenas. Verificação rápida: o resultado da soma deve superar cada parcela; o da subtração, ser menor que o minuendo." }
       ],
       atividade: [
-        { pergunta: "Quanto é 28 + 15?", alternativas: ["53", "43", "44", "33"], correta: 1, explicacao: "8 + 5 = 13 (reagrupa 1 dezena); 2 + 1 + 1 = 4. Resultado: 43." },
-        { pergunta: "Quanto é 63 − 28?", alternativas: ["44", "36", "45", "35"], correta: 3, explicacao: "Pega emprestado: 13 − 8 = 5; 5 − 2 = 3. Resultado: 35." },
-        { pergunta: "Em 36 + 47, o reagrupamento acontece porque...", alternativas: ["os números são grandes", "sempre acontece", "6 + 7 = 13, passa de 9", "3 + 4 = 7"], correta: 2, explicacao: "13 unidades viram 3 unidades + 1 dezena reagrupada." },
-        { pergunta: "Quanto é 90 − 45?", alternativas: ["35", "50", "45", "55"], correta: 2, explicacao: "Pega emprestado: 10 − 5 = 5; 8 − 4 = 4. Resultado: 45." }
+        { pergunta: "Quanto é 28 + 15?", alternativas: ["33", "43", "44", "53"], correta: 1, explicacao: "8 + 5 = 13 (reagrupa 1 dezena); 2 + 1 + 1 = 4. Resultado: 43." },
+        { pergunta: "Quanto é 63 − 28?", alternativas: ["35", "45", "44", "36"], correta: 0, explicacao: "Empresta-se 1 dezena: 13 − 8 = 5; 5 − 2 = 3. Resultado: 35." },
+        { pergunta: "Em 36 + 47, o reagrupamento ocorre porque...", alternativas: ["6 + 7 = 13, superando 9", "os números são grandes", "3 + 4 = 7", "sempre ocorre"], correta: 0, explicacao: "13 unidades são convertidas em 3 unidades + 1 dezena." },
+        { pergunta: "Quanto é 90 − 45?", alternativas: ["55", "45", "35", "50"], correta: 1, explicacao: "Empresta-se: 10 − 5 = 5; 8 − 4 = 4. Resultado: 45." }
       ]
     },
     {
       id: "f1-a2-mat-2",
-      titulo: "Multiplicação: soma de parcelas iguais, dobro e metade",
+      titulo: "Multiplicação como soma de parcelas iguais",
       blocos: [
-        { tipo: "paragrafo", texto: "Multiplicar é uma forma esperta de somar quantidades IGUAIS várias vezes." },
-        { tipo: "titulo", texto: "A ideia da multiplicação" },
-        { tipo: "exemplo", texto: "4 × 3 é o mesmo que 3 + 3 + 3 + 3 = 12. Também pode ser 4 + 4 + 4 = 12. Multiplicação é soma de parcelas iguais!" },
-        { tipo: "paragrafo", texto: "Os números da multiplicação têm nomes: 4 × 3 = 12. O 4 e o 3 são os fatores e o 12 é o produto." },
-        { tipo: "titulo", texto: "O dobro" },
-        { tipo: "paragrafo", texto: "O dobro de um número é ele multiplicado por 2. Dobro de 6 é 12 (6 × 2 = 12). É como ter duas vezes a mesma coisa." },
-        { tipo: "titulo", texto: "A metade" },
-        { tipo: "paragrafo", texto: "A metade é repartir em 2 partes iguais. Metade de 12 é 6. A metade é o contrário do dobro: se o dobro de 6 é 12, a metade de 12 é 6." },
+        { tipo: "paragrafo", texto: "Multiplicação é a operação que compacta somas de parcelas iguais: 4 × 3 significa quatro parcelas de 3 (ou três de 4). Essa leitura evita decorar tabuadas sem compreender o mecanismo." },
+        { tipo: "titulo", texto: "Terminologia" },
+        { tipo: "paragrafo", texto: "Em 4 × 3 = 12, os números 4 e 3 são os fatores e o resultado, o produto. A ordem dos fatores não altera o produto (propriedade comutativa): 4 × 3 = 3 × 4." },
+        { tipo: "exemplo", texto: "Uma fatura de R$ 45 paga em 6 parcelas: 6 × 45 = 45 + 45 + 45 + 45 + 45 + 45 = 270. Somar seis vezes ou multiplicar dá o mesmo resultado — com custo mental muito diferente." },
+        { tipo: "titulo", texto: "Dobro e metade" },
+        { tipo: "paragrafo", texto: "O dobro é a multiplicação por 2; a metade, a divisão por 2 — operações inversas. Se o dobro de 6 é 12, a metade de 12 é 6. A metade exata e inteira existe apenas para números pares." },
         { tipo: "lista", itens: ["Dobro de 5 = 10", "Dobro de 25 = 50", "Metade de 20 = 10", "Metade de 100 = 50"] },
-        { tipo: "atencao", texto: "Todo número tem dobro, mas só os números PARES (0, 2, 4, 6, 8...) têm metade exata e inteira. Metade de 7 é 3 e meia (3,5)." }
+        { tipo: "dica", texto: "Para multiplicar por 5, multiplique por 10 e divida por 2 (5 × 18 = 180 ÷ 2 = 90). Para multiplicar por 9, multiplique por 10 e subtraia a parcela (9 × 18 = 180 − 18 = 162)." },
+        { tipo: "atencao", texto: "Metade 'quebrada' é possível (metade de 7 = 3,5), mas em contextos de itens inteiros — pessoas, objetos — o resultado fracionário sinaliza erro de leitura do problema." }
       ],
       atividade: [
-        { pergunta: "Quanto é 5 × 4?", alternativas: ["24", "20", "16", "9"], correta: 1, explicacao: "5 × 4 = 4 + 4 + 4 + 4 + 4 = 20." },
-        { pergunta: "Qual soma é IGUAL a 3 × 6?", alternativas: ["6 + 3", "6 + 6 + 6", "3 + 3 + 3", "3 + 3"], correta: 1, explicacao: "3 × 6 é três vezes o 6: 6 + 6 + 6 = 18." },
-        { pergunta: "O dobro de 18 é...", alternativas: ["36", "9", "38", "28"], correta: 0, explicacao: "18 × 2 = 36." },
-        { pergunta: "A metade de 40 é...", alternativas: ["80", "30", "25", "20"], correta: 3, explicacao: "40 repartido em 2 partes iguais dá 20 para cada." }
+        { pergunta: "Quanto é 5 × 4?", alternativas: ["9", "16", "20", "24"], correta: 2, explicacao: "5 × 4 = 4 + 4 + 4 + 4 + 4 = 20." },
+        { pergunta: "Qual soma equivale a 3 × 6?", alternativas: ["6 + 6 + 6", "3 + 3 + 3", "6 + 3", "3 + 3"], correta: 0, explicacao: "3 × 6 é três parcelas de 6: 6 + 6 + 6 = 18." },
+        { pergunta: "O dobro de 18 é...", alternativas: ["9", "28", "36", "38"], correta: 2, explicacao: "18 × 2 = 36." },
+        { pergunta: "A metade de 40 é...", alternativas: ["20", "25", "30", "80"], correta: 0, explicacao: "40 ÷ 2 = 20." }
       ]
     },
     {
       id: "f1-a2-mat-3",
-      titulo: "Nosso dinheiro: moedas, cédulas e problemas",
+      titulo: "Sistema monetário: moedas, cédulas e problemas",
       blocos: [
-        { tipo: "paragrafo", texto: "O dinheiro do Brasil é o REAL (R$). Com ele compramos tudo: pão, brinquedos e livros. Saber usar dinheiro é matemática de verdade!" },
-        { tipo: "titulo", texto: "Moedas e cédulas" },
-        { tipo: "lista", itens: ["Moedas: 5, 10, 25 e 50 centavos, e 1 real", "Cédulas: 2, 5, 10, 20, 50, 100 e 200 reais", "100 centavos = 1 real"] },
-        { tipo: "titulo", texto: "Comprando e recebendo troco" },
-        { tipo: "paragrafo", texto: "Quando compramos, somamos os preços para saber o total. Se pagamos com mais dinheiro do que o total, recebemos o TROCO de volta (uma subtração!)." },
-        { tipo: "exemplo", texto: "Você compra um caderno de R$ 12 e um lápis de R$ 3. Total: 12 + 3 = R$ 15. Você paga com uma cédula de R$ 20. Troco: 20 − 15 = R$ 5." },
-        { tipo: "titulo", texto: "Juntando dinheiro" },
-        { tipo: "paragrafo", texto: "Para comprar algo caro, muita gente junta dinheiro aos poucos. Se você guarda R$ 2 por semana, em 5 semanas terá 2 × 5 = R$ 10." },
-        { tipo: "atencao", texto: "Cuidado ao somar: R$ 1,50 + R$ 1,50 = R$ 3,00 (duas moedas de 1 real e uma de 50 centavos... na verdade 50 + 50 = 1 real, mais 2 reais = 3 reais)." }
+        { tipo: "paragrafo", texto: "A moeda brasileira é o real (R$), dividido em 100 centavos. Operar com dinheiro é aplicar adição, subtração e multiplicação em um contexto de precisão obrigatória." },
+        { tipo: "titulo", texto: "Denominações" },
+        { tipo: "lista", itens: ["Moedas: 5, 10, 25 e 50 centavos; R$ 1,00", "Cédulas: R$ 2, 5, 10, 20, 50, 100 e 200", "Conversão: 100 centavos = R$ 1,00"] },
+        { tipo: "titulo", texto: "Pagamento e troco" },
+        { tipo: "paragrafo", texto: "O total da compra é a soma dos itens. Pagando com valor superior, o troco é a diferença entre o valor pago e o total — uma subtração com reagrupamento aplicada ao cotidiano." },
+        { tipo: "exemplo", texto: "Compra de R$ 12 + R$ 3 = R$ 15, paga com R$ 20. Troco: 20 − 15 = R$ 5." },
+        { tipo: "titulo", texto: "Acumulação" },
+        { tipo: "paragrafo", texto: "Guardar valores constantes por períodos regulares é multiplicação: R$ 2 por semana, durante 5 semanas, totaliza 2 × 5 = R$ 10. É a lógica elementar de juros e parcelamentos que será formalizada mais adiante." },
+        { tipo: "dica", texto: "Ao somar valores com centavos, alinhe a vírgula como se alinham as colunas de unidades e dezenas. Desalinhamento é a maior fonte de diferença em conferência de caixa." },
+        { tipo: "atencao", texto: "R$ 1,50 + R$ 1,50 = R$ 3,00 (e não R$ 2,10): 50 + 50 centavos completam 1 real, que se soma aos 2 reais." }
       ],
       atividade: [
-        { pergunta: "Quantos centavos há em 1 real?", alternativas: ["10", "50", "1000", "100"], correta: 3, explicacao: "1 real = 100 centavos." },
-        { pergunta: "Você compra uma bala de R$ 0,50 e paga com R$ 1. Qual é o troco?", alternativas: ["R$ 0,50", "R$ 1,50", "R$ 0,25", "R$ 2,00"], correta: 0, explicacao: "Troco: 1,00 − 0,50 = R$ 0,50." },
-        { pergunta: "Uma pipa custa R$ 8 e um carretel de linha R$ 4. Quanto custam juntos?", alternativas: ["R$ 14", "R$ 11", "R$ 10", "R$ 12"], correta: 3, explicacao: "8 + 4 = R$ 12." },
-        { pergunta: "Se você guarda R$ 3 por semana, quanto terá em 4 semanas?", alternativas: ["R$ 7", "R$ 16", "R$ 12", "R$ 10"], correta: 2, explicacao: "3 × 4 = R$ 12." }
+        { pergunta: "Quantos centavos há em 1 real?", alternativas: ["10", "50", "100", "1000"], correta: 2, explicacao: "1 real = 100 centavos." },
+        { pergunta: "Compra de R$ 0,50 paga com R$ 1,00. O troco é...", alternativas: ["R$ 0,25", "R$ 0,50", "R$ 1,50", "R$ 2,00"], correta: 1, explicacao: "Troco: 1,00 − 0,50 = R$ 0,50." },
+        { pergunta: "Uma pipa de R$ 8 e um carretel de R$ 4 somam...", alternativas: ["R$ 10", "R$ 11", "R$ 12", "R$ 14"], correta: 2, explicacao: "8 + 4 = R$ 12." },
+        { pergunta: "Guardando R$ 3 por semana, em 4 semanas acumula-se...", alternativas: ["R$ 7", "R$ 10", "R$ 12", "R$ 16"], correta: 2, explicacao: "3 × 4 = R$ 12." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "Quanto é 37 + 26?", alternativas: ["63", "62", "57", "53"], correta: 0, explicacao: "7 + 6 = 13 (reagrupa); 3 + 2 + 1 = 6. Resultado: 63." },
-      { pergunta: "Quanto é 71 − 34?", alternativas: ["43", "27", "47", "37"], correta: 3, explicacao: "Pega emprestado: 11 − 4 = 7; 6 − 3 = 3. Resultado: 37." },
-      { pergunta: "Quanto é 6 × 5?", alternativas: ["30", "11", "25", "35"], correta: 0, explicacao: "6 × 5 = 5 + 5 + 5 + 5 + 5 + 5 = 30." },
-      { pergunta: "O dobro de 35 é...", alternativas: ["75", "60", "17", "70"], correta: 3, explicacao: "35 × 2 = 70." },
-      { pergunta: "A metade de 90 é...", alternativas: ["50", "180", "30", "45"], correta: 3, explicacao: "90 repartido em 2 partes iguais: 45." },
-      { pergunta: "Uma bola custa R$ 15 e você paga com R$ 20. O troco é...", alternativas: ["R$ 5", "R$ 15", "R$ 10", "R$ 35"], correta: 0, explicacao: "20 − 15 = R$ 5 de troco." }
+      { pergunta: "Quanto é 37 + 26?", alternativas: ["53", "63", "62", "57"], correta: 1, explicacao: "7 + 6 = 13 (reagrupa); 3 + 2 + 1 = 6. Resultado: 63." },
+      { pergunta: "Quanto é 71 − 34?", alternativas: ["37", "43", "47", "27"], correta: 0, explicacao: "Empresta-se: 11 − 4 = 7; 6 − 3 = 3. Resultado: 37." },
+      { pergunta: "Quanto é 6 × 5?", alternativas: ["11", "25", "30", "35"], correta: 2, explicacao: "Seis parcelas de 5: 30." },
+      { pergunta: "O dobro de 35 é...", alternativas: ["60", "70", "75", "17"], correta: 1, explicacao: "35 × 2 = 70." },
+      { pergunta: "A metade de 90 é...", alternativas: ["30", "45", "50", "180"], correta: 1, explicacao: "90 ÷ 2 = 45." },
+      { pergunta: "Uma bola de R$ 15 paga com R$ 20 gera troco de...", alternativas: ["R$ 5", "R$ 10", "R$ 15", "R$ 35"], correta: 0, explicacao: "20 − 15 = R$ 5." }
     ]
   },
   exameFinal: [
-    { pergunta: "No reagrupamento da adição, 10 unidades viram...", alternativas: ["1 centena", "10 dezenas", "1 dezena", "somem"], correta: 2, explicacao: "10 unidades formam exatamente 1 dezena." },
-    { pergunta: "Quanto é 45 + 38?", alternativas: ["93", "82", "73", "83"], correta: 3, explicacao: "5 + 8 = 13; 4 + 3 + 1 = 8. Resultado: 83." },
-    { pergunta: "3 × 7 é igual a qual soma?", alternativas: ["7 + 7", "7 + 7 + 7", "3 + 7", "3 + 3 + 3"], correta: 1, explicacao: "3 × 7 significa três vezes 7." },
-    { pergunta: "Se o dobro de um número é 22, o número é...", alternativas: ["44", "11", "12", "10"], correta: 1, explicacao: "11 × 2 = 22; a metade de 22 é 11." },
-    { pergunta: "Compras de R$ 7 e R$ 9; pagamento com R$ 20. O troco é...", alternativas: ["R$ 16", "R$ 4", "R$ 6", "R$ 5"], correta: 1, explicacao: "Total: 7 + 9 = 16. Troco: 20 − 16 = R$ 4." }
+    { pergunta: "No reagrupamento da adição, 10 unidades equivalem a...", alternativas: ["10 dezenas", "1 dezena", "1 centena", "nada"], correta: 1, explicacao: "Dez unidades formam exatamente uma dezena." },
+    { pergunta: "Quanto é 45 + 38?", alternativas: ["73", "83", "82", "93"], correta: 1, explicacao: "5 + 8 = 13; 4 + 3 + 1 = 8. Resultado: 83." },
+    { pergunta: "3 × 7 equivale à soma...", alternativas: ["7 + 7 + 7", "3 + 7", "7 + 7", "3 + 3 + 3"], correta: 0, explicacao: "Três parcelas de 7." },
+    { pergunta: "Se o dobro de um número é 22, o número é...", alternativas: ["10", "11", "12", "44"], correta: 1, explicacao: "11 × 2 = 22; a metade de 22 é 11." },
+    { pergunta: "Compras de R$ 7 e R$ 9 pagas com R$ 20 geram troco de...", alternativas: ["R$ 4", "R$ 5", "R$ 6", "R$ 16"], correta: 0, explicacao: "Total: 7 + 9 = 16. Troco: 20 − 16 = R$ 4." }
   ]
 };

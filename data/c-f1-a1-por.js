@@ -6,80 +6,78 @@ window.GuiaConteudo["f1-a1-por"] = {
       id: "f1-a1-por-1",
       titulo: "O alfabeto: vogais e consoantes",
       blocos: [
-        { tipo: "paragrafo", texto: "O nosso alfabeto tem 26 letras. Com essas letrinhas conseguimos escrever todas as palavras que conhecemos: nomes de pessoas, de animais, de brinquedos e muito mais." },
-        { tipo: "titulo", texto: "As vogais" },
-        { tipo: "paragrafo", texto: "Cinco letras são muito especiais: A, E, I, O, U. Elas são as vogais. Toda palavra precisa ter pelo menos uma vogal, porque é ela que dá voz às palavras. Tente falar B sem juntar uma vogal... impossível!" },
-        { tipo: "lista", itens: ["A de abelha", "E de elefante", "I de igreja", "O de ovo", "U de urso"] },
-        { tipo: "titulo", texto: "As consoantes" },
-        { tipo: "paragrafo", texto: "As outras 21 letras são as consoantes: B, C, D, F, G, H, J, L, M, N, P, Q, R, S, T, V, X, Z e o W, Y e K, que aparecem mais em nomes e palavras de outros idiomas. As consoantes fazem companhia para as vogais e juntas formam os sons das palavras." },
-        { tipo: "exemplo", texto: "A palavra BOLA é formada pelas letras B, O, L e A. As vogais são O e A. As consoantes são B e L." },
-        { tipo: "dica", texto: "Cantar o alfabeto em voz alta ajuda a decorar a ordem das letras. Peça a alguém para cantar com você!" },
-        { tipo: "atencao", texto: "O Y e o W quase sempre aparecem em palavras vindas de outros idiomas, como Youtube e wi-fi. Também usamos o Y em alguns nomes próprios." }
+        { tipo: "paragrafo", texto: "O alfabeto oficial da língua portuguesa tem 26 letras, de A a Z, incluindo K, W e Y. Ele é a base do sistema de escrita alfabética: cada letra representa um som, e a combinação delas forma todas as palavras usadas em contratos, e-mails, notas fiscais e provas." },
+        { tipo: "titulo", texto: "Vogais: o núcleo da sílaba" },
+        { tipo: "paragrafo", texto: "As vogais são cinco: A, E, I, O, U. Elas funcionam como o núcleo sonoro de toda sílaba — não existe sílaba em português sem vogal. As consoantes sozinhas não produzem palavra; precisam se apoiar em uma vogal para formar sílabas." },
+        { tipo: "lista", itens: ["A: cartão, data de nascimento", "E: envelope, endereço", "I: identidade, imposto", "O: documento, horário", "U: número, currículo"] },
+        { tipo: "titulo", texto: "Consoantes: as 21 letras restantes" },
+        { tipo: "paragrafo", texto: "As outras 21 letras são consoantes: B, C, D, F, G, H, J, L, M, N, P, Q, R, S, T, V, X, Z, além de K, W e Y. As três últimas foram oficializadas pelo Acordo Ortográfico e aparecem sobretudo em siglas, unidades de medida e palavras estrangeiras, como kg, watt e www." },
+        { tipo: "exemplo", texto: "Na palavra 'cupom', como em cupom fiscal, as vogais são U e O e as consoantes são C, P e M. Contar vogais e consoantes separadamente é exigência recorrente em provas de conhecimento básico." },
+        { tipo: "atencao", texto: "Erro comum de prova: confundir letra com som. A letra H é consoante, mas não tem som próprio em português — 'hoje' soa como se começasse com O. O enunciado pede letras, não sons." }
       ],
       atividade: [
-        { pergunta: "Quantas letras tem o nosso alfabeto?", alternativas: ["24 letras", "30 letras", "26 letras", "20 letras"], correta: 2, explicacao: "O alfabeto português tem 26 letras, de A até Z." },
-        { pergunta: "Qual opção tem APENAS vogais?", alternativas: ["A, E, I", "A, B, C", "I, J, O", "E, F, U"], correta: 0, explicacao: "A, E e I são vogais. B, C, F e J são consoantes." },
-        { pergunta: "Quais são as vogais da palavra LUA?", alternativas: ["L e A", "só a letra A", "L e U", "U e A"], correta: 3, explicacao: "Em LUA, as vogais são U e A. A letra L é consoante." },
-        { pergunta: "Qual palavra começa com uma VOGAL?", alternativas: ["gato", "bola", "dado", "abelha"], correta: 3, explicacao: "Abelha começa com A, que é vogal. Bola, gato e dado começam com consoantes." }
+        { pergunta: "Quantas letras compõem o alfabeto oficial da língua portuguesa?", alternativas: ["21 letras", "23 letras", "26 letras", "28 letras"], correta: 2, explicacao: "São 26 letras desde a vigência do Acordo Ortográfico, que oficializou K, W e Y." },
+        { pergunta: "Em qualquer sílaba da língua portuguesa, o núcleo do som é:", alternativas: ["uma vogal", "uma consoante", "uma letra maiúscula", "um acento gráfico"], correta: 0, explicacao: "A vogal é o centro da sílaba; não existe sílaba sem vogal." },
+        { pergunta: "Quantas vogais e consoantes há, respectivamente, na palavra 'cupom'?", alternativas: ["3 vogais e 2 consoantes", "2 vogais e 3 consoantes", "1 vogal e 4 consoantes", "2 vogais e 2 consoantes"], correta: 1, explicacao: "As vogais são U e O; as consoantes são C, P e M." },
+        { pergunta: "As letras K, W e Y:", alternativas: ["foram abolidas da escrita portuguesa", "só existem no alfabeto inglês", "são usadas apenas em números", "integram o alfabeto oficial e aparecem em siglas, unidades e palavras estrangeiras"], correta: 3, explicacao: "O Acordo Ortográfico as reincorporou ao alfabeto; veja kg, watt e www." }
       ]
     },
     {
       id: "f1-a1-por-2",
       titulo: "Sílabas e formação de palavras",
       blocos: [
-        { tipo: "paragrafo", texto: "As palavras são formadas por pedacinhos chamados sílabas. Cada sílaba tem uma vogal sozinha ou acompanhada de consoantes." },
-        { tipo: "exemplo", texto: "A palavra BO-LA tem 2 sílabas. A palavra PA-PE-LA tem 3 sílabas. A palavra SA-LA também tem 2 sílabas." },
-        { tipo: "titulo", texto: "Batendo palmas para contar sílabas" },
-        { tipo: "paragrafo", texto: "Um jeito divertido de contar sílabas é bater palmas: uma palma para cada pedacinho. CO-RA-ÇÃO dá 3 palmas! ES-CO-LA dá 3 palmas! PA-TO dá 2 palmas!" },
-        { tipo: "lista", itens: ["PÉ tem 1 sílaba", "SO-LA tem 2 sílabas", "LA-PI-SEI-RA tem 4 sílabas", "BO-LA tem 2 sílabas"] },
-        { tipo: "titulo", texto: "Palavras pequenas e grandes" },
-        { tipo: "paragrafo", texto: "Algumas palavras têm só uma sílaba, como PÉ, PÃO e SOL. Outras têm muitas, como A-VE-NI-DA. Não confunda: contar letras é diferente de contar sílabas!" },
-        { tipo: "atencao", texto: "A palavra CHÁ tem 3 letras (C, H, A), mas só 1 sílaba. Número de letras e número de sílabas não são a mesma coisa." },
-        { tipo: "dica", texto: "Coloque a mão espalmada embaixo do queixo e fale a palavra devagar: o queixo desce uma vez para cada sílaba!" }
+        { tipo: "paragrafo", texto: "Sílaba é cada emissão de voz que contém uma vogal como núcleo. Separar palavras em sílabas é habilidade avaliada em provas e útil na prática: hifenização em textos formais e leitura de palavras longas em contratos e editais." },
+        { tipo: "titulo", texto: "Como separar sílabas" },
+        { tipo: "paragrafo", texto: "O método direto é localizar as vogais: em geral, cada vogal inicia uma nova sílaba. Em 'documento' há quatro vogais (o, u, e, o) e, por isso, quatro sílabas: do-cu-men-to." },
+        { tipo: "lista", itens: ["le-tra: 2 sílabas", "car-tão: 2 sílabas", "im-pos-to: 3 sílabas", "do-cu-men-to: 4 sílabas"] },
+        { tipo: "titulo", texto: "Classificação pelo número de sílabas" },
+        { tipo: "paragrafo", texto: "Pela quantidade de sílabas, a palavra pode ser monossílaba (uma sílaba, como 'paz'), dissílaba (duas, como 'fatura'), trissílaba (três, como 'imposto') ou polissílaba (quatro ou mais, como 'assinatura', com cinco)." },
+        { tipo: "exemplo", texto: "Em um formulário, a palavra 'assinatura' separa-se em as-si-na-tu-ra: cinco sílabas, portanto polissílaba. Já a palavra 'paz', apesar de três letras, é monossílaba." },
+        { tipo: "atencao", texto: "Erro comum de prova: igualar número de letras a número de sílabas. 'Paz' tem 3 letras e 1 sílaba; 'chave' tem 5 letras e 2 sílabas, porque o dígrafo CH representa um único som dentro de uma sílaba (cha-ve)." }
       ],
       atividade: [
-        { pergunta: "Quantas sílabas tem a palavra PATO?", alternativas: ["4 sílabas", "2 sílabas", "1 sílaba", "3 sílabas"], correta: 1, explicacao: "PA-TO tem 2 sílabas: PA e TO." },
-        { pergunta: "Qual palavra tem APENAS 1 sílaba?", alternativas: ["pé", "escola", "casa", "bola"], correta: 0, explicacao: "PÉ tem só 1 sílaba. BO-LA tem 2, CA-SA tem 2 e ES-CO-LA tem 3." },
-        { pergunta: "Quantas sílabas tem a palavra ESCOLA?", alternativas: ["4 sílabas", "2 sílabas", "3 sílabas", "5 sílabas"], correta: 2, explicacao: "ES-CO-LA tem 3 sílabas. São 3 palmas!" },
-        { pergunta: "Qual é a separação correta das sílabas de BOLA?", alternativas: ["B-OLA", "BO-LA", "BOL-A", "BOLA é uma sílaba só"], correta: 1, explicacao: "A separação certa é BO-LA, duas sílabas." }
+        { pergunta: "Quantas sílabas tem a palavra 'documento'?", alternativas: ["3", "4", "5", "2"], correta: 1, explicacao: "do-cu-men-to: quatro sílabas, cada uma com uma vogal." },
+        { pergunta: "A palavra 'paz', que tem apenas uma sílaba, é classificada como:", alternativas: ["dissílaba", "trissílaba", "monossílaba", "polissílaba"], correta: 2, explicacao: "Uma única sílaba caracteriza palavra monossílaba." },
+        { pergunta: "Qual é a separação silábica correta de 'assinatura'?", alternativas: ["as-si-na-tu-ra", "as-sin-a-tu-ra", "as-si-nat-u-ra", "ass-in-a-tu-ra"], correta: 0, explicacao: "As vogais marcam os limites das sílabas: as-si-na-tu-ra, cinco sílabas." },
+        { pergunta: "Qual das palavras abaixo é trissílaba?", alternativas: ["flor", "cartão", "computador", "imposto"], correta: 3, explicacao: "im-pos-to tem três sílabas; flor tem uma, cartão duas e computador quatro." }
       ]
     },
     {
       id: "f1-a1-por-3",
-      titulo: "Frases simples: ordem e pontuação",
+      titulo: "Frases simples: ordem das palavras e pontuação",
       blocos: [
-        { tipo: "paragrafo", texto: "Quando juntamos palavras para contar uma ideia completa, formamos uma frase. Toda frase começa com letra maiúscula e termina com um sinal de pontuação." },
-        { tipo: "titulo", texto: "A ordem das palavras" },
-        { tipo: "paragrafo", texto: "As palavras precisam estar em ordem para a frase fazer sentido. 'O gato bebe leite.' está certinho. Já 'leite gato o bebe' ficou uma bagunça, não ficou?" },
-        { tipo: "titulo", texto: "Os sinais do fim da frase" },
-        { tipo: "lista", itens: ["Ponto final (.) — usamos quando afirmamos algo: Eu tenho um cachorro.", "Ponto de interrogação (?) — usamos quando perguntamos: Você tem um cachorro?", "Ponto de exclamação (!) — usamos quando sentimos algo forte: Que cachorro fofo!"] },
-        { tipo: "exemplo", texto: "Veja três frases com a mesma ideia: 'Eu gosto de sorvete.' (afirmação), 'Você gosta de sorvete?' (pergunta) e 'Adoro sorvete!' (emoção forte)." },
-        { tipo: "paragrafo", texto: "Toda frase começa com letra maiúscula. Se a frase começa com o nome de uma pessoa, de um lugar ou de um bicho de estimação, esse nome também leva maiúscula." },
-        { tipo: "atencao", texto: "Escrever 'ana foi à praia' está errado. O certo é 'Ana foi à praia.': frase começa com maiúscula e nome próprio também é maiúsculo." }
+        { tipo: "paragrafo", texto: "Frase é um enunciado com sentido completo. Em português, a ordem mais frequente é a direta: sujeito, verbo e complemento. Em e-mails profissionais, pedidos e declarações, respeitar essa ordem reduz ambiguidade e evita interpretações erradas." },
+        { tipo: "titulo", texto: "Ordem direta das palavras" },
+        { tipo: "paragrafo", texto: "Compare: 'O cliente pagou a fatura' e 'A fatura pagou o cliente'. As mesmas palavras, em ordens diferentes, produzem sentidos opostos. O sujeito é quem pratica a ação; trocar a posição dos termos troca a informação." },
+        { tipo: "exemplo", texto: "Pedido claro: 'Envie o relatório ao gerente.' A mesma ideia desordenada — 'Ao relatório envie gerente o.' — dificulta a leitura e não é aceita em textos formais." },
+        { tipo: "titulo", texto: "Pontuação final" },
+        { tipo: "lista", itens: ["Ponto final (.): encerra afirmação — 'O pagamento foi confirmado.'", "Ponto de interrogação (?): encerra pergunta — 'O pagamento foi confirmado?'", "Ponto de exclamação (!): marca ênfase, surpresa ou ordem — 'Confirme o pagamento agora!'"] },
+        { tipo: "atencao", texto: "Dois erros frequentes: iniciar frase com letra minúscula e colocar vírgula entre sujeito e verbo, como em 'O cliente, pagou a fatura'. A vírgula separa termos periféricos, nunca o sujeito do verbo." },
+        { tipo: "dica", texto: "Técnica de revisão: leia a frase em voz alta no ritmo natural da fala. Entoação de pergunta pede ponto de interrogação; pausa conclusiva pede ponto final. Esse teste rápido resolve a maioria das questões de pontuação." }
       ],
       atividade: [
-        { pergunta: "Com que tipo de letra começamos uma frase?", alternativas: ["Número", "Letra minúscula", "Qualquer letra", "Letra maiúscula"], correta: 3, explicacao: "Toda frase começa com letra maiúscula." },
-        { pergunta: "Qual sinal usamos no fim de uma PERGUNTA?", alternativas: ["Ponto de interrogação (?)", "Ponto de exclamação (!)", "Ponto final (.)", "Vírgula (,)"], correta: 0, explicacao: "Perguntas terminam com ponto de interrogação (?)." },
-        { pergunta: "Qual frase está escrita CORRETAMENTE?", alternativas: ["Eu gosto de pipoca?", "eu gosto de pipoca", "Eu gosto de pipoca.", "eu gosto de pipoca!"], correta: 2, explicacao: "Começa com maiúscula e termina com ponto final, pois é uma afirmação." },
-        { pergunta: "Qual destas é uma frase que mostra ADMIRAÇÃO (emoção forte)?", alternativas: ["arco-íris no céu", "Que bonito o arco-íris!", "Você viu o arco-íris?", "O arco-íris apareceu."], correta: 1, explicacao: "A exclamação (!) mostra emoção forte, como admiração." }
+        { pergunta: "Qual sinal encerra uma frase interrogativa?", alternativas: ["Ponto final (.)", "Ponto de exclamação (!)", "Ponto de interrogação (?)", "Vírgula (,)"], correta: 2, explicacao: "Perguntas terminam com ponto de interrogação, como em 'O pagamento foi processado?'." },
+        { pergunta: "Qual frase está na ordem direta, com sujeito antes do verbo?", alternativas: ["O relatório entregou o gerente.", "O gerente entregou o relatório.", "Entregou relatório o gerente o.", "Relatório o gerente o entregou."], correta: 1, explicacao: "Na ordem direta, o sujeito ('o gerente') vem antes do verbo ('entregou'), o que evita ambiguidade." },
+        { pergunta: "Assinale a frase escrita corretamente quanto à inicial maiúscula e à pontuação final:", alternativas: ["a conta foi paga", "a conta foi paga.", "A conta foi paga", "A conta foi paga."], correta: 3, explicacao: "A frase declarativa começa com letra maiúscula e termina com ponto final." },
+        { pergunta: "A vírgula está empregada incorretamente em:", alternativas: ["O cliente, pagou a fatura.", "Comprei pão, leite e café.", "Ontem, cheguei atrasado ao trabalho.", "Sim, confirmo presença na reunião."], correta: 0, explicacao: "A vírgula não pode separar o sujeito ('o cliente') do verbo ('pagou')." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "Quantas letras tem o alfabeto português?", alternativas: ["26", "28", "21", "24"], correta: 0, explicacao: "São 26 letras, de A a Z." },
-      { pergunta: "Quais são as cinco vogais?", alternativas: ["A, E, I, O, U", "E, I, O, U, Y", "B, C, D, F, G", "A, B, C, D, E"], correta: 0, explicacao: "As vogais são A, E, I, O, U." },
-      { pergunta: "Na palavra GATO, quantas são as consoantes?", alternativas: ["2", "4", "1", "3"], correta: 0, explicacao: "G e T são consoantes; A e O são vogais." },
-      { pergunta: "Quantas sílabas tem a palavra BONECA?", alternativas: ["2", "4", "3", "1"], correta: 2, explicacao: "BO-NE-CA tem 3 sílabas." },
-      { pergunta: "Qual frase está correta?", alternativas: ["o pato nada no lago", "O pato nada no lago.", "O pato nada no lago?", "O pato nada no lago!"], correta: 1, explicacao: "Afirmação: maiúscula no começo e ponto final no fim." },
-      { pergunta: "Qual palavra começa com consoante?", alternativas: ["elefante", "bola", "ovo", "uva"], correta: 1, explicacao: "Bola começa com B, uma consoante. As outras começam com vogais." }
+      { pergunta: "Quantas vogais tem o alfabeto português?", alternativas: ["5", "3", "6", "4"], correta: 0, explicacao: "São cinco vogais: A, E, I, O e U; as demais 21 letras são consoantes." },
+      { pergunta: "A separação silábica correta de 'fatura' é:", alternativas: ["fat-ura", "fatu-ra", "fa-tu-ra", "fatura (sílaba única)"], correta: 2, explicacao: "fa-tu-ra: cada vogal marca o início de uma sílaba; a palavra tem três." },
+      { pergunta: "Na palavra 'chave', o conjunto CH corresponde a:", alternativas: ["duas sílabas", "duas vogais", "dois sons separados", "um único som"], correta: 3, explicacao: "CH é um dígrafo: duas letras que representam um só som, dentro de uma única sílaba (cha-ve)." },
+      { pergunta: "Quantas sílabas tem a palavra 'boleto'?", alternativas: ["2", "3", "4", "1"], correta: 1, explicacao: "bo-le-to: três sílabas." },
+      { pergunta: "Qual alternativa apresenta corretamente uma pergunta?", alternativas: ["Você recebeu a confirmação?", "Você recebeu a confirmação.", "Você recebeu a confirmação!", "Você, recebeu a confirmação."], correta: 0, explicacao: "Frase interrogativa exige ponto de interrogação no final." },
+      { pergunta: "Qual alternativa contém apenas consoantes?", alternativas: ["A, E, I", "O, U, M", "B, D, F", "E, F, A"], correta: 2, explicacao: "B, D e F são consoantes; as demais listas incluem vogais." }
     ]
   },
   exameFinal: [
-    { pergunta: "Toda sílaba precisa ter, pelo menos, uma:", alternativas: ["letra maiúscula", "vogal", "vírgula", "consoante"], correta: 1, explicacao: "A vogal é o coração da sílaba; sem ela a sílaba não soa." },
-    { pergunta: "Quantas sílabas tem a palavra MELANCIA?", alternativas: ["5", "4", "3", "2"], correta: 1, explicacao: "ME-LAN-CIA tem 4 sílabas: ME, LAN, CI, A." },
-    { pergunta: "Qual sinal termina a frase 'Você quer brincar ___'", alternativas: ["?", "!", ",", "."], correta: 0, explicacao: "É uma pergunta, então termina com ponto de interrogação." },
-    { pergunta: "Qual opção contém apenas consoantes?", alternativas: ["O, U, M", "A, E, B", "A, E, I", "B, D, F"], correta: 3, explicacao: "B, D e F são consoantes; as outras opções têm vogais." },
-    { pergunta: "O que toda frase precisa ter no começo?", alternativas: ["Letra minúscula", "Letra maiúscula", "Número", "Ponto final"], correta: 1, explicacao: "Toda frase começa com letra maiúscula; o sinal de pontuação fica no fim." }
+    { pergunta: "Toda sílaba da língua portuguesa deve conter, obrigatoriamente:", alternativas: ["uma letra maiúscula", "uma vogal", "um acento gráfico", "uma consoante"], correta: 1, explicacao: "A vogal é o núcleo da sílaba; monossílabos como 'pôr' e 'mês' ilustram isso." },
+    { pergunta: "A palavra 'carteira' é classificada, quanto ao número de sílabas, como:", alternativas: ["monossílaba", "dissílaba", "polissílaba", "trissílaba"], correta: 3, explicacao: "car-tei-ra tem três sílabas, o que define uma palavra trissílaba." },
+    { pergunta: "Complete a frase: 'Você pode confirmar meu endereço ___'", alternativas: ["?", ".", "!", ","], correta: 0, explicacao: "Trata-se de um pedido formulado como pergunta, então exige ponto de interrogação." },
+    { pergunta: "Qual palavra é monossílaba?", alternativas: ["mesa", "caderno", "sal", "bolsa"], correta: 2, explicacao: "Sal tem uma única sílaba; as demais têm duas ou mais." },
+    { pergunta: "Assinale a frase escrita corretamente:", alternativas: ["o prazo vence amanhã", "O prazo vence amanhã.", "O prazo, vence amanhã", "o Prazo vence amanhã?"], correta: 1, explicacao: "A frase declarativa exige inicial maiúscula e ponto final, sem vírgula entre sujeito e verbo." }
   ]
 };

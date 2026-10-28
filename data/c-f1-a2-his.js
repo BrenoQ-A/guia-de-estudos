@@ -4,79 +4,83 @@ window.GuiaConteudo["f1-a2-his"] = {
   aulas: [
     {
       id: "f1-a2-his-1",
-      titulo: "Famílias diferentes, histórias parecidas",
+      titulo: "Famílias: configurações diversas, funções comuns",
       blocos: [
-        { tipo: "paragrafo", texto: "Todo mundo tem uma família! Tem família grande e família pequena, família que mora junta e família que mora longe. Mas todas guardam algo em comum: pessoas que se cuidam e têm uma história para contar." },
-        { tipo: "titulo", texto: "Famílias de todos os tamanhos" },
-        { tipo: "lista", itens: ["Família com pai, mãe e filhos", "Família que mora com os avós", "Família com só a mamãe ou só o papai cuidando dos filhos", "Família com padrasto, madrasta ou meio-irmãos", "Família com tios, primos e outros parentes morando juntos"] },
-        { tipo: "exemplo", texto: "A Ana mora com a mãe, o pai e duas irmãs. O Pedro mora com a avó e o irmãozinho. As duas famílias são diferentes no tamanho, mas as duas têm amor, comida na mesa e histórias para contar!" },
-        { tipo: "titulo", texto: "As lembranças da família" },
-        { tipo: "paragrafo", texto: "As famílias guardam memórias em fotos, cadernos antigos, receitas de bolo, músicas e histórias que os mais velhos contam. Quer conhecer a história da sua família? Pergunte aos seus pais e avós: onde eles nasceram, em que escola estudaram, quais brincadeiras faziam." },
-        { tipo: "atencao", texto: "Não existe uma família certa ou errada. O que importa é o respeito, o carinho e o cuidado entre as pessoas." }
+        { tipo: "paragrafo", texto: "A família é a estrutura social mais antiga e básica: um grupo unido por laços de parentesco, cuidado e convivência. Estudá-la é o ponto de partida da História — toda sociedade se organiza a partir de unidades familiares." },
+        { tipo: "titulo", texto: "Configurações familiares" },
+        { tipo: "lista", itens: ["Nuclear: pai, mãe e filhos", "Extensa: inclui avós, tios e primos na mesma casa ou rede de apoio", "Monoparental: sustentada por um único responsável", "Recomposta: casais com filhos de relações anteriores", "Anaparental: irmãos, amigos ou avós vivendo como grupo familiar"] },
+        { tipo: "paragrafo", texto: "O que define uma família não é o formato, mas a função: provisão, cuidado, socialização (transmissão de valores e costumes) e proteção afetiva. Essas funções permanecem em qualquer configuração." },
+        { tipo: "exemplo", texto: "A transmissão de nomes revela o mecanismo: sobrenomes preservam linhagens por gerações, e nomes próprios homenageiam antepassados — a memória familiar materializada no registro civil." },
+        { tipo: "titulo", texto: "Família como fonte histórica" },
+        { tipo: "paragrafo", texto: "Relatos de avós, fotos antigas, documentos e receitas transmitidas são FONTES HISTÓRICAS familiares: evidências que permitem reconstruir o passado próximo e comparar épocas — o mesmo método que o historiador aplica a sociedades inteiras." },
+        { tipo: "dica", texto: "Uma entrevista estruturada com um parente mais velho (perguntas fixas sobre escola, trabalho, moradia) produz material histórico real. Provas de História cobram justamente a distinção entre fonte oral, escrita e material." },
+        { tipo: "atencao", texto: "Conceito de 'família padrão' não existe: censos do IBGE mostram que o modelo nuclear deixou de ser maioria no Brasil. Cuidado com enunciados que supõem um único formato." }
       ],
       atividade: [
-        { pergunta: "O que todas as famílias têm em comum?", alternativas: ["Ter o mesmo sobrenome", "Pessoas que se cuidam e têm histórias", "Morar na mesma cidade", "Ter muitos brinquedos"], correta: 1, explicacao: "Toda família, de qualquer tamanho, tem pessoas que se importam umas com as outras." },
-        { pergunta: "Onde as famílias guardam suas memórias?", alternativas: ["Em fotos, receitas e histórias contadas", "Na mochila da escola", "Só no computador", "Em nenhum lugar"], correta: 0, explicacao: "Fotos, receitas, músicas e histórias guardam a memória das famílias." },
-        { pergunta: "Quem são fontes vivas de memórias da família?", alternativas: ["Os vizinhos novos", "Os pais, avós e pessoas mais velhas", "Os personagens de desenho", "Os bebês"], correta: 1, explicacao: "As pessoas mais velhas viveram mais tempo e guardam muitas histórias para contar." },
-        { pergunta: "Uma família com pai, filho e avó morando juntos é...", alternativas: ["Uma família normal e cheia de amor, como todas", "Apenas uma família grande", "Uma família errada", "Uma família incompleta"], correta: 0, explicacao: "Famílias podem ter tamanhos diferentes; todas são válidas quando há cuidado e respeito." }
+        { pergunta: "O que define uma família, independentemente do formato?", alternativas: ["A presença de pai e mãe", "Laços de cuidado, provisão e convivência", "O número de filhos", "A moradia própria"], correta: 1, explicacao: "As funções (cuidado, socialização, proteção) definem a família, não o formato." },
+        { pergunta: "Família que inclui avós e tios na mesma rede de convivência é...", alternativas: ["nuclear", "extensa", "monoparental", "anaparental"], correta: 1, explicacao: "Família extensa: parentes além do núcleo pais-filhos." },
+        { pergunta: "Sobrenomes transmitidos entre gerações funcionam como...", alternativas: ["registro fiscal", "memória de linhagem familiar", "título nobiliárquico", "documento de viagem"], correta: 1, explicacao: "Preservam a identidade e a história da família no tempo." },
+        { pergunta: "O relato de um avô sobre sua infância é uma fonte...", alternativas: ["escrita", "oral", "material", "digital"], correta: 1, explicacao: "Fonte oral: memória transmitida por fala." }
       ]
     },
     {
       id: "f1-a2-his-2",
-      titulo: "Jogos e brincadeiras de ontem e de hoje",
+      titulo: "Lazer ontem e hoje: mudança e permanência",
       blocos: [
-        { tipo: "paragrafo", texto: "Você sabia que os seus pais e avós também foram crianças e brincaram bastante? Só que as brincadeiras deles eram um pouco diferentes das suas!" },
-        { tipo: "titulo", texto: "Brincadeiras de ontem" },
-        { tipo: "lista", itens: ["Pular corda e amarelinha na rua", "Pião, bolinha de gude e papagaio (pipa)", "Cabra-cega, esconde-esconde e pega-pega", "Brincar de fazer comidinha com panelinhas de barro"] },
-        { tipo: "titulo", texto: "Brincadeiras de hoje" },
-        { tipo: "lista", itens: ["Videogame e jogos no celular ou tablet", "Desenhos animados na televisão", "Brincadeiras de correr e pular, que continuam fazendo sucesso"] },
-        { tipo: "exemplo", texto: "A avó de Léo conta que fazia bonecas de espiga de milho e brincava de roda na calçada. Léo joga videogame, mas também adora amarelinha no pátio da escola. Alguns brinquedos mudaram, mas o prazer de brincar é o mesmo!" },
-        { tipo: "paragrafo", texto: "Comparar as brincadeiras de ontem com as de hoje é aprender História! Descobrimos como a vida mudou: antes não havia celular nem internet, mas havia muita imaginação para criar brinquedos com o que tinha por perto." },
-        { tipo: "dica", texto: "Entreviste um adulto da sua família: pergunte qual era a brincadeira favorita dele quando era criança e onde ele brincava. Depois compare com as suas!" }
+        { tipo: "paragrafo", texto: "Comparar jogos e formas de lazer de épocas diferentes revela dois conceitos centrais da História: MUDANÇA (o que se transformou com a tecnologia) e PERMANÊNCIA (o que permanece na natureza humana)." },
+        { tipo: "titulo", texto: "Lazer de gerações anteriores" },
+        { tipo: "lista", itens: ["Brincadeiras de rua: amarelinha, pique, esconde-esconde, bola improvisada", "Jogos de mesa: damas, xadrez, dominó, baralho", "Brinquedos artesanais: pipa, pião, bonecos de pano e de milho", "Radioteatro, cinema de bairro e programas de rádio como lazer coletivo"] },
+        { tipo: "titulo", texto: "Lazer atual" },
+        { tipo: "paragrafo", texto: "Videogames, streaming, redes sociais e jogos eletrônicos dominam o lazer contemporâneo. A tecnologia mudou o VEÍCULO do entretenimento — individual, digital, sob demanda — mas as funções persistem: desafio, competição, convivência, relaxamento e imaginação." },
+        { tipo: "exemplo", texto: "A pipa e o jogo eletrônico cumprem a mesma função lúdica (desafio de habilidade) com meios opostos: um é artesanal, ao ar livre e social; o outro, industrial, em tela e frequentemente solitário. Permanência da necessidade, mudança do formato." },
+        { tipo: "titulo", texto: "O conceito de geração" },
+        { tipo: "paragrafo", texto: "Uma geração agrupa pessoas que viveram os mesmos referenciais culturais em idade formativa. Comparações entre gerações (avós, pais, filhos) são o método mais acessível para observar transformação histórica — tema recorrente em provas sobre 'tempo histórico'." },
+        { tipo: "dica", texto: "Toda comparação temporal deve listar o que MUDOU (tecnologia, veículo) e o que PERMANECEU (função, necessidade). Essa dupla leitura é o coração das questões de 'ontem e hoje'." },
+        { tipo: "atencao", texto: "Evitar juízo de valor ('antes era melhor'): a análise histórica compara, não classifica. O lazer digital é tão historicamente real quanto a brincadeira de rua." }
       ],
       atividade: [
-        { pergunta: "Qual destas brincadeiras era comum no tempo dos nossos avós?", alternativas: ["Jogar no celular", "Jogar videogame", "Pular corda e brincar de amarelinha", "Assistir desenhos no tablet"], correta: 3, explicacao: "Amarelinha, corda, pião e pipa eram brincadeiras muito comuns antigamente." },
-        { pergunta: "Por que as crianças de antigamente inventavam brinquedos?", alternativas: ["Porque não havia fábricas de brinquedos nem celular", "Porque era proibido comprar brinquedos", "Porque não gostavam de comprar", "Porque brinquedo era feio"], correta: 0, explicacao: "Sem muitos brinquedos industrializados, a imaginação criava brincadeiras com o que tinha por perto." },
-        { pergunta: "Comparar brincadeiras de ontem e de hoje nos ajuda a...", alternativas: ["Ganhar videogames", "Saber quem brinca melhor", "Entender como a vida mudou com o tempo", "Esquecer o passado"], correta: 2, explicacao: "Comparar épocas é uma forma de fazer História e ver as mudanças na vida das pessoas." },
-        { pergunta: "O que continua igual nas brincadeiras de ontem e de hoje?", alternativas: ["Só se brinca sozinho", "O prazer de brincar e se divertir", "Todos brincam dentro de casa", "Só existem jogos eletrônicos"], correta: 1, explicacao: "Por mais que os brinquedos mudem, as crianças sempre amaram brincar e se divertir." }
+        { pergunta: "Os dois conceitos centrais na comparação do lazer entre épocas são...", alternativas: ["mudança e permanência", "riqueza e pobreza", "ordem e progresso", "ação e reação"], correta: 0, explicacao: "O que se transforma (meio) e o que persiste (função)." },
+        { pergunta: "Pipa, pião e bonecos de pano são exemplos de lazer...", alternativas: ["digital", "artesanal", "eletrônico", "corporativo"], correta: 1, explicacao: "Brinquedos feitos à mão ou de materiais simples." },
+        { pergunta: "Uma 'geração' agrupa pessoas que...", alternativas: ["têm a mesma idade exata", "viveram os mesmos referenciais culturais na juventude", "nasceram no mesmo hospital", "trabalham juntas"], correta: 1, explicacao: "Referenciais compartilhados na idade formativa." },
+        { pergunta: "A função do lazer que permanece através das épocas é...", alternativas: ["desafio, convivência e relaxamento", "consumo de tecnologia", "praticar esporte só", "assistir TV"], correta: 0, explicacao: "As necessidades lúdicas persistem; os veículos mudam." }
       ]
     },
     {
       id: "f1-a2-his-3",
-      titulo: "Festas populares brasileiras",
+      titulo: "Festas populares brasileiras: cultura e identidade",
       blocos: [
-        { tipo: "paragrafo", texto: "O Brasil é um país cheio de festas alegres! Nessas festas, as pessoas se reúnem para dançar, comer comidinhas gostosas e celebrar a nossa cultura. Cada região tem suas festas, como o Bumba Meu Boi no Norte e Nordeste e a Festa do Divino no Sudeste." },
-        { tipo: "titulo", texto: "Festa Junina" },
-        { tipo: "paragrafo", texto: "A Festa Junina acontece em junho e tem bandeirinhas coloridas, fogueira, quadrilha e comidas deliciosas: milho cozido, pão de queijo, canjica, paçoca e bolo de fubá. As pessoas se vestem de caipira e dançam a quadrilha." },
-        { tipo: "titulo", texto: "Carnaval" },
-        { tipo: "paragrafo", texto: "O Carnaval é uma festa cheia de música, fantasias e desfiles. Existem os desfiles das escolas de samba na avenida e os blocos de rua, onde todo mundo canta e dança fantasiado." },
-        { tipo: "titulo", texto: "Festa do Peão" },
-        { tipo: "paragrafo", texto: "A Festa do Peão de Boiadeiro é muito famosa no interior. Nela, os peões montam em cavalos e bois bravos para mostrar sua habilidade. Tem shows, barracas de comida e muita gente vestida de country." },
-        { tipo: "exemplo", texto: "Na escola de Marina, a festa junina teve quadrilha, correio elegante e barracas de Brigadeiro e Quentão de uva. O avô de Marina lembrou que brincava quadrilha na fazenda quando era criança, quase do mesmo jeito!" }
+        { tipo: "paragrafo", texto: "As festas populares são eventos coletivos que exprimem a identidade de um povo: misturam religião, história, economia e arte. No Brasil, elas carregam as três matrizes culturais — indígena, africana e europeia." },
+        { tipo: "titulo", texto: "Principais festas e seus sentidos" },
+        { tipo: "lista", itens: ["Festas juninas (junho): celebram Santo Antônio, São João e São Pedro; origem europeia (celebrações do solstício) com aportes indígenas (comidas de milho) e africanos (quadrilha)", "Carnaval: festa de rua e de arena, herança do entrudo português e das tradições africanas; maior evento cultural do país", "Festa do Divino (Centro-Oeste e Sudeste): tradição portuguesa de coroação simbólica", "Círio de Nazaré (Belém, outubro): maior procissão católica do mundo", "Festa do Peão (Barretos e interior): cultura sertaneja e rodeio"] },
+        { tipo: "exemplo", texto: "A festa junina condensa o método: as bandeirinhas vêm da ornamentação portuguesa, o milho é herança indígena, a quadrilha adapta danças da corte francesa, e o forró tem raiz nordestina. Uma única festa = quatro matrizes." },
+        { tipo: "titulo", texto: "Patrimônio cultural" },
+        { tipo: "paragrafo", texto: "Festas como o Círio de Nazaré e o frevo são reconhecidas como Patrimônio Cultural Imaterial do Brasil (IPHAN). 'Imaterial' porque o patrimônio não é um prédio: são práticas, saberes e celebrações transmitidos de geração em geração." },
+        { tipo: "dica", texto: "Para provas: associe cada festa à sua região e à sua origem cultural. E memorize o triângulo de matrizes (indígena + africana + europeia) — a resposta de toda questão sobre 'formação da cultura brasileira'." },
+        { tipo: "atencao", texto: "Festa popular não é sinônimo de feriado nacional: algumas são locais/regionais (Festa do Peão), outras nacionais (Carnaval). Feriado é categoria jurídica; festa é categoria cultural." }
       ],
       atividade: [
-        { pergunta: "Em que mês acontece a Festa Junina?", alternativas: ["Em junho", "Em outubro", "Em janeiro", "Em dezembro"], correta: 2, explicacao: "A Festa Junina acontece em junho, por isso tem esse nome." },
-        { pergunta: "O que é típico da Festa do Peão?", alternativas: ["Dançar quadrilha", "Desfile de escolas de samba", "Pular fogueira", "Peões montando em cavalos e bois bravos"], correta: 3, explicacao: "Na Festa do Peão de Boiadeiro, os peões mostram sua habilidade montando em cavalos e bois." },
-        { pergunta: "Qual comida é típica da Festa Junina?", alternativas: ["Milho cozido e canjica", "Sushi", "Pizza", "Churrasco de domingo"], correta: 1, explicacao: "Milho, canjica, paçoca e bolo de fubá são comidas típicas das festas juninas." },
-        { pergunta: "No Carnaval, as escolas de samba...", alternativas: ["Montam em bois bravos", "Fazem desfiles com música e fantasia na avenida", "Comem milho na fogueira", "Ficam fechadas"], correta: 0, explicacao: "No Carnaval, as escolas de samba desfilam na avenida com samba, fantasias e alegria." }
+        { pergunta: "As festas juninas celebram quais santos?", alternativas: ["Santo Antônio, São João e São Pedro", "Nossa Senhora Aparecida", "São Jorge e Iemanjá", "Todos os santos"], correta: 0, explicacao: "São os santos de junho, origem do nome 'junina'." },
+        { pergunta: "O milho nas festas juninas é herança da matriz...", alternativas: ["indígena", "africana", "portuguesa", "francesa"], correta: 0, explicacao: "Pamonha, canjica e cural derivam do cultivo indígena do milho." },
+        { pergunta: "O Círio de Nazaré ocorre em...", alternativas: ["Belém (PA)", "Salvador (BA)", "Barretos (SP)", "Recife (PE)"], correta: 0, explicacao: "Outubro, em Belém: maior procissão católica do mundo." },
+        { pergunta: "Patrimônio Cultural Imaterial é...", alternativas: ["um prédio histórico", "práticas e celebrações transmitidas entre gerações", "uma moeda comemorativa", "um monumento de pedra"], correta: 1, explicacao: "Festas, saberes e danças: patrimônio não material, registrado pelo IPHAN." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "O que é uma família?", alternativas: ["Um grupo de pessoas que se cuida e vive junto", "Um desenho animado", "Um time de futebol", "Uma loja de brinquedos"], correta: 0, explicacao: "Família é o grupo de pessoas que se ama, se cuida e tem história junto." },
-      { pergunta: "Como as famílias guardam suas lembranças do passado?", alternativas: ["Cantando no chuveiro", "Jogando futebol", "Por meio de fotos, histórias e objetos antigos", "Comprando roupas novas"], correta: 2, explicacao: "Fotos, histórias contadas e objetos antigos guardam a memória das famílias." },
-      { pergunta: "O pião e a bolinha de gude são brincadeiras...", alternativas: ["que faziam sucesso no tempo dos avós", "inventadas ontem", "proibidas nas escolas", "que ninguém sabe jogar"], correta: 0, explicacao: "Pião e gude eram brincadeiras muito populares entre as crianças antigamente." },
-      { pergunta: "Na quadrilha, as pessoas...", alternativas: ["nadam na piscina", "sobem em árvores", "dançam passos em duplas nas festas juninas", "correm atrás de bola"], correta: 2, explicacao: "A quadrilha é a dança típica das festas juninas, dançada em duplas." },
-      { pergunta: "A Festa do Peão é uma festa...", alternativas: ["que acontece dentro da escola", "do mundo do campo, com montaria em cavalos e bois", "de desenhos animados", "só de comida"], correta: 1, explicacao: "A Festa do Peão vem do mundo do campo, com montarias, shows e tradição caipira." },
-      { pergunta: "Por que conhecer festas populares é importante?", alternativas: ["Para ficar rico", "Para saber quem dança melhor", "Para aprender a cozinhar", "Porque elas contam a história e a cultura do nosso povo"], correta: 3, explicacao: "As festas populares guardam tradições e a cultura de cada região do Brasil." }
+      { pergunta: "Lembranças guardadas em fotos e objetos servem para...", alternativas: ["decorar ambientes", "preservar a memória e documentar o passado", "substituir documentos oficiais", "nada"], correta: 1, explicacao: "São fontes históricas: registros que informam sobre o passado." },
+      { pergunta: "As configurações familiares no Brasil...", alternativas: ["são sempre iguais", "são múltiplas, com funções comuns", "não mudam", "existem só duas"], correta: 1, explicacao: "Formatos diversos; funções de cuidado e socialização permanentes." },
+      { pergunta: "O lazer digital se distingue do artesanal principalmente pelo...", alternativas: ["valor histórico", "veículo tecnológico e individualidade", "ausência de regras", "preço"], correta: 1, explicacao: "A função lúdica persiste; o meio mudou." },
+      { pergunta: "Na comparação entre gerações, o historiador observa...", alternativas: ["só o que mudou", "só o que permaneceu", "mudanças e permanências", "juízos de valor"], correta: 2, explicacao: "A dupla leitura é o método da comparação histórica." },
+      { pergunta: "O Carnaval brasileiro combina heranças...", alternativas: ["indígena, africana e europeia", "apenas portuguesa", "apenas africanas", "norte-americanas"], correta: 0, explicacao: "Entrudo português + tradições africanas + apropriações locais." },
+      { pergunta: "O registro de festas como patrimônio imaterial é feito pelo...", alternativas: ["IPHAN", "IBGE", "Banco Central", "INSS"], correta: 0, explicacao: "Instituto do Patrimônio Histórico e Artístico Nacional." }
     ]
   },
   exameFinal: [
-    { pergunta: "Duas famílias de tamanhos diferentes...", alternativas: ["não podem ser amigas", "uma vale mais que a outra", "só podem morar juntas", "têm o mesmo valor e direito ao respeito"], correta: 3, explicacao: "Toda família merece respeito, não importa o tamanho ou a forma." },
-    { pergunta: "Perguntar aos avós sobre a infância deles é uma forma de...", alternativas: ["perder tempo", "assustar os avós", "aprender História com quem viveu outros tempos", "ganhar presentes"], correta: 2, explicacao: "As memórias dos mais velhos nos ensinam como era a vida no passado." },
-    { pergunta: "As brincadeiras de hoje, como os jogos eletrônicos, existiam no tempo dos avós?", alternativas: ["Sim, mas eram proibidas", "Não, elas surgiram com novas tecnologias", "Ninguém sabe", "Sim, eram as mais populares"], correta: 2, explicacao: "Videogame e jogos de celular surgiram com a tecnologia moderna, que não existia antigamente." },
-    { pergunta: "Bandeirinhas, fogueira e quadrilha fazem parte de...", alternativas: ["da Festa Junina", "do aniversário", "do Carnaval", "da Festa do Peão"], correta: 3, explicacao: "Bandeirinhas, fogueira e quadrilha são os símbolos das festas juninas." },
-    { pergunta: "O Brasil tem festas populares diferentes em cada região porque...", alternativas: ["a cultura do nosso país é muito rica e variada", "todas as festas são iguais", "é proibido repetir festas", "ninguém gosta de festa"], correta: 1, explicacao: "A riqueza cultural do Brasil cria festas diferentes em cada região, como o Bumba Meu Boi no Nordeste." }
+    { pergunta: "Fontes orais são...", alternativas: ["documentos impressos", "relatos transmitidos por fala", "objetos antigos", "mapas"], correta: 1, explicacao: "Memórias e testemunhos falados: fonte histórica legítima." },
+    { pergunta: "A função da família que permanece em qualquer configuração é...", alternativas: ["provisão e cuidado", "herança de terras", "tamanho fixo", "mesma renda"], correta: 0, explicacao: "Formatos variam; funções sociais persistem." },
+    { pergunta: "A comparação 'lazer de ontem x hoje' ilustra...", alternativas: ["mudança no veículo, permanência da função", "mudança total", "permanência total", "falta de história"], correta: 0, explicacao: "Tecnologia muda; necessidade lúdica permanece." },
+    { pergunta: "As três matrizes culturais brasileiras são...", alternativas: ["indígena, africana e europeia", "asiática, europeia e americana", "nordestina, sulista e nortista", "urbana, rural e digital"], correta: 0, explicacao: "Base da formação cultural do Brasil." },
+    { pergunta: "As bandeirinhas das festas juninas têm origem...", alternativas: ["indígena", "na ornamentação portuguesa", "africana", "japonesa"], correta: 1, explicacao: "Herança de decorar com bandeirinhas veio dos portugueses." }
   ]
 };
