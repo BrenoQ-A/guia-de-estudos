@@ -4,80 +4,86 @@ window.GuiaConteudo["f1-a3-cie"] = {
   aulas: [
     {
       id: "f1-a3-cie-1",
-      titulo: "A matéria e os três estados",
+      titulo: "Estados da matéria e mudanças de estado",
       blocos: [
-        { tipo: "paragrafo", texto: "Tudo ao nosso redor é feito de matéria: o caderno, a água, o ar, o seu corpo! A matéria é tudo aquilo que tem peso e ocupa um lugar no espaço." },
-        { tipo: "titulo", texto: "Os três estados da matéria" },
-        { tipo: "paragrafo", texto: "A matéria pode aparecer de três jeitos diferentes, chamados de estados: sólido, líquido e gasoso. E a mesma matéria pode mudar de estado! A água, por exemplo, pode ser sólida, líquida e gasosa, dependendo da temperatura." },
-        { tipo: "lista", itens: ["Estado SÓLIDO: tem forma própria e firme, como a pedra, a madeira e o gelo.", "Estado LÍQUIDO: escorre e toma a forma do recipiente, como a água, o suco e o leite.", "Estado GASOSO: se espalha pelo ar e não tem forma própria, como o ar que respiramos e o vapor da panela."] },
-        { tipo: "exemplo", texto: "Pense na água: no congelador ela vira GELO (sólida); no copo ela é ÁGUA (líquida); na panela fervendo ela vira VAPOR (gasosa). É sempre a mesma água, em estados diferentes!" },
-        { tipo: "titulo", texto: "Mudanças de estado" },
-        { tipo: "paragrafo", texto: "Com calor ou frio, a matéria muda de estado. Quando o gelo derrete, aconteceu a fusão: o sólido virou líquido. Quando a água ferve e sobe em vapores, aconteceu a evaporação." },
-        { tipo: "lista", itens: ["FUSÃO: sólido vira líquido, como o gelo derretendo ao sol.", "EVAPORAÇÃO: líquido vira gás, como a poça de água secando.", "CONDENSAÇÃO: gás vira líquido, como as gotinhas que se formam na parede do copo gelado.", "SOLIDIFICAÇÃO: líquido vira sólido, como a água virando gelo no congelador."] }
+        { tipo: "paragrafo", texto: "A matéria organiza-se em três estados clássicos — sólido, líquido e gasoso — diferenciados pela liberdade de movimento e coesão entre as partículas. As transições entre eles ocorrem com entrada ou saída de energia térmica e têm nomes precisos cobrados em prova." },
+        { tipo: "titulo", texto: "Os três estados" },
+        { tipo: "lista", itens: ["Sólido: partículas firmemente ligadas; forma e volume próprios (gelo, ferro)", "Líquido: coesão parcial; volume definido, forma do recipiente (água, etanol)", "Gasoso: partículas praticamente livres; forma e volume variáveis, expansível (vapor, ar)"] },
+        { tipo: "titulo", texto: "As seis transições" },
+        { tipo: "paragrafo", texto: "Fusão (sólido → líquido), solidificação (líquido → sólido), vaporização/ebulição (líquido → gasoso), condensação (gasoso → líquido), sublimação (sólido → gasoso direto, como o gelo seco) e ressublimação (gasoso → sólido)." },
+        { tipo: "exemplo", texto: "Ciclo do gelo seco (CO2 sólido): em temperatura ambiente, passa direto a gás — sublimação, sem formar líquido. Já o cubo de gelo na bebida funde (sólido → líquido) porque a água tem ponto de fusão (0 °C) abaixo da temperatura ambiente." },
+        { tipo: "titulo", texto: "Temperatura constante nas transições" },
+        { tipo: "paragrafo", texto: "Durante a fusão ou a ebulição de uma substância pura, a temperatura PERMANECE constante: toda a energia vai para romper ligações, não para aquecer. É o 'patamar' das curvas de aquecimento — e a assinatura que distingue substância pura de mistura." },
+        { tipo: "dica", texto: "Memorize o par de direção: entrando calor = fusão e vaporização; saindo calor = solidificação e condensação. A sublimação fica fora do par — a única que pula o estado líquido." },
+        { tipo: "atencao", texto: "Pressão altera os pontos de transição: emaltitude, a água ferve abaixo de 100 °C (menor pressão atmosférica). Por isso receitas de serra e de 'panela de pressão' existem — a pressão comprime e eleva o ponto de ebulição." }
       ],
       atividade: [
-        { pergunta: "Em que estado da matéria está a pedra?", alternativas: ["nenhum", "gasoso", "sólido", "líquido"], correta: 2, explicacao: "A pedra tem forma própria e firme: é um sólido." },
-        { pergunta: "Quando o gelo derrete e vira água, que mudança aconteceu?", alternativas: ["fusão", "evaporação", "solidificação", "condensação"], correta: 0, explicacao: "Fusão é quando o sólido vira líquido, como o gelo derretendo." },
-        { pergunta: "A poça de água que seca ao sol mostra que mudança de estado?", alternativas: ["evaporação", "fusão", "nenhuma mudança", "solidificação"], correta: 0, explicacao: "A água da poça vira vapor e vai para o ar: evaporação." },
-        { pergunta: "Qual dessas matérias está no estado GASOSO?", alternativas: ["o suco", "o vapor da panela", "o gelo", "a madeira"], correta: 1, explicacao: "O vapor é um gás; suco é líquido, e gelo e madeira são sólidos." }
+        { pergunta: "A passagem de líquido a gasoso denomina-se...", alternativas: ["fusão", "vaporização", "condensação", "sublimação"], correta: 1, explicacao: "Ebulição/evaporação: líquido → gasoso." },
+        { pergunta: "O gelo seco passa de sólido a gás em um processo chamado...", alternativas: ["fusão", "condensação", "sublimação", "solidificação"], correta: 2, explicacao: "Sublimação: sem passar pelo estado líquido." },
+        { pergunta: "Durante a fusão de um sólido puro, a temperatura...", alternativas: ["sobe continuamente", "permanece constante", "desce", "oscila"], correta: 1, explicacao: "A energia vai para romper a estrutura, não para aquecer." },
+        { pergunta: "Em altitudes elevadas, a água ferve a...", alternativas: ["acima de 100 °C", "exatamente 100 °C", "abaixo de 100 °C", "nunca ferve"], correta: 2, explicacao: "Menor pressão atmosférica reduz o ponto de ebulição." }
       ]
     },
     {
       id: "f1-a3-cie-2",
-      titulo: "Sol, Terra e Lua",
+      titulo: "Sol, Terra e Lua: movimentos e fases",
       blocos: [
-        { tipo: "paragrafo", texto: "O Sol, a Terra e a Lua formam um time muito importante para nós. O Sol é uma estrela gigante que ilumina e aquece o nosso planeta. A Terra é o planeta onde moramos, e a Lua é a companheira que gira ao redor da Terra." },
-        { tipo: "titulo", texto: "Dia e noite" },
-        { tipo: "paragrafo", texto: "A Terra está sempre girando, como um pião! Esse giro se chama rotação. Enquanto a Terra gira, uma parte fica voltada para o Sol e recebe luz: é o dia. A outra parte fica sem luz: é a noite." },
-        { tipo: "exemplo", texto: "Quando aqui no Brasil é dia de sol, do outro lado do planeta, em países como o Japão, é noite. Um giro completo da Terra dura cerca de 24 horas: um dia inteiro!" },
-        { tipo: "titulo", texto: "As fases da Lua" },
-        { tipo: "paragrafo", texto: "A Lua não produz luz própria: ela brilha no céu porque reflete a luz do Sol, como um espelho. E a Lua gira ao redor da Terra, então a parte iluminada que vemos vai mudando. Por isso existem as fases da Lua." },
-        { tipo: "lista", itens: ["Lua nova: a Lua não aparece no céu.", "Lua crescente: aparece um pedacinho iluminado, em forma de C.", "Lua cheia: a Lua aparece redonda e bem brilhante.", "Lua minguante: a parte iluminada vai diminuindo até a nova chegar de novo."] },
-        { tipo: "paragrafo", texto: "As fases da Lua se repetem em cerca de 29 ou 30 dias, quase um mês. Depois da nova, vem a crescente, depois a cheia, depois a minguante... e tudo começa de novo! Observe o céu por algumas noites e desenhe a Lua num caderninho: em pouco tempo você vai reconhecer as fases sozinho." }
+        { tipo: "paragrafo", texto: "O Sistema Terra-Lua-Sol explica dois ritmos da vida cotidiana: o dia e a noite (rotação) e o calendário (translação). As fases da Lua decorrem da posição relativa entre os três corpos." },
+        { tipo: "titulo", texto: "Rotação e translação" },
+        { tipo: "lista", itens: ["Rotação: a Terra gira sobre o próprio eixo em ~24 horas → alternância de dia e noite", "Translação: a Terra orbita o Sol em ~365 dias e 6 horas → ano (os 6 horas acumulam o bissexto a cada 4 anos)", "Eixo inclinado (23,5°): causa das estações do ano, não a distância ao Sol"] },
+        { tipo: "titulo", texto: "Fases da Lua" },
+        { tipo: "paragrafo", texto: "A Lua não emite luz: reflete a solar. A 'fase' é a porção iluminada que enxergamos conforme a posição Lua-Terra-Sol. Sequência (~29,5 dias por ciclo): nova → crescente → cheia → minguante → nova." },
+        { tipo: "exemplo", texto: "Lua cheia: Terra entre Sol e Lua — a face voltada para nós está totalmente iluminada. Lua nova: Lua entre Sol e Terra — a face iluminada fica de costas para nós. Eclipse lunar ocorre quando a Terra projeta sombra na Lua cheia (alinhamento perfeito)." },
+        { tipo: "titulo", texto: "Marés" },
+        { tipo: "paragrafo", texto: "A atração gravitacional da Lua (e, secundariamente, do Sol) sobre os oceanos gera as marés: duas preamares e duas baixamares por dia. Nas luas nova e cheia (alinhamento), as marés são mais intensas (marés de sizígia)." },
+        { tipo: "dica", texto: "Para as estações, lembre: é a INCLINAÇÃO do eixo que decide qual hemisfério recebe luz mais direta. Dezembro = verão no hemisfério sul, mesmo com a Terra perto do 'ponto mais distante' do Sol." },
+        { tipo: "atencao", texto: "A Lua 'cheia' não muda de forma nem de brilho próprio: sempre metade iluminada. O que muda é o ângulo de visão da Terra. E marés dependem da Lua muito mais que do Sol." }
       ],
       atividade: [
-        { pergunta: "Qual astro ilumina e aquece a Terra?", alternativas: ["as estrelas cadentes", "o Sol", "as nuvens", "a Lua"], correta: 1, explicacao: "O Sol é a estrela que ilumina e aquece o nosso planeta." },
-        { pergunta: "O que causa o dia e a noite?", alternativas: ["a Lua escondendo o Sol", "o giro (rotação) da Terra", "a chuva", "as nuvens passando"], correta: 1, explicacao: "Quando a Terra gira, uma parte recebe luz do Sol (dia) e a outra fica no escuro (noite)." },
-        { pergunta: "Quando a Lua aparece redonda e brilhante, estamos em que fase?", alternativas: ["Lua nova", "Lua minguante", "Lua cheia", "Lua crescente"], correta: 2, explicacao: "Na Lua cheia, vemos o lado iluminado inteiro: ela aparece redonda." },
-        { pergunta: "Por que a Lua brilha no céu?", alternativas: ["porque reflete a luz do Sol", "porque tem luz própria", "porque pisca como estrela", "porque é feita de lâmpadas"], correta: 0, explicacao: "A Lua não tem luz própria: ela reflete a luz que vem do Sol." }
+        { pergunta: "O movimento de rotação da Terra causa...", alternativas: ["as estações", "o dia e a noite", "as fases da Lua", "as marés"], correta: 1, explicacao: "24 horas de giro: alternância luz/sombra." },
+        { pergunta: "As estações do ano decorrem...", alternativas: ["da distância Terra-Sol", "da inclinação do eixo terrestre", "da rotação da Lua", "das marés"], correta: 1, explicacao: "23,5° de inclinação: hemisférios recebem luz desigual." },
+        { pergunta: "Na Lua nova, a Lua está...", alternativas: ["entre a Terra e o Sol", "atrás da Terra", "do lado oposto do Sol", "em eclipse"], correta: 0, explicacao: "Face iluminada voltada para o Sol: invisível da Terra." },
+        { pergunta: "As marés mais intensas ocorrem...", alternativas: ["na Lua nova e cheia", "no quarto crescente", "no quarto minguante", "sem relação com a Lua"], correta: 0, explicacao: "Alinhamento Sol-Terra-Lua: marés de sizígia." }
       ]
     },
     {
       id: "f1-a3-cie-3",
       titulo: "Recursos naturais: água e solo",
       blocos: [
-        { tipo: "paragrafo", texto: "A natureza nos presenteia com tudo o que precisamos para viver: água, solo, ar, plantas e animais. Tudo isso se chama recursos naturais. Cuidar deles é cuidar da nossa vida!" },
-        { tipo: "titulo", texto: "A água, nosso tesouro" },
-        { tipo: "paragrafo", texto: "Usamos a água para beber, cozinhar, tomar banho e lavar roupas. Mas atenção: a maior parte da água do planeta é salgada, do mar! A água doce que podemos usar é pouquinha, então não podemos desperdiçar." },
-        { tipo: "lista", itens: ["Feche a torneira enquanto escova os dentes.", "Tome banhos rápidos e evite demorar no chuveiro.", "Avise um adulto se descobrir uma torneira pingando.", "Reutilize a água da chuva para regar as plantas."] },
-        { tipo: "titulo", texto: "O solo, casa das plantas" },
-        { tipo: "paragrafo", texto: "O solo é a terra onde as plantas crescem e muitos animais moram, como as minhocas. Ele guarda água e nutrientes que alimentam as árvores, as frutas e os legumes que comemos." },
-        { tipo: "exemplo", texto: "Em uma horta, o solo bem cuidado produz alface, cenoura e tomate. Se jogarmos lixo na terra, o solo fica doente e as plantas não conseguem crescer fortes." },
-        { tipo: "paragrafo", texto: "Lixo jogado no chão polui o solo e pode sujar a água dos rios. Cada gesto conta: jogar o lixo no lugar certo e economizar água são atitudes de heróis do planeta! E lembre-se: a água doce é um tesouro que não pode faltar. Se você encontrar uma torneira aberta, feche-a. Cada gota importa!" }
+        { tipo: "paragrafo", texto: "Recursos naturais são materiais da natureza utilizáveis pelo ser humano. Água e solo são os dois mais estratégicos: sustentam agricultura, abastecimento e vida — e ambos são finitos e degradáveis." },
+        { tipo: "titulo", texto: "Água: disponibilidade real" },
+        { tipo: "paragrafo", texto: "97,5% da água do planeta é salgada; doce, só 2,5% — e a maior parte disso está congelada nos polos. A água de fácil acesso (rios, lagos, aquíferos) é ínfima. O Brasil detém ~12% da água doce do mundo, com distribuição desigual pelo território." },
+        { tipo: "titulo", texto: "Solo: formação lenta, perda rápida" },
+        { tipo: "paragrafo", texto: "O solo agrícola resulta da decomposição de rochas e matéria orgânica ao longo de séculos. A erosão — perda do solo pela chuva e pelo vento, acelerada pelo desmatamento — destrói em anos o que a natureza levou séculos para formar. Raízes e cobertura vegetal são a proteção natural." },
+        { tipo: "exemplo", texto: "Uma nascente protegida por mata ciliar mantém vazão e qualidade; desmatada, o rio assoreia (terra carregada pela chuva) e a água escasseia. Custo da degradação: obras de captação e tratamento que poderiam ser evitadas." },
+        { tipo: "titulo", texto: "Uso consciente: medidas efetivas" },
+        { tipo: "lista", itens: ["Água: reparar vazamentos (perda média de 40% na distribuição urbana brasileira), reuso, irrigação por gotejamento na agricultura", "Solo: plantio direto, rotação de culturas, curvas de nível, reflorestamento de nascentes", "Política: leis de proteção de mananciais e cobrança pelo uso da água"] },
+        { tipo: "dica", texto: "O 'uso consciente' não é só trocar o chuveiro: as maiores demandas são agricultura (~70% da água doce mundial) e indústria. Mudanças sistêmicas valem mais que gestos individuais — mas ambos contam." },
+        { tipo: "atencao", texto: "Recurso renovável tem LIMITE de reposição: a água renova pelo ciclo, mas o aquífero drenado mais rápido do que recarrega torna-se não renovável na prática. Solo degradado leva séculos para se refazer." }
       ],
       atividade: [
-        { pergunta: "Qual destes é um recurso natural?", alternativas: ["o celular", "a bicicleta", "o caderno", "a água"], correta: 3, explicacao: "A água vem da natureza; celular, caderno e bicicleta são fabricados por pessoas." },
-        { pergunta: "O que devemos fazer ao escovar os dentes?", alternativas: ["usar água do mar", "fechar a torneira para não desperdiçar água", "escovar sem água nenhuma", "deixar a torneira aberta"], correta: 1, explicacao: "Fechar a torneira evita desperdiçar água doce, que é pouca no planeta." },
-        { pergunta: "Onde as plantas crescem e buscam água e nutrientes?", alternativas: ["nas pedras", "no gelo", "no solo", "no ar"], correta: 2, explicacao: "O solo é a terra onde as plantas crescem e encontram água e nutrientes." },
-        { pergunta: "Por que devemos economizar água?", alternativas: ["porque a água nunca acaba", "porque a água doce que podemos usar é pouca", "porque a água é só para plantas", "porque água custa caro para a escola"], correta: 1, explicacao: "A maior parte da água do planeta é salgada; a água doce é pouca e precisa ser cuidada." }
+        { pergunta: "A fração de água DOCE do planeta é cerca de...", alternativas: ["97,5%", "50%", "2,5%", "12%"], correta: 2, explicacao: "O resto é salgada (mares e oceanos)." },
+        { pergunta: "A erosão acelerada do solo é causada principalmente por...", alternativas: ["desmatamento e perda de cobertura vegetal", "chuva em floresta intacta", "raízes de plantas", "compostagem"], correta: 0, explicacao: "Sem raízes segurando, a chuva carrega o solo fértil." },
+        { pergunta: "O assoreamento de um rio é...", alternativas: ["aumento da vazão", "acúmulo de sedimentos que reduz a profundidade", "a chegada de água doce", "a purificação da água"], correta: 1, explicacao: "Terra erodida depositada no leito do rio." },
+        { pergunta: "A prática agrícola que protege o solo é...", alternativas: ["queimada anual", "plantio direto e rotação de culturas", "arado profundo constante", "monocultura sem cobertura"], correta: 1, explicacao: "Cobertura permanente e rotação preservam estrutura e nutrientes." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "Quais são os três estados da matéria?", alternativas: ["duro, mole e mole", "grande, médio e pequeno", "sólido, líquido e gasoso", "quente, morno e frio"], correta: 2, explicacao: "A matéria pode ser sólida, líquida ou gasosa." },
-      { pergunta: "O gelo derretendo ao sol é um exemplo de:", alternativas: ["fusão", "condensação", "evaporação", "solidificação"], correta: 0, explicacao: "Fusão é a mudança do estado sólido para o líquido." },
-      { pergunta: "O dia e a noite acontecem porque:", alternativas: ["a Lua cobre o Sol", "as estrelas brilham menos", "o Sol se apaga de noite", "a Terra gira (rotação)"], correta: 3, explicacao: "Enquanto a Terra gira, uma parte recebe luz do Sol e outra fica no escuro." },
-      { pergunta: "Em que fase a Lua aparece redonda e brilhante?", alternativas: ["Lua nova", "Lua crescente", "Lua minguante", "Lua cheia"], correta: 3, explicacao: "Na Lua cheia, vemos todo o lado iluminado do Satélite." },
-      { pergunta: "O que devemos fazer ao escovar os dentes?", alternativas: ["fechar a torneira", "deixar a torneira aberta", "tomar banho junto", "jogar água na rua"], correta: 0, explicacao: "Fechar a torneira evita o desperdício de água doce." },
-      { pergunta: "As plantas crescem e buscam nutrientes:", alternativas: ["no solo", "no céu", "no asfalto", "nas nuvens"], correta: 0, explicacao: "O solo fornece água e nutrientes para as plantas." }
+      { pergunta: "A transformação de líquido em sólido denomina-se...", alternativas: ["fusão", "solidificação", "vaporização", "sublimação"], correta: 1, explicacao: "Saindo calor: líquido → sólido." },
+      { pergunta: "Um dia tem ~24 horas porque a Terra...", alternativas: ["orbita o Sol", "gira sobre o próprio eixo", "inclinou 23,5°", "tem uma Lua"], correta: 1, explicacao: "Rotação: giro sobre o eixo." },
+      { pergunta: "A Lua ilumina-se por...", alternativas: ["luz própria", "reflexo da luz solar", "combustão", "eletricidade"], correta: 1, explicacao: "A Lua reflete a luz do Sol." },
+      { pergunta: "As fases da Lua completam um ciclo em cerca de...", alternativas: ["7 dias", "29,5 dias", "365 dias", "24 horas"], correta: 1, explicacao: "Um mês lunar (lunação): ~29,5 dias." },
+      { pergunta: "A água doce acessível no planeta é...", alternativas: ["a maior parte da água", "uma fração mínima do total", "inexistente", "toda congelada"], correta: 1, explicacao: "2,5% doce; acessível, uma fatia mínima disso." },
+      { pergunta: "Mata ciliar preservada junto a nascentes...", alternativas: ["reduz a vazão", "mantém vazão e qualidade da água", "assoreia o rio", "é irrelevante"], correta: 1, explicacao: "Raízes filtram e seguram a terra." }
     ]
   },
   exameFinal: [
-    { pergunta: "O vapor que sai da panela de água fervendo está em qual estado?", alternativas: ["sólido", "vapor não é matéria", "líquido", "gasoso"], correta: 3, explicacao: "O vapor é água no estado gasoso." },
-    { pergunta: "Quanto dura um giro completo da Terra (um dia)?", alternativas: ["cerca de 24 horas", "cerca de 12 horas", "cerca de 30 dias", "cerca de 1 ano"], correta: 0, explicacao: "A Terra demora cerca de 24 horas para dar uma volta completa: um dia." },
-    { pergunta: "A Lua brilha porque:", alternativas: ["tem fogo dentro", "é feita de ouro", "produz luz própria", "reflete a luz do Sol"], correta: 3, explicacao: "A Lua não tem luz própria: ela reflete a luz do Sol." },
-    { pergunta: "Qual recurso natural usamos para beber e cozinhar?", alternativas: ["areia", "petróleo", "pedras", "água"], correta: 3, explicacao: "A água é o recurso natural que bebemos e usamos na comida." },
-    { pergunta: "Jogar lixo na terra deixa o solo:", alternativas: ["mais colorido", "cheio de plantas novas", "poluído e doente", "mais forte"], correta: 2, explicacao: "O lixo polui o solo e atrapalha o crescimento das plantas." }
+    { pergunta: "Sair de calor na transição sólido → líquido chama-se...", alternativas: ["solidificação", "fusão", "condensação", "ressublimação"], correta: 1, explicacao: "Fusão: gelo virando água." },
+    { pergunta: "A afirmação correta sobre as estações é...", alternativas: ["dependem da distância ao Sol", "decorrem da inclinação do eixo", "dependem da Lua", "não existem"], correta: 1, explicacao: "Eixo a 23,5°: luz direta variável por hemisfério." },
+    { pergunta: "No eclipse LUNAR, a ordem dos corpos é...", alternativas: ["Lua entre Terra e Sol", "Terra entre Sol e Lua", "Sol entre Terra e Lua", "não há ordem"], correta: 1, explicacao: "A Terra projeta sua sombra na Lua cheia." },
+    { pergunta: "O Brasil concentra cerca de... da água doce do mundo.", alternativas: ["50%", "12%", "2,5%", "97%"], correta: 1, explicacao: "Maior disponibilidade hídrica entre os países." },
+    { pergunta: "Aquífero explorado mais rápido do que recarrega torna-se...", alternativas: ["renovável para sempre", "não renovável na prática", "salgado", "invisível"], correta: 1, explicacao: "Reposição menor que extração: esgotamento." }
   ]
 };

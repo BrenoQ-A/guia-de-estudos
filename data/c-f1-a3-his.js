@@ -4,86 +4,86 @@ window.GuiaConteudo["f1-a3-his"] = {
   aulas: [
     {
       id: "f1-a3-his-1",
-      titulo: "Fontes históricas e memórias: como sabemos sobre o passado",
+      titulo: "Fontes históricas e o trabalho do historiador",
       blocos: [
-        { tipo: "paragrafo", texto: "Ninguém tem uma máquina do tempo para visitar o passado. Mas então, como os historiadores descobrem como as pessoas viviam antigamente? Eles usam pistas chamadas fontes históricas!" },
-        { tipo: "titulo", texto: "O que são fontes históricas" },
-        { tipo: "paragrafo", texto: "Fontes históricas são tudo o que guarda marcas do passado e nos ajuda a saber como as pessoas viviam. Elas podem ser objetos, escritos, imagens, sons ou lugares." },
-        { tipo: "titulo", texto: "Tipos de fontes históricas" },
-        { tipo: "lista", itens: ["Objetos: ferramentas, brinquedos antigos, moedas, roupas e ossos", "Documentos escritos: cartas, livros, jornais e registros antigos", "Imagens e sons: fotografias, pinturas, filmes e gravações", "Lugares: ruínas, prédios antigos, igrejas e sítios arqueológicos", "Pessoas: as memórias de quem viveu acontecimentos do passado"] },
-        { tipo: "exemplo", texto: "Quando arqueólogos encontram panelas de barro antigas enterradas na terra, eles descobrem o que as pessoas comiam e como cozinhavam há muitos anos. Cada objeto é uma pista!" },
-        { tipo: "titulo", texto: "Memória e história" },
-        { tipo: "paragrafo", texto: "A memória é o que as pessoas lembram. Quando um avô conta como foi a infância dele, ele está guardando memórias que ajudam a escrever a história. Por isso ouvir os mais velhos é tão importante." },
-        { tipo: "titulo", texto: "Cuidando das fontes" },
-        { tipo: "paragrafo", texto: "As fontes históricas podem ser bem velhinhas e frágeis. Museus e arquivos guardam esses tesouros com muito cuidado para que as próximas gerações também possam conhecer o passado." },
-        { tipo: "atencao", texto: "Fotografias, cartas e objetos antigos guardados em casa também são fontes históricas! Trate-os com cuidado." }
+        { tipo: "paragrafo", texto: "História é o estudo do passado humano a partir de EVIDÊNCIAS. O historiador não 'adivinha': levanta fontes, cruza informações e constrói interpretações — sempre provisórias, revisáveis por novas evidências." },
+        { tipo: "titulo", texto: "Tipos de fontes" },
+        { tipo: "lista", itens: ["Escritas: cartas, contratos, leis, jornais, diários, censos", "Materiais: ferramentas, ruínas, ossadas, moedas, cerâmicas (estudadas pela arqueologia)", "Orais: testemunhos e entrevistas (história oral)", "Visuais e audiovisuais: pinturas, fotografias, filmes, gravações", "Digitais: e-mails, redes sociais, bancos de dados — as fontes do presente"] },
+        { tipo: "titulo", texto: "O método" },
+        { tipo: "paragrafo", texto: "Uma fonte isolada não prova nada: é preciso CRUZAR. Uma carta do século XIX elogia um administrador; os registros de salários da mesma época mostram fome na região. Fontes contrastantes não 'cancelam' a História — revelam visões diferentes, e interpretar essa tensão é o trabalho do historiador." },
+        { tipo: "exemplo", texto: "O mesmo evento, fontes diferentes: a 'descoberta' do Brasil segundo a carta de Caminha (visão portuguesa) × as narrativas indígenas transmitidas oralmente. Cada documento fala do ponto de vista de quem o produziu — ler criticamente é perguntar: quem escreveu, para quem, com que interesse?" },
+        { tipo: "titulo", texto: "Memória x História" },
+        { tipo: "paragrafo", texto: "Memória é o registro vivo e seletivo que grupos e indivíduos guardam; História é a investigação crítica que confronta memórias com evidências. A memória pode falhar ou ser manipulada — por isso o historiador exige fontes múltiplas e verificáveis." },
+        { tipo: "dica", texto: "Em qualquer questão de fonte, aplique três perguntas: (1) que tipo de fonte é? (2) quem a produziu e por quê? (3) o que ela NÃO mostra? A terceira é a que mais diferencia candidatos." },
+        { tipo: "atencao", texto: "Ausência de fontes escritas não significa ausência de História: povos sem escrita têm história estudada por arqueologia e tradição oral. 'Pré-História' significa 'antes da escrita', não 'sem acontecimentos'." }
       ],
       atividade: [
-        { pergunta: "O que são fontes históricas?", alternativas: ["Águas de nascente", "Tipos de plantas medicinais", "Lugares onde nasce um rio", "Marcas do passado que ajudam a conhecer a história"], correta: 3, explicacao: "Fontes históricas são tudo o que guarda pistas sobre como as pessoas viviam no passado." },
-        { pergunta: "Qual destes é uma fonte histórica escrita?", alternativas: ["Uma pedra do quintal", "Uma nuvem", "Uma folha seca", "Uma carta antiga"], correta: 3, explicacao: "Cartas, livros e jornais antigos são fontes escritas do passado." },
-        { pergunta: "O que fazem os arqueólogos?", alternativas: ["Cozinham para a escola", "Estudam objetos antigos encontrados na terra", "Cuidam só de animais", "Dirigem ônibus"], correta: 1, explicacao: "Arqueólogos estudam objetos e vestígios antigos para conhecer sociedades do passado." },
-        { pergunta: "Por que ouvir as memórias dos mais velhos é importante?", alternativas: ["Não é importante", "Porque eles contam histórias que ajudam a conhecer o passado", "Porque eles sabem todas as respostas da prova", "Para eles ficarem cansados"], correta: 1, explicacao: "As memórias de quem viveu os acontecimentos são fontes valiosas da história." }
+        { pergunta: "Uma moeda romana escavada é uma fonte...", alternativas: ["escrita", "material", "oral", "digital"], correta: 1, explicacao: "Objeto físico estudado pela arqueologia." },
+        { pergunta: "O procedimento básico do historiador é...", alternativas: ["confiar em uma única fonte", "cruzar múltiplas fontes e interpretar", "memorizar datas", "inventar hipóteses sem evidência"], correta: 1, explicacao: "Cruzamento de evidências: método central." },
+        { pergunta: "'Pré-História' significa...", alternativas: ["tempo sem acontecimentos", "período anterior à escrita", "história falsa", "futuro"], correta: 1, explicacao: "Antes da escrita (até ~3.500 a.C.): estudada por arqueologia." },
+        { pergunta: "Diferença central entre memória e História:", alternativas: ["memória é sempre verdadeira", "História investiga criticamente com evidências", "História não usa fontes", "são a mesma coisa"], correta: 1, explicacao: "Memória é seletiva; História, crítica e verificável." }
       ]
     },
     {
       id: "f1-a3-his-2",
       titulo: "Povos indígenas do Brasil: diversidade e modos de vida",
       blocos: [
-        { tipo: "paragrafo", texto: "Muito antes de os portugueses chegarem ao Brasil, o nosso país já era habitado por milhões de pessoas: os povos indígenas! Eles são os primeiros habitantes desta terra." },
-        { tipo: "titulo", texto: "Muitos povos, muitas línguas" },
-        { tipo: "paragrafo", texto: "Não existia um único povo indígena: eram centenas de povos diferentes, com línguas, culturas e tradições próprias. Hoje ainda vivem no Brasil mais de 270 povos indígenas, falando mais de 150 línguas!" },
-        { tipo: "titulo", texto: "Como viviam (e vivem)" },
-        { tipo: "lista", itens: ["Moravam em ocas, cabanas feitas de madeira e palha, reunidas nas aldeias", "Plantavam mandioca, milho, batata-doce e frutas", "Pescavam, caçavam e colhiam frutos da floresta", "Faziam cestarias, cerâmicas e redes para dormir", "Usavam cocares, pinturas corporais e colares em festas e rituais"] },
-        { tipo: "exemplo", texto: "Palavras que usamos todo dia vêm das línguas indígenas: abacaxi, tapioca, jacaré, capivara, pipoca, peteca e até o nome do nosso país vem de pau-brasil, árvore chamada assim pelos indígenas!" },
-        { tipo: "titulo", texto: "Respeito e vivência com a natureza" },
-        { tipo: "paragrafo", texto: "Muitos povos indígenas têm uma relação de respeito com a natureza: tiram da floresta o que precisam e cuidam para que ela continue existindo. Conhecem profundamente as plantas, os animais e os rios." },
-        { tipo: "paragrafo", texto: "Os indígenas de hoje são brasileiros como nós: vão à escola, trabalham, fazem arte e lutam pelos seus direitos e pela preservação de suas terras e culturas." }
+        { tipo: "paragrafo", texto: "Em 1500, o território brasileiro era habitado por milhões de pessoas — estimativas apontam de 2 a 8 milhões — organizadas em centenas de povos com línguas, religiões e tecnologias próprias. 'Índio' é um rótulo europeu; cada povo tem nome próprio." },
+        { tipo: "titulo", texto: "Diversidade" },
+        { tipo: "lista", itens: ["Mais de 300 povos e cerca de 270 línguas faladas hoje (Censo 2010)", "Grandes troncos linguísticos: Tupi e Macro-Jê", "Territórios: todas as regiões, com forte presença na Amazônia Legal", "Organização: variada — aldeias, confederações, sociedades complexas (como as da Amazônia pré-colonial, com terra preta e agricultura intensiva)"] },
+        { tipo: "titulo", texto: "Modos de vida" },
+        { tipo: "paragrafo", texto: "Agricultura diversificada (mandioca, milho, batata-doce), manejo florestal, pesca, caça ritualizada, trocas entre povos (redes de comércio de pedras, conchas e plantas). Conhecimentos aplicados hoje: uso de plantas medicinais, técnicas de manejo do solo (a terra preta amazônica é um fertilizante antropogênico) e variedades de mandioca e cacau." },
+        { tipo: "exemplo", texto: "A mandioca, base da alimentação brasileira (farinha, tapioca), foi domesticada por povos indígenas a partir de variedades selvagens tóxicas — um processo de engenharia genética artesanal de milhares de anos. O 'pão de Terra' brasileiro é invenção indígena." },
+        { tipo: "titulo", texto: "Consequências da colonização" },
+        { tipo: "paragrafo", texto: "Guerras, escravização, deslocamentos forçados e, sobretudo, DOENÇAS europeias (varíola, sarampo) reduziram dramaticamente as populações. Hoje: ~1,7 milhão de indígenas no Brasil (Censo 2022) — mais que em 2010, sinal de recuperação demográfica e organização política." },
+        { tipo: "dica", texto: "Para provas: 'índio' agrupa realidades tão distintas quanto 'europeu' agrupa franceses e gregos. Prefira sempre o nome do povo (Yanomami, Guarani, Kaingang) quando citar." },
+        { tipo: "atencao", texto: "A ideia de que os indígenas eram 'poucos e atrasados' foi desmentida pela arqueologia: povos amazônicos construíram sociedades densas com engenharia agrícola avançada — as gigantescas cerâmicas e a terra preta o comprovam." }
       ],
       atividade: [
-        { pergunta: "Quem são os primeiros habitantes do Brasil?", alternativas: ["Os portugueses", "Os africanos", "Os franceses", "Os povos indígenas"], correta: 3, explicacao: "Os povos indígenas já viviam no Brasil muito antes da chegada dos portugueses." },
-        { pergunta: "Quantos povos indígenas existem hoje no Brasil?", alternativas: ["Nenhum", "Apenas um", "Dois", "Mais de 270 povos diferentes"], correta: 2, explicacao: "Hoje vivem no Brasil mais de 270 povos indígenas, com culturas e línguas próprias." },
-        { pergunta: "O que é uma oca?", alternativas: ["Um barco de guerra", "A moradia feita de madeira e palha dos indígenas", "Uma dança indígena", "Um tipo de fruta"], correta: 1, explicacao: "A oca é a casa indígena feita de madeira e palha, comum nas aldeias." },
-        { pergunta: "Qual palavra usada no português vem das línguas indígenas?", alternativas: ["Sofá", "Telefone", "Jacaré", "Bicicleta"], correta: 1, explicacao: "Palavras como jacaré, abacaxi, pipoca e capivara vêm das línguas indígenas." }
+        { pergunta: "Os dois grandes troncos linguísticos indígenas do Brasil são...", alternativas: ["Tupi e Macro-Jê", "Latino e Germânico", "Arawak e Pano só", "Bantu e Iorubá"], correta: 0, explicacao: "Base da diversidade linguística nativa." },
+        { pergunta: "A mandioca cultivada no Brasil é resultado de...", alternativas: ["importação portuguesa", "domesticação indígena milenar", "acaso natural", "engenharia moderna"], correta: 1, explicacao: "Seleção artesanal de variedades tóxicas ao longo de milênios." },
+        { pergunta: "O principal fator de mortandade indígena pós-1500 foi...", alternativas: ["guerras só", "doenças europeias", "fome climática", "terremotos"], correta: 1, explicacao: "Sem imunidade: varíola e sarampo dizimaram populações." },
+        { pergunta: "A terra preta amazônica demonstra...", alternativas: ["solo naturalmente fértil", "manejo agrícola avançado dos povos antigos", "erro geológico", "importação africana"], correta: 1, explicacao: "Fertilizante produzido por sociedades amazônicas." }
       ]
     },
     {
       id: "f1-a3-his-3",
-      titulo: "Imigrantes e a formação do povo brasileiro",
+      titulo: "Imigração e a formação do povo brasileiro",
       blocos: [
-        { tipo: "paragrafo", texto: "O povo brasileiro é formado por muitas misturas! Indígenas, portugueses, africanos e imigrantes de vários países do mundo contribuíram para a nossa história, cultura e comida." },
-        { tipo: "titulo", texto: "O que é imigrar" },
-        { tipo: "paragrafo", texto: "Imigrar é deixar o próprio país para morar em outro lugar. Muitas famílias atravessaram o mar chegando ao Brasil buscando trabalho, terras e uma vida melhor." },
-        { tipo: "titulo", texto: "Grupos que vieram para o Brasil" },
-        { tipo: "lista", itens: ["Portugueses: colonizadores e imigrantes que trouxeram a língua que falamos", "Africanos: trazidos à força na época da escravidão, muito contribuíram para nossa cultura", "Italianos: plantaram uvas e café, principalmente no Sul e Sudeste", "Japoneses: grandes produtores de chá e café, sobretudo em São Paulo", "Sírio-libaneses, alemães, poloneses, ucranianos e muitos outros"] },
-        { tipo: "exemplo", texto: "A cidade de São Paulo tem o bairro da Liberdade, cheio de cultura japonesa, e o bairro do Bixiga, com tradições italianas. Em Santa Catarina e no Rio Grande do Sul, há cidades com casas e festas de estilo alemão e italiano!" },
-        { tipo: "titulo", texto: "A mistura que nos faz brasileiros" },
-        { tipo: "paragrafo", texto: "Da mistura de povos vieram nossa comida (pizza, macarrão, pão, temperos), as festas (como o Ano Novo japonês e a Oktoberfest), as palavras, a música e até o jeito de ser do brasileiro." },
-        { tipo: "paragrafo", texto: "Cada família brasileira carrega essa história: pergunte aos seus familiares de onde vieram os seus antepassados. Provavelmente você vai descobrir raízes de vários lugares do mundo!" },
-        { tipo: "atencao", texto: "O Brasil também tem histórias difíceis, como a escravidão dos povos africanos. Conhecer tudo isso, o bom e o triste, nos ajuda a respeitar todas as pessoas e a construir um país melhor." }
+        { tipo: "paragrafo", texto: "O povo brasileiro resulta de três grandes matrizes — indígena, africana e europeia — mais fluxos posteriores de asiáticos e meio-orientais. A imigração não foi homogênea: cada grupo chegou por razões e condições específicas." },
+        { tipo: "titulo", texto: "As ondas migratórias" },
+        { tipo: "lista", itens: ["Portugueses: desde 1500, colonizadores e, após 1808, imigrantes comuns", "Africanos: trazidos FORÇADAMENTE pelo tráfico negreiro (1501-1850), ~4,8 milhões de pessoas — a maior diáspora da história", "Italianos, espanhóis e portugueses (1870-1920): substituíram a mão de obra escravizada nas fazendas de café", "Alemães e suíços (desde 1824): colônias no Sul", "Japoneses (desde 1908): maior comunidade japonesa fora do Japão (São Paulo e Paraná)", "Sírio-libaneses (fim do séc. XIX): comércio urbano"] },
+        { tipo: "titulo", texto: "Motivações: fatores de expulsão e atração" },
+        { tipo: "paragrafo", texto: "Os imigrantes europeus vieram empurrados pela pobreza e pelas guerras na Europa (fatores de expulsão) e atraídos por propaganda do governo brasileiro que prometia terras (fatores de atração). Na prática, muitos enfrentaram contratos enganosos, dívidas nas fazendas e trabalho exaustivo — a 'escravidão por dívida' pós-abolição." },
+        { tipo: "exemplo", texto: "São Paulo é o retrato do mosaico: bairro da Liberdade (japoneses), Bixiga (italianos), comércio da 25 de Março (sírio-libaneses e chineses) — cada diáspora deixou comida, religião e vocabulário que hoje são 'brasileiros' por direito (sushi, polenta, esfiha)." },
+        { tipo: "titulo", texto: "Mestiçagem e identidade" },
+        { tipo: "paragrafo", texto: "A miscigenação produziu a população mestiça — hoje a maior 'raça/cor' declarada no Censo. A cultura resultante (língua, culinária, música, religiosidade) é síntese, não somatório de guetos: o feijoada, o samba e o idioma carregam as três matrizes simultaneamente." },
+        { tipo: "dica", texto: "Ordene as chegadas para questões: indígenas (origem milenar) → portugueses (1500) → africanos (tráfico, até 1850) → alemães (1824) → italianos/espanhóis (1870+) → japoneses (1908) → sírio-libaneses (fim do séc. XIX-XX)." },
+        { tipo: "atencao", texto: "Não confunda: africanos vieram como ESCRAVIZADOS (tráfico forçado), não como imigrantes. Equiparar as experiências é erro histórico grave — e tema recorrente de prova." }
       ],
       atividade: [
-        { pergunta: "O que significa imigrar?", alternativas: ["Fazer turismo", "Deixar o próprio país para morar em outro", "Mudar de cidade para outra do mesmo país", "Viajar de férias"], correta: 1, explicacao: "Imigrar é sair do próprio país para viver em outra nação." },
-        { pergunta: "Qual grupo foi trazido à força para o Brasil na época da escravidão?", alternativas: ["Os africanos", "Os alemães", "Os italianos", "Os japoneses"], correta: 0, explicacao: "Povos africanos foram trazidos à força durante a escravidão e marcaram profundamente a cultura brasileira." },
-        { pergunta: "A língua que falamos no Brasil, o português, veio de...", alternativas: ["dos portugueses", "dos japoneses", "dos franceses", "dos povos indígenas"], correta: 3, explicacao: "O português foi trazido pelos colonizadores portugueses e falado hoje por todo o país." },
-        { pergunta: "O que mostra que São Paulo recebeu imigrantes japoneses?", alternativas: ["O bairro da Liberdade, com cultura japonesa", "As praias da cidade", "A neve", "O zoológico"], correta: 0, explicacao: "O bairro da Liberdade, em São Paulo, é famoso pela cultura japonesa trazida pelos imigrantes." }
+        { pergunta: "A maior diáspora forçada da história foi o...", alternativas: ["êxodo rural", "tráfico negreiro para as Américas", "êxodo europeu", "movimento pendular"], correta: 1, explicacao: "~4,8 milhões de africanos trazidos forçadamente ao Brasil." },
+        { pergunta: "A imigração italiana (1870-1920) visava substituir...", alternativas: ["o comércio", "a mão de obra escravizada no café", "os indígenas", "os militares"], correta: 1, explicacao: "Pós-Lei Eusébio de Queirós e abolição: fazendas de café." },
+        { pergunta: "A maior comunidade japonesa fora do Japão fica em...", alternativas: ["EUA", "Brasil", "Peru", "Portugal"], correta: 1, explicacao: "Desde 1908, concentrada em SP e PR." },
+        { pergunta: "Fatores de expulsão são as causas que...", alternativas: ["atraem ao destino", "empurram o migrante de sua origem", "fecham fronteiras", "criam leis"], correta: 1, explicacao: "Pobreza e guerra expulsam; promessas de terra atraem." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "Objetos antigos, cartas, fotos e memórias de pessoas são...", alternativas: ["fontes históricas", "brinquedos", "comidas típicas", "lixo antigo"], correta: 3, explicacao: "Tudo isso são fontes históricas: pistas que revelam o passado." },
-      { pergunta: "Onde as fontes históricas são guardadas com cuidado?", alternativas: ["No lixão", "No fundo do mar", "Na lanchonete", "Em museus e arquivos"], correta: 3, explicacao: "Museus e arquivos protegem documentos e objetos históricos para o futuro." },
-      { pergunta: "Os povos indígenas são os...", alternativas: ["primeiros habitantes do Brasil", "turistas do Brasil", "estrangeiros no Brasil", "últimos habitantes do Brasil"], correta: 1, explicacao: "Os indígenas habitavam o Brasil muito antes da chegada dos europeus." },
-      { pergunta: "O que os povos indígenas plantavam?", alternativas: ["Só flores de plástico", "Somente trigo", "Mandioca, milho e batata-doce", "Nada, não sabiam plantar"], correta: 1, explicacao: "Os indígenas cultivavam mandioca, milho, batata-doce e frutas, além de pescar e caçar." },
-      { pergunta: "As palavras abacaxi, capivara e pipoca vieram de...", alternativas: ["do francês", "das línguas indígenas", "do japonês", "das línguas africanas"], correta: 3, explicacao: "Essas palavras vêm das línguas faladas pelos povos indígenas." },
-      { pergunta: "Por que dizemos que o povo brasileiro é misturado?", alternativas: ["Porque somos formados por indígenas, africanos, portugueses e imigrantes de muitos países", "Porque ninguém sabe de onde veio", "Porque gostamos de vitamina de frutas", "Porque mudamos de país sempre"], correta: 0, explicacao: "O povo brasileiro nasceu da mistura de povos indígenas, africanos, europeus e de imigrantes de várias partes do mundo." }
+      { pergunta: "Uma entrevista gravada com uma testemunha é fonte...", alternativas: ["material", "oral", "escrita", "visual"], correta: 1, explicacao: "História oral: testemunho registrado." },
+      { pergunta: "O número de línguas indígenas faladas hoje no Brasil é cerca de...", alternativas: ["2", "50", "270", "2000"], correta: 2, explicacao: "Censo 2010: ~274 línguas, mais de 300 povos." },
+      { pergunta: "Os imigrantes europeus do fim do século XIX vieram por...", alternativas: ["tráfico forçado", "expulsão (pobreza, guerra) e atração (propaganda)", "convite do imperador só", "turismo"], correta: 1, explicacao: "Push e pull: a dupla lógica das migrações." },
+      { pergunta: "A comida brasileira que evidencia herança indígena é...", alternativas: ["feijoada", "tapioca", "pizza", "sushi"], correta: 1, explicacao: "Mandioca domesticada pelos povos originários." },
+      { pergunta: "A mestiçagem no Brasil resultou em...", alternativas: ["guetos separados", "população mestiça majoritária e cultura-síntese", "extinção das matrizes", "padronização europeia"], correta: 1, explicacao: "Censo: pardos são o grupo mais numeroso." },
+      { pergunta: "Ler uma fonte criticamente significa perguntar...", alternativas: ["só o que ela diz", "quem a produziu, para quem e o que omite", "se é bonita", "se é recente só"], correta: 1, explicacao: "Todo documento tem autor, destinatário e interesse." }
     ]
   },
   exameFinal: [
-    { pergunta: "Uma foto antiga da sua cidade é uma fonte...", alternativas: ["musical", "de comida", "histórica, que mostra como era o passado", "de energia"], correta: 1, explicacao: "Fotografias antigas registram o passado e são fontes históricas importantes." },
-    { pergunta: "As ocas, moradias de madeira e palha, eram encontradas...", alternativas: ["nos castelos dos reis", "nos prédios de São Paulo", "nos navios", "nas aldeias indígenas"], correta: 0, explicacao: "As ocas eram as casas das aldeias indígenas." },
-    { pergunta: "Os imigrantes italianos e japoneses vieram para o Brasil principalmente...", alternativas: ["para fazer compras", "para aprender português na escola", "para trabalhar na lavoura, como o café", "para pular carnaval"], correta: 2, explicacao: "Muitos imigrantes vieram para trabalhar nas plantações, como as de café e uva." },
-    { pergunta: "Qual cultura NÃO contribuiu para a formação do povo brasileiro?", alternativas: ["Nenhuma, todas as citadas contribuíram", "A portuguesa", "A africana", "A indígena"], correta: 0, explicacao: "Indígenas, africanos e europeus, entre outros, formaram juntos o povo brasileiro." },
-    { pergunta: "Conhecer a história dos povos que formaram o Brasil nos ajuda a...", alternativas: ["só brincar", "viajar no tempo", "esquecer o passado", "respeitar todas as culturas e pessoas"], correta: 3, explicacao: "Conhecer a história de todos os povos desenvolve respeito e valoriza nossas raízes." }
+    { pergunta: "Arqueologia estuda principalmente fontes...", alternativas: ["escritas", "materiais", "orais", "digitais"], correta: 1, explicacao: "Objetos, ruínas e ossadas do passado." },
+    { pergunta: "A terra preta amazônica prova que povos indígenas...", alternativas: ["eram nômades sem técnica", "desenvolveram agricultura avançada", "não cultivavam", "só caçavam"], correta: 1, explicacao: "Manejo intensivo do solo pré-colonial." },
+    { pergunta: "O tráfico negreiro foi proibido em 1850 pela...", alternativas: ["Lei Áurea", "Lei Eusébio de Queirós", "Lei do Ventre Livre", "Constituição de 1824"], correta: 1, explicacao: "Fim do tráfico, não da escravidão (que durou até 1888)." },
+    { pergunta: "A imigração japonesa ao Brasil começou em...", alternativas: ["1824", "1870", "1908", "1950"], correta: 2, explicacao: "Kasato Maru, porto de Santos, 1908." },
+    { pergunta: "A formação do povo brasileiro é síntese de...", alternativas: ["apenas europeus", "matrizes indígena, africana e europeia (+ asiáticos)", "apenas africanos", "apenas indígenas"], correta: 1, explicacao: "Mestiçagem e intercâmbio cultural contínuos." }
   ]
 };

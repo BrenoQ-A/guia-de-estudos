@@ -4,80 +4,83 @@ window.GuiaConteudo["f1-a3-mat"] = {
   aulas: [
     {
       id: "f1-a3-mat-1",
-      titulo: "Multiplicação e tabuadas até 9",
+      titulo: "Multiplicação: algoritmo e tabuadas até 9",
       blocos: [
-        { tipo: "paragrafo", texto: "A multiplicação é um jeito esperto de somar o mesmo número várias vezes. Em vez de escrever 4 + 4 + 4 + 4, podemos escrever 4 × 4. Muito mais rápido!" },
-        { tipo: "titulo", texto: "Multiplicar é somar várias vezes" },
-        { tipo: "paragrafo", texto: "Quando multiplicamos, o primeiro número diz quantas vezes vamos somar o segundo. Então 3 × 5 quer dizer: três vezes o número 5, ou seja, 5 + 5 + 5, que dá 15. O sinal da multiplicação é o ×, os números que multiplicamos se chamam fatores e o resultado se chama produto." },
-        { tipo: "exemplo", texto: "Uma caixa tem 4 lápis. Quantos lápis há em 3 caixas iguais? É 4 × 3 = 12 lápis. É a mesma coisa que 4 + 4 + 4 = 12. Aqui os fatores são 4 e 3, e o produto é 12." },
-        { tipo: "titulo", texto: "As tabuadas" },
-        { tipo: "lista", itens: ["Tabuada do 2: 2 × 1 = 2, 2 × 2 = 4, 2 × 3 = 6, 2 × 4 = 8, 2 × 5 = 10...", "Tabuada do 5: 5 × 1 = 5, 5 × 2 = 10, 5 × 3 = 15, 5 × 4 = 20, 5 × 5 = 25...", "Tabuada do 9: 9 × 1 = 9, 9 × 2 = 18, 9 × 3 = 27, 9 × 4 = 36, 9 × 5 = 45..."] },
-        { tipo: "paragrafo", texto: "Na tabuada do 5, todo produto termina em 5 ou em 0. Na tabuada do 9, olhe o resultado: os algarismos somados sempre dão 9! Em 9 × 4 = 36, temos 3 + 6 = 9. Que mágica!" },
-        { tipo: "dica", texto: "Treine um pouco todo dia, cantando ou brincando de adivinhar a tabuada. Quem pratica todos os dias nunca esquece!" }
+        { tipo: "paragrafo", texto: "A multiplicação compacta somas repetidas e é a operação mais utilizada do cálculo cotidiano — de parcelas de boleto a horas trabalhadas. O domínio das tabuadas até 9 elimina a maior fonte de lentidão em provas." },
+        { tipo: "titulo", texto: "O algoritmo com transporte" },
+        { tipo: "paragrafo", texto: "Em multiplicações com dois algarismos, multiplica-se cada algarismo do multiplicador separadamente e somam-se os produtos parciais, deslocando uma casa para a esquerda a cada linha." },
+        { tipo: "exemplo", texto: "345 × 27: primeiro 345 × 7 = 2.415; depois 345 × 20 = 6.900; soma dos parciais: 2.415 + 6.900 = 9.315. O 'zero' implícito na segunda linha é o deslocamento de posição." },
+        { tipo: "titulo", texto: "Atalhos de tabuada" },
+        { tipo: "lista", itens: ["×5: multiplica por 10 e divide por 2 (5 × 24 = 240 ÷ 2 = 120)", "×9: multiplica por 10 e subtrai a parcela (9 × 24 = 240 − 24 = 216)", "×11: para números de 2 algarismos, 'separa e soma' (11 × 34 = 374: 3 [3+4] 4)", "Quadrados próximos de 10: 98 × 98 = (100 − 2)² = 9.604"] },
+        { tipo: "dica", texto: "As tabuadas do 2, 5 e 10 são triviais; concentre esforço em 6, 7 e 8 — as que mais custam tempo. 15 minutos diários de prática ativa valem mais que reler a tabela." },
+        { tipo: "atencao", texto: "Confusão clássica: multiplicar 345 × 27 e somar 345 × 7 + 345 × 2 (sem o zero). O segundo algarismo vale 20, não 2 — o deslocamento de posição é obrigatório." }
       ],
       atividade: [
-        { pergunta: "Quanto é 4 × 3?", alternativas: ["12", "7", "34", "9"], correta: 0, explicacao: "4 × 3 é a mesma coisa que 4 + 4 + 4 = 12." },
-        { pergunta: "Quanto é 5 × 6?", alternativas: ["11", "25", "56", "30"], correta: 3, explicacao: "5 × 6 = 30, pois 5 + 5 + 5 + 5 + 5 + 5 = 30." },
-        { pergunta: "A expressão 2 × 8 é igual a qual soma?", alternativas: ["8 + 8", "2 + 2 + 2", "2 + 8", "8 + 8 + 8"], correta: 0, explicacao: "2 × 8 quer dizer duas vezes o 8, então 8 + 8 = 16." },
-        { pergunta: "Quantas rodas têm 5 bicicletas, se cada uma tem 2 rodas?", alternativas: ["12 rodas", "10 rodas", "25 rodas", "7 rodas"], correta: 1, explicacao: "5 × 2 = 10 rodas." }
+        { pergunta: "Quanto é 7 × 8?", alternativas: ["54", "56", "63", "64"], correta: 1, explicacao: "Tabuada do 7: 7 × 8 = 56." },
+        { pergunta: "Quanto é 234 × 2?", alternativas: ["458", "468", "478", "268"], correta: 1, explicacao: "2 × 4 = 8; 2 × 3 = 6; 2 × 2 = 4 → 468." },
+        { pergunta: "Usando o atalho do ×9: 9 × 32 vale...", alternativas: ["288", "298", "272", "322"], correta: 0, explicacao: "320 − 32 = 288." },
+        { pergunta: "345 × 27 = (345 × 7) + ...", alternativas: ["345 × 2", "345 × 20", "345 × 27", "34 × 20"], correta: 1, explicacao: "O 2 do 27 está na casa das dezenas: vale 20." }
       ]
     },
     {
       id: "f1-a3-mat-2",
-      titulo: "Divisão: exata e com resto",
+      titulo: "Divisão: exata, com resto e problemas",
       blocos: [
-        { tipo: "paragrafo", texto: "A divisão serve para repartir coisas em partes iguais. Se temos 12 balas e 3 crianças, dividimos as balas para que cada criança receba a mesma quantidade." },
-        { tipo: "titulo", texto: "Repartindo em partes iguais" },
-        { tipo: "paragrafo", texto: "O sinal da divisão é o ÷. Em 12 ÷ 3 = 4, dizemos: doze dividido por três é igual a quatro. Cada criança fica com 4 balas, e ninguém fica triste!" },
-        { tipo: "exemplo", texto: "18 figurinhas para 6 amigos: 18 ÷ 6 = 3. Cada amigo recebe 3 figurinhas. Podemos conferir com a multiplicação: 6 × 3 = 18. Deu certo!" },
-        { tipo: "titulo", texto: "Divisão exata e divisão com resto" },
-        { tipo: "paragrafo", texto: "Às vezes a divisão sai perfeita, como 10 ÷ 2 = 5. Isso é divisão exata. Outras vezes sobra um pedacinho, que chamamos de resto." },
-        { tipo: "exemplo", texto: "13 brigadeiros para 2 crianças: 13 ÷ 2 = 6 com resto 1. Cada criança recebe 6 brigadeiros, e sobra 1 brigadeiro no prato!" },
-        { tipo: "lista", itens: ["Dividendo: o número que vamos repartir (as 13 balas).", "Divisor: por quantos grupos vamos dividir (as 2 crianças).", "Quociente: o resultado, o que cada um recebe (6 balas).", "Resto: o que sobra no final (1 bala)."] }
+        { tipo: "paragrafo", texto: "Divisão reparte uma quantidade em partes iguais ou mede quantas vezes um número cabe em outro. Seus termos: dividendo ÷ divisor = quociente (+ resto)." },
+        { tipo: "titulo", texto: "Divisão exata e inexata" },
+        { tipo: "paragrafo", texto: "Exata: o resto é zero (36 ÷ 4 = 9). Inexata: sobra um resto menor que o divisor (37 ÷ 4 = 9, resto 1). A relação fundamental confirma qualquer conta: dividendo = divisor × quociente + resto." },
+        { tipo: "exemplo", texto: "Divisão por dois dígitos, 156 ÷ 12: 12 cabe 1 vez em 15 (resta 3); desce o 6 → 36; 12 × 3 = 36. Quociente: 13, resto 0. Verificação: 12 × 13 = 156." },
+        { tipo: "titulo", texto: "Divisibilidade útil" },
+        { tipo: "lista", itens: ["Por 2: número par", "Por 3: soma dos algarismos divisível por 3 (732 → 12 → sim)", "Por 5: termina em 0 ou 5", "Por 10: termina em 0"] },
+        { tipo: "titulo", texto: "Problemas: identificar a operação" },
+        { tipo: "paragrafo", texto: "Dividir aparece quando o enunciado REPARTE (repartir 48 reais entre 6 pessoas) ou MEDE frequência (quantas caixas de 12 cabem em 96 unidades). Interpretar o enunciado é metade da solução; o cálculo é a outra metade." },
+        { tipo: "dica", texto: "O resto tem significado prático em problemas: 'quantos ônibus de 45 lugares para 200 pessoas?' → 200 ÷ 45 = 4, resto 20 → são necessários 5 ônibus (arredonda-se para cima)." },
+        { tipo: "atencao", texto: "Resto nunca pode ser maior ou igual ao divisor: se der resto 50 numa divisão por 12, o quociente está errado — falta uma unidade." }
       ],
       atividade: [
-        { pergunta: "Quanto é 10 ÷ 2?", alternativas: ["4", "5", "8", "6"], correta: 1, explicacao: "10 ÷ 2 = 5, porque 5 × 2 = 10." },
-        { pergunta: "Quanto é 14 ÷ 4?", alternativas: ["5 com resto 1", "2 com resto 6", "4 com resto 1", "3 com resto 2"], correta: 3, explicacao: "4 × 3 = 12, e 14 - 12 = 2. Então 14 ÷ 4 = 3 com resto 2." },
-        { pergunta: "Quanto é 18 ÷ 3?", alternativas: ["6", "9", "7", "5"], correta: 0, explicacao: "18 ÷ 3 = 6, porque 6 × 3 = 18." },
-        { pergunta: "15 balas divididas igualmente entre 5 amigos: quantas balas cada um recebe?", alternativas: ["2 balas", "4 balas", "5 balas", "3 balas"], correta: 3, explicacao: "15 ÷ 5 = 3. Cada amigo recebe 3 balas." }
+        { pergunta: "Quanto é 84 ÷ 7?", alternativas: ["11", "12", "13", "14"], correta: 1, explicacao: "7 × 12 = 84: divisão exata." },
+        { pergunta: "Dividindo 100 por 7, quociente e resto são...", alternativas: ["14 e 2", "13 e 9", "14 e 0", "15 e 5"], correta: 0, explicacao: "7 × 14 = 98; sobra 2." },
+        { pergunta: "Repartindo R$ 72 entre 6 pessoas, cada uma recebe...", alternativas: ["R$ 10", "R$ 12", "R$ 14", "R$ 16"], correta: 1, explicacao: "72 ÷ 6 = 12 (exata)." },
+        { pergunta: "216 é divisível por 3 porque...", alternativas: ["termina em 6", "2 + 1 + 6 = 9, divisível por 3", "é par", "é múltiplo de 10"], correta: 1, explicacao: "Critério da soma dos algarismos." }
       ]
     },
     {
       id: "f1-a3-mat-3",
-      titulo: "Frações: partes do todo",
+      titulo: "Frações: partes do todo e comparação",
       blocos: [
-        { tipo: "paragrafo", texto: "Quando dividimos algo inteiro em pedaços iguais, cada pedaço é uma fração. Fração é um pedacinho de um todo!" },
-        { tipo: "titulo", texto: "Uma pizza dividida" },
-        { tipo: "paragrafo", texto: "Imagine uma pizza cortada em 4 pedaços iguais. Se você come 1 pedaço, comeu um quarto da pizza, que escrevemos assim: 1/4. Se comeu 2 pedaços, comeu 2/4." },
-        { tipo: "exemplo", texto: "Um bolo cortado em 8 pedaços iguais e você comeu 3: você comeu 3/8 do bolo. O 3 diz quantos pedaços você comeu, e o 8 diz em quantos pedaços o bolo foi dividido." },
-        { tipo: "titulo", texto: "Numerador e denominador" },
-        { tipo: "paragrafo", texto: "Na fração 2/5, o número de cima (2) é o numerador: ele conta as partes escolhidas. O número de baixo (5) é o denominador: ele conta em quantas partes iguais o todo foi dividido." },
-        { tipo: "lista", itens: ["1/2 é a metade: o todo dividido em 2 partes iguais.", "1/3 é um terço: o todo dividido em 3 partes iguais.", "1/4 é um quarto: o todo dividido em 4 partes iguais."] },
-        { tipo: "paragrafo", texto: "Para comparar frações com o mesmo denominador, ganha quem tiver o maior numerador: 2/3 é maior que 1/3, porque 2 pedaços são mais que 1 pedaço. Mas cuidado com a pegadinha: dividindo o todo em mais partes, cada parte fica menor! Por isso 1/2 de uma pizza é MAIOR que 1/4 da mesma pizza." }
+        { tipo: "paragrafo", texto: "Fração representa parte de um todo dividido em partes iguais. Em 3/4, o denominador (4) diz em quantas partes o todo foi dividido; o numerador (3), quantas partes se consideram." },
+        { tipo: "titulo", texto: "Leitura e representação" },
+        { tipo: "lista", itens: ["1/2: um meio (a metade)", "1/3: um terço", "1/4: um quarto", "2/5: dois quintos", "Fração unitária: numerador 1 (1/2, 1/3, 1/4...)"] },
+        { tipo: "exemplo", texto: "Uma pizza cortada em 8 pedaços iguais, com 3 consumidos: resta 5/8. Se cada pedaço custa R$ 7, o consumo foi 3 × 7 = R$ 21 — fração convertida em operação concreta." },
+        { tipo: "titulo", texto: "Comparação" },
+        { tipo: "paragrafo", texto: "Mesmo denominador: compara-se o numerador (3/7 > 2/7). Mesmo numerador: vence o MENOR denominador (1/2 > 1/3 — dividir por menos partes dá pedaços maiores). Denominadores diferentes: reduza ao mesmo denominador comum antes de comparar." },
+        { tipo: "paragrafo", texto: "Fração e número inteiro: quando numerador = denominador, a fração vale 1 (4/4 = 1). Numerador maior que denominador representa mais que o todo (5/4 = 1 inteiro e 1/4) — frações impróprias." },
+        { tipo: "dica", texto: "Visualize sempre um retângulo dividido: metade de metade é 1/4. A intuição visual resolve a maioria das questões de comparação sem conta alguma." },
+        { tipo: "atencao", texto: "Erro clássico: achar que 1/5 > 1/2 porque 5 > 2. Dividir o todo em MAIS partes gera pedaços MENORES: 1/5 < 1/2. Denominador maior = parte menor." }
       ],
       atividade: [
-        { pergunta: "Uma pizza foi dividida em 4 pedaços iguais e João comeu 1 pedaço. Que fração João comeu?", alternativas: ["1/4", "1/2", "4/1", "1/3"], correta: 0, explicacao: "O todo tem 4 partes e 1 foi comida: 1/4, um quarto." },
-        { pergunta: "Qual fração representa a METADE de algo?", alternativas: ["3/4", "2/3", "1/2", "1/4"], correta: 2, explicacao: "A metade é 1/2: o todo dividido em 2 partes iguais." },
-        { pergunta: "Qual é a fração MAIOR?", alternativas: ["são iguais", "1/3", "não sei comparar", "2/3"], correta: 3, explicacao: "Com o mesmo denominador, vence o maior numerador: 2/3 é maior que 1/3." },
-        { pergunta: "Na fração 3/4, o que o número 4 indica?", alternativas: ["quantos anos você tem", "quantos pedaços foram comidos", "a cor do bolo", "em quantas partes iguais o todo foi dividido"], correta: 3, explicacao: "O denominador (4) mostra em quantas partes iguais o todo foi dividido." }
+        { pergunta: "Na fração 3/4, o número 4 indica...", alternativas: ["as partes consideradas", "em quantas partes o todo foi dividido", "o resultado", "a soma"], correta: 1, explicacao: "Denominador: divisor do todo." },
+        { pergunta: "Qual fração é MAIOR: 2/3 ou 2/5?", alternativas: ["2/3", "2/5", "são iguais", "não se compara"], correta: 0, explicacao: "Mesmo numerador: menor denominador (3) gera partes maiores." },
+        { pergunta: "Uma pizza tem 8 pedaços; 5 foram consumidos. A fração restante é...", alternativas: ["5/8", "3/8", "8/5", "1/8"], correta: 1, explicacao: "Restam 8 − 5 = 3 pedaços: 3/8." },
+        { pergunta: "4/4 equivale a...", alternativas: ["0", "1", "4", "1/2"], correta: 1, explicacao: "Todo dividido em 4 e tomado por inteiro: 1." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "Quanto é 7 × 8?", alternativas: ["54", "56", "63", "48"], correta: 1, explicacao: "7 × 8 = 56." },
-      { pergunta: "Quanto é 24 ÷ 6?", alternativas: ["6", "4", "5", "3"], correta: 1, explicacao: "24 ÷ 6 = 4, porque 6 × 4 = 24." },
-      { pergunta: "Quanto é 17 ÷ 5?", alternativas: ["3 com resto 1", "4 com resto 1", "5 com resto 2", "3 com resto 2"], correta: 3, explicacao: "5 × 3 = 15, e sobram 2. Então é 3 com resto 2." },
-      { pergunta: "Uma barra de chocolate tem 10 pedaços iguais e Ana comeu 5. Que fração Ana comeu?", alternativas: ["5/10", "10/5", "5/1", "1/10"], correta: 0, explicacao: "5 pedaços de 10: 5/10, que é a metade da barra." },
-      { pergunta: "Quanto é 3 × 9?", alternativas: ["32", "24", "27", "18"], correta: 2, explicacao: "3 × 9 = 27, pois 9 + 9 + 9 = 27." },
-      { pergunta: "Quanto é 36 ÷ 4?", alternativas: ["10", "8", "9", "7"], correta: 2, explicacao: "36 ÷ 4 = 9, porque 9 × 4 = 36." }
+      { pergunta: "Quanto é 8 × 7?", alternativas: ["54", "56", "64", "48"], correta: 1, explicacao: "Tabuada: 56." },
+      { pergunta: "345 × 20 equivale a 345 × 2 com...", alternativas: ["mesmo valor", "uma casa a mais (deslocamento)", "metade", "sinal trocado"], correta: 1, explicacao: "Multiplicar por 10 desloca uma posição: 6.900." },
+      { pergunta: "Quanto é 132 ÷ 11?", alternativas: ["11", "12", "13", "21"], correta: 1, explicacao: "11 × 12 = 132." },
+      { pergunta: "A relação fundamental da divisão é...", alternativas: ["D = d × q + r", "D = d + q + r", "D = q ÷ r", "D = d − r"], correta: 0, explicacao: "Dividendo = divisor × quociente + resto." },
+      { pergunta: "Qual é a fração MAIOR: 3/4 ou 3/5?", alternativas: ["3/5", "3/4", "iguais", "depende"], correta: 1, explicacao: "Mesmo numerador: 4 partes são maiores que 5." },
+      { pergunta: "7/7 equivale a...", alternativas: ["7", "1", "0", "1/7"], correta: 1, explicacao: "Numerador = denominador: o todo inteiro." }
     ]
   },
   exameFinal: [
-    { pergunta: "Quanto é 6 × 6?", alternativas: ["66", "12", "30", "36"], correta: 3, explicacao: "6 × 6 = 36." },
-    { pergunta: "Quanto é 20 ÷ 5?", alternativas: ["3", "4", "10", "5"], correta: 1, explicacao: "20 ÷ 5 = 4, porque 4 × 5 = 20." },
-    { pergunta: "Quanto é 9 × 4?", alternativas: ["36", "32", "40", "27"], correta: 0, explicacao: "9 × 4 = 36, pois 9 + 9 + 9 + 9 = 36." },
-    { pergunta: "Uma pizza tem 8 pedaços iguais e 3 foram comidos. Que fração sobrou?", alternativas: ["8/3", "1/8", "5/8", "3/8"], correta: 2, explicacao: "Se 3 de 8 foram comidos, sobraram 5: fração 5/8." },
-    { pergunta: "Quanto é 45 ÷ 9?", alternativas: ["6", "7", "4", "5"], correta: 3, explicacao: "45 ÷ 9 = 5, porque 9 × 5 = 45." }
+    { pergunta: "Quanto é 6 × 9 pelo atalho?", alternativas: ["60 − 6 = 54", "60 + 6 = 66", "36", "64"], correta: 0, explicacao: "×9 = ×10 − parcela: 54." },
+    { pergunta: "O resto da divisão 95 ÷ 8 é...", alternativas: ["1", "3", "7", "0"], correta: 2, explicacao: "8 × 11 = 88; 95 − 88 = 7." },
+    { pergunta: "Em 'repartir R$ 45 entre 5 pessoas', cada uma recebe...", alternativas: ["R$ 8", "R$ 9", "R$ 10", "R$ 11"], correta: 1, explicacao: "45 ÷ 5 = 9 (exata)." },
+    { pergunta: "Comparando 1/3 e 1/4, é maior...", alternativas: ["1/4", "1/3", "iguais", "incomparáveis"], correta: 1, explicacao: "Menos divisões = partes maiores." },
+    { pergunta: "5/4 representa...", alternativas: ["menos que o todo", "exatamente o todo", "mais que o todo (1 e 1/4)", "uma metade"], correta: 2, explicacao: "Fração imprópria: supera o inteiro." }
   ]
 };

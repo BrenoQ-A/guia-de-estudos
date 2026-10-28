@@ -4,81 +4,86 @@ window.GuiaConteudo["f1-a3-geo"] = {
   aulas: [
     {
       id: "f1-a3-geo-1",
-      titulo: "O município: zona urbana e zona rural",
+      titulo: "Município: zona urbana e zona rural",
       blocos: [
-        { tipo: "paragrafo", texto: "O município é o pedaço do território governado por uma prefeitura, com uma prefeitura, uma cidade-sede e, às vezes, povoados e sítios ao redor." },
+        { tipo: "paragrafo", texto: "O município é a menor unidade político-administrativa do Brasil, governada por prefeito e Câmara Municipal. Todo município se divide em zona urbana (a cidade e seus bairros) e zona rural (campo, fazendas e povoados) — divisão definida por lei municipal, não por aparência." },
         { tipo: "titulo", texto: "Zona urbana" },
-        { tipo: "paragrafo", texto: "É a parte do município com muita gente e construções: casas, prédios, ruas asfaltadas, escolas, hospitais, lojas e indústrias. É onde fica a cidade." },
+        { tipo: "lista", itens: ["Alta densidade de construções e população", "Economia de comércio e serviços, com alguma indústria", "Infraestrutura: rede de água, esgoto, energia, transporte público, escolas e hospitais", "Sede do poder municipal: prefeitura, câmara, fórum"] },
         { tipo: "titulo", texto: "Zona rural" },
-        { tipo: "paragrafo", texto: "É a parte com mais natureza: fazendas, sítios, plantações e criação de animais. As casas ficam mais distantes umas das outras e o ritmo de vida é mais calmo." },
-        { tipo: "exemplo", texto: "Na zona rural, um agricultor planta soja e cria galinhas; na zona urbana, ele venderia os ovos num mercado. Campo e cidade se complementam: a cidade consome o que o campo produz." },
-        { tipo: "lista", itens: ["Zona urbana: comércios, serviços, indústrias, prédios", "Zona rural: plantações, pastos, criações de animais", "Muitas pessoas trabalham no campo, mas moram na cidade (e vice-versa)"] },
-        { tipo: "dica", texto: "Nem toda zona urbana é gigante: pequenas cidades do interior têm poucas ruas, mas ainda são a zona urbana do município." }
+        { tipo: "paragrafo", texto: "Economia agropecuária e extrativista; baixa densidade e grandes extensões de terra. O Brasil rural moderno é tecnológico (colheitadeiras com GPS, irrigação automatizada) — 'rural' não significa 'atrasado', significa setor primário." },
+        { tipo: "exemplo", texto: "Um município do interior paulista: o prefeito e a câmara ficam na cidade (urbana), o FRAPORT... — melhor: a agroindústria de açúcar fica na periferia urbana, os canaviais no rural. O orçamento do município depende dos dois: impostos urbanos + produção rural." },
+        { tipo: "titulo", texto: "A prefeitura e o orçamento" },
+        { tipo: "paragrafo", texto: "O município arrecada IPTU (urbano) e ITR (rural), recebe repasses estaduais e federais, e é responsável por: ensino fundamental, postos de saúde (UBS), transporte coletivo urbano, iluminação e licenciamento. É o nível de governo mais próximo do cidadão." },
+        { tipo: "dica", texto: "Em provas, o conceito cobrado é jurídico: perímetro urbano é DELIMITADO POR LEI. Uma chácara dentro do perímetro é urbana; um condomínio fora, rural. Não julgue pela paisagem." },
+        { tipo: "atencao", texto: "Distrito ≠ município: distritos são subdivisões internas do município (vilas e povoados). Um município pode ter vários distritos, cada um com seu 'centrinho', mas uma única prefeitura." }
       ],
       atividade: [
-        { pergunta: "Quem governa um município?", alternativas: ["O presidente", "O prefeito", "O governador", "O rei"], correta: 1, explicacao: "O prefeito administra o município com sua equipe na prefeitura." },
-        { pergunta: "Fazendas e plantações ficam na...", alternativas: ["praia", "zona urbana", "zona rural", "capital"], correta: 2, explicacao: "A zona rural é a área do campo, com plantações e criações." },
-        { pergunta: "Onde ficam a maioria dos hospitais e shoppings?", alternativas: ["Na zona urbana", "No meio do mato", "No subsolo", "Na zona rural"], correta: 0, explicacao: "Serviços concentrados fazem parte da vida urbana." },
-        { pergunta: "Campo e cidade se relacionam porque...", alternativas: ["o campo não produz nada", "a cidade consome o que o campo produz", "são independentes", "a cidade não consome nada"], correta: 1, explicacao: "Alimentos e matérias-primas do campo abastecem as cidades." }
+        { pergunta: "O menor nível de governo brasileiro é o...", alternativas: ["estado", "município", "distrito federal", "país"], correta: 1, explicacao: "Município: prefeito e câmara municipal." },
+        { pergunta: "A divisão urbano/rural de um município é definida...", alternativas: ["pela paisagem", "por lei municipal", "pelos moradores", "pelo clima"], correta: 1, explicacao: "Perímetro urbano delimitado por lei." },
+        { pergunta: "O imposto sobre propriedade URBANA é o...", alternativas: ["ITR", "IPTU", "IPVA", "IR"], correta: 1, explicacao: "IPTU: urbano. ITR: rural." },
+        { pergunta: "A administração municipal cabe ao...", alternativas: ["governador", "prefeito", "presidente", "juiz"], correta: 1, explicacao: "Prefeito executa; câmara legisla." }
       ]
     },
     {
       id: "f1-a3-geo-2",
-      titulo: "Relevo e rios do Brasil",
+      titulo: "Relevo e hidrografia do Brasil",
       blocos: [
-        { tipo: "paragrafo", texto: "Relevo são as formas da superfície da Terra: montanhas, planaltos, planícies e depressões. O Brasil tem um relevo bem variado." },
-        { tipo: "titulo", texto: "As formas do relevo" },
-        { tipo: "lista", itens: ["Planalto: superfície alta e mais plana, com bordas íngremes (Planalto Central)", "Planície: terreno baixo e bem plano, junto aos rios (Planície Amazônica)", "Montanhas e serras: pontos bem altos (Pico da Neblina, o mais alto do Brasil)", "Depressão: áreas mais rebaixadas entre os planaltos"] },
-        { tipo: "titulo", texto: "Os rios brasileiros" },
-        { tipo: "paragrafo", texto: "O Brasil é um país riquíssimo em água doce. O rio Amazonas é o maior rio do mundo em volume de água. Outros importantes: São Francisco, Paraná, Tocantins e Madeira." },
-        { tipo: "exemplo", texto: "Os rios nascem em áreas altas (nascentes, geralmente em planaltos) e correm para as áreas baixas, desaguando em outros rios, em lagos ou no mar (foz)." },
-        { tipo: "titulo", texto: "Para que servem os rios" },
-        { tipo: "paragrafo", texto: "Os rios dão água para beber, irrigam plantações, servem de caminho para barcos, geram energia nas hidrelétricas e abrigam muita vida." },
-        { tipo: "atencao", texto: "Poluir um rio prejudica tudo o que depende dele: peixes, plantas, animais e as próprias pessoas que usam a água." }
+        { tipo: "paragrafo", texto: "O relevo brasileiro é antigo e aplainado — resultado de milhões de anos de erosão. Diferente dos Andes jovens e íngremes, aqui predominam planaltos suaves, com poucos picos relevantes." },
+        { tipo: "titulo", texto: "Formas de relevo" },
+        { tipo: "lista", itens: ["Planaltos: ~59% do território; superfícies elevadas e aplainadas (Planalto Central, Meridional)", "Planícies: ~41%; terrenos baixos e planos junto aos rios (Amazônica, do Pantanal, litorâneas)", "Depressões: áreas rebaixadas entre planaltos", "Picos: Pico da Neblina (2.995 m) é o ponto mais alto — modesto em termos mundiais"] },
+        { tipo: "titulo", texto: "A grande rede de drenagem" },
+        { tipo: "paragrafo", texto: "O Brasil concentra ~12% da água doce do planeta e possui sete grandes bacias hidrográficas. Destaques: Bacia Amazônica (maior do mundo em vazão), Bacia do Paraná (energia: Itaipu), Bacia do São Francisco ('rio da integração nacional', atravessa o semiárido), Bacia Tocantins-Araguaia e bacias do Atlântico Sul." },
+        { tipo: "exemplo", texto: "O rio Amazonas despeja ~20% de toda a água doce que chega aos oceanos do planeta. Sua bacia cobre parte de 7 países — por isso a Amazônia é tema de geopolítica internacional, não apenas nacional." },
+        { tipo: "titulo", texto: "Usos e conflitos da água" },
+        { tipo: "paragrafo", texto: "Usos concorrentes: abastecimento urbano, irrigação agrícola (~70% do consumo mundial), hidrelétricas, navegação e indústria. Conflitos clássicos: transposição do São Francisco, Hidrovia Tietê-Paraná, barragens no Xingu (Belo Monte). Gestão participativa: comitês de bacia hidrográfica (Lei das Águas, 1997)." },
+        { tipo: "dica", texto: "Guarde o trio: planaltos (maior área), planícies (rios), depressões (entre planaltos). E as cinco bacias-chave com suas funções: Amazônica (vazão), Paraná (energia), São Francisco (integração), Tocantins (transporte e energia), Atlântico (litoral)." },
+        { tipo: "atencao", texto: "Os 'rios voadores': a Amazônia evapora bilhões de litros diários que caem como chuva no Centro-Sul. Desmatar a floresta compromete o regime de chuvas de SP, MG e Goiás — a hidrografia é sistema interligado, não peça isolada." }
       ],
       atividade: [
-        { pergunta: "Terreno alto e relativamente plano é um...", alternativas: ["oceano", "planície", "planalto", "deserto"], correta: 2, explicacao: "Planaltos são elevações com topo mais plano." },
-        { pergunta: "Qual é o maior rio do mundo em volume de água?", alternativas: ["Rio São Francisco", "Rio Nilo", "Rio Paraná", "Rio Amazonas"], correta: 3, explicacao: "O Amazonas carrega mais água que qualquer outro rio do planeta." },
-        { pergunta: "As nascentes dos rios geralmente ficam em...", alternativas: ["áreas altas", "no mar", "no céu", "em desertos"], correta: 0, explicacao: "A água desce de lugares altos para baixos: nasce nas elevações." },
-        { pergunta: "As planícies são terrenos...", alternativas: ["cheios de montanhas", "baixos e planos", "altos e íngremes", "sempre gelados"], correta: 1, explicacao: "Planícies ficam nas partes baixas, geralmente junto aos rios." }
+        { pergunta: "O relevo brasileiro é predominantemente...", alternativas: ["montanhoso e jovem", "antigo e aplainado", "vulcânico", "desértico"], correta: 1, explicacao: "Milhões de anos de erosão: planaltos suaves." },
+        { pergunta: "O ponto mais alto do Brasil é...", alternativas: ["Monte Roraima", "Pico da Neblina", "Pico da Bandeira", "Pico Paraná"], correta: 1, explicacao: "2.995 m, no Amazonas, fronteira com a Venezuela." },
+        { pergunta: "A maior bacia hidrográfica do mundo em vazão é a...", alternativas: ["Paraná", "Amazônica", "São Francisco", "Nilo"], correta: 1, explicacao: "~20% da água doce que chega aos oceanos." },
+        { pergunta: "Itaipu está localizada na bacia do rio...", alternativas: ["Amazonas", "Paraná", "São Francisco", "Tocantins"], correta: 1, explicacao: "Fronteira Brasil-Paraguai: energia binacional." }
       ]
     },
     {
       id: "f1-a3-geo-3",
-      titulo: "Clima e vegetação do Brasil",
+      titulo: "Clima e vegetação brasileiros",
       blocos: [
-        { tipo: "paragrafo", texto: "Clima é o comportamento do tempo em um lugar ao longo dos anos: se costuma ser quente, frio, chuvoso ou seco. Vegetação são as plantas que crescem naturalmente em cada região." },
-        { tipo: "titulo", texto: "Os climas do Brasil" },
-        { tipo: "lista", itens: ["Equatorial: quente e muito úmido na Amazônia, com chuvas quase diárias", "Tropical: verão quente e chuvoso, inverno mais seco (Brasil Central)", "Semiárido: quente e seco, no sertão do Nordeste", "Tropical de altitude: mais fresco, em cidades serranas", "Subtropical: quatro estações bem definidas, no Sul, com frio no inverno"] },
-        { tipo: "titulo", texto: "As vegetações" },
-        { tipo: "paragrafo", texto: "Cada clima forma uma vegetação diferente: a floresta Amazônica densa e fechada no clima equatorial; o Cerrado, com árvores retorcidas, no clima tropical; a Caatinga, com plantas resistentes à seca, no semiárido; a Mata Atlântica na costa; e os pinheirais e pampas no Sul." },
-        { tipo: "exemplo", texto: "No sertão semiárido cresce a Caatinga: cactos como o mandacaru guardam água e perdem folhas para economizar. Já na Amazônia úmida, árvores gigantes e folhas largas por todo lado." },
-        { tipo: "dica", texto: "Onde chove muito → florestas. Onde é seco → vegetações ralas e adaptadas. O clima 'comanda' a vegetação." },
-        { tipo: "atencao", texto: "Tempo e clima são diferentes: tempo é de hoje (chove agora), clima é o padrão de muitos anos." }
+        { tipo: "paragrafo", texto: "Clima é o padrão de comportamento da atmosfera ao longo dos anos; vegetação natural é o conjunto de plantas que se adapta a cada clima. No Brasil, a correspondência clima-vegetação é direta e cada par forma um bioma." },
+        { tipo: "titulo", texto: "Os climas brasileiros" },
+        { tipo: "lista", itens: ["Equatorial (Amazônia): quente e muito úmido, chuvas quase diárias", "Tropical (Brasil Central): verão chuvoso, inverno seco", "Semiárido (sertão NE): quente e seco, chuvas escassas e irregulares", "Tropical de altitude (serras do SE): ameno, verões moderados", "Subtropical (Sul): quatro estações definidas, frio no inverno com geadas"] },
+        { tipo: "titulo", texto: "Vegetações e adaptações" },
+        { tipo: "paragrafo", texto: "Amazônia: floresta densa e estratificada (clima úmido). Cerrado: árvores retorcidas de casca grossa, adaptadas ao fogo e à seca (clima tropical com estação seca). Caatinga: cactos e plantas que perdem folhas para economizar água (semiárido). Mata Atlântica: floresta litorânea exuberante. Pampa: campos de gramíneas (Sul)." },
+        { tipo: "exemplo", texto: "A lógica de adaptação: no Cerrado, as raízes mergulham 15 m para alcançar o lençol (árvore 'guarda-chuva invertido'); na Caatinga, o mandacaru armazena água no caule e abre os estômatos à noite. Cada bioma é uma solução de engenharia para o seu clima." },
+        { tipo: "titulo", texto: "Tempo × clima" },
+        { tipo: "paragrafo", texto: "TEMPO é a atmosfera de hoje (chove agora, 28 °C neste momento); CLIMA é a média de muitos anos (nesta região chove 1.400 mm/ano). Confundir os dois é erro clássico: um inverno frio não refuta o aquecimento global — clima se mede em décadas." },
+        { tipo: "dica", texto: "Para provas: memorize o par clima-vegetação-chave — Equatorial/Amazônia, Tropical/Cerrado, Semiárido/Caatinga, Tropical de altitude/Mata de Araucárias, Subtropical/Pampa e Mata Atlântica (litoral úmido)." },
+        { tipo: "atencao", texto: "Nenhum clima brasileiro é 'frio o ano todo' como a Europa: até o Sul tem verões de 35 °C. As estações brasileiras são marcadas mais por CHUVA (úmida/seca) que por temperatura — exceto no Sul." }
       ],
       atividade: [
-        { pergunta: "Clima é...", alternativas: ["o tempo de hoje", "o vento de agora", "a temperatura da água", "o padrão do tempo de um lugar ao longo dos anos"], correta: 3, explicacao: "Clima é o comportamento médio do tempo por anos ou séculos." },
-        { pergunta: "O clima semiárido é caracterizado por...", alternativas: ["neve constante", "calor e pouca chuva", "muita chuva", "frio extremo"], correta: 1, explicacao: "No semiárido nordestino chove pouco e o calor é intenso." },
-        { pergunta: "A vegetação típica do sertão seco é a...", alternativas: ["Caatinga", "Amazônia", "Mata Atlântica", "Pampa"], correta: 0, explicacao: "A Caatinga tem plantas adaptadas à falta de água." },
-        { pergunta: "Onde chove muito e a floresta é densa?", alternativas: ["No deserto", "No Pampa", "No topo de serras geladas", "No clima equatorial da Amazônia"], correta: 3, explicacao: "Calor e umidade constantes formam a floresta equatorial." }
+        { pergunta: "Clima é o padrão atmosférico medido em...", alternativas: ["um dia", "uma semana", "muitos anos", "um segundo"], correta: 2, explicacao: "Médias de longo prazo: décadas e séculos." },
+        { pergunta: "O clima semiárido brasileiro caracteriza-se por...", alternativas: ["chuvas abundantes", "calor e escassez de chuva", "neve", "frio constante"], correta: 1, explicacao: "Sertão nordestino: chuvas raras e irregulares." },
+        { pergunta: "A Caatinga adapta-se à seca com...", alternativas: ["folhas largas e perenes", "cactos que armazenam água", "pinheiros", "mangues"], correta: 1, explicacao: "Mandacaru e xerófilas: reserva de água no caule." },
+        { pergunta: "O Pampa localiza-se no...", alternativas: ["Nordeste", "Rio Grande do Sul", "Amapá", "Goiás"], correta: 1, explicacao: "Campos naturais sulinos, pecuária tradicional." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "A zona urbana de um município se caracteriza por...", alternativas: ["muitas construções e serviços", "ausência de casas", "só florestas", "plantações e pastos"], correta: 0, explicacao: "É a área da cidade, com ruas, prédios, comércio e serviços." },
-      { pergunta: "Quem trabalha na zona rural produz principalmente...", alternativas: ["software", "carros", "alimentos e matérias-primas", "filmes"], correta: 2, explicacao: "O campo produz alimentos, carne, grãos, leite e muito mais." },
-      { pergunta: "Planície é um terreno...", alternativas: ["alto e plano", "subterrâneo", "baixo e plano", "cheio de picos"], correta: 2, explicacao: "Planícies são baixas e planas, geralmente junto aos rios." },
-      { pergunta: "O Pico da Neblina é...", alternativas: ["uma planície", "uma cachoeira", "o ponto mais alto do Brasil", "um rio"], correta: 2, explicacao: "Fica no Amazonas e é o ponto culminante do país." },
-      { pergunta: "As hidrelétricas brasileiras usam...", alternativas: ["carvão importado", "o vento do sertão", "o calor do deserto", "a força dos rios para gerar energia"], correta: 3, explicacao: "A queda e o fluxo das águas movem turbinas que geram eletricidade." },
-      { pergunta: "Qual par clima-vegetação está CORRETO?", alternativas: ["Tropical → Tundra", "Equatorial → Pampa", "Semiárido → Caatinga", "Subtropical → Deserto"], correta: 2, explicacao: "No sertão seco cresce a Caatinga, adaptada à seca." }
+      { pergunta: "A zona urbana de um município concentra...", alternativas: ["plantações", "comércio, serviços e densidade de população", "pastos", "nascentes"], correta: 1, explicacao: "É o espaço da cidade, com infraestrutura e serviços." },
+      { pergunta: "Planaltos ocupam cerca de... do território brasileiro.", alternativas: ["10%", "30%", "59%", "90%"], correta: 2, explicacao: "Planaltos 59%, planícies 41%." },
+      { pergunta: "O rio 'da integração nacional' que cruza o semiárido é o...", alternativas: ["Amazonas", "São Francisco", "Paraná", "Madeira"], correta: 1, explicacao: "Atravessa Minas, Bahia, Pernambuco, Alagoas e Sergipe." },
+      { pergunta: "Belo Monte está na bacia do rio...", alternativas: ["Xingu", "Tietê", "Doce", "Uruguai"], correta: 0, explicacao: "Pará: caso emblemático de impactos de barragens." },
+      { pergunta: "O Cerrado adapta-se ao fogo com...", alternativas: ["casca grossa e raízes profundas", "folhas semestrais", "caules aquáticos", "espinhos só"], correta: 0, explicacao: "Adaptações ao fogo natural e à seca." },
+      { pergunta: "'Hoje está chovendo' refere-se ao...", alternativas: ["clima", "tempo", "bioma", "relevo"], correta: 1, explicacao: "Tempo: estado momentâneo da atmosfera." }
     ]
   },
   exameFinal: [
-    { pergunta: "O município reúne...", alternativas: ["só a cidade", "só fazendas", "vários estados", "a cidade e o campo sob uma prefeitura"], correta: 3, explicacao: "Município inclui zona urbana e rural, administrados pelo prefeito." },
-    { pergunta: "Os rios correm das áreas altas para...", alternativas: ["o céu", "as áreas baixas, até a foz", "nada", "o deserto"], correta: 1, explicacao: "A água desce pela força da gravidade até lagos, outros rios ou o mar." },
-    { pergunta: "A Caatinga sobrevive à seca porque suas plantas...", alternativas: ["crescem só à noite", "bebem óleo", "não precisam de água", "guardam água e perdem folhas"], correta: 3, explicacao: "Cactos e outras plantas têm adaptações para economizar água." },
-    { pergunta: "Cerrado é a vegetação do clima...", alternativas: ["equatorial", "tropical, com chuvas de verão", "desértico", "polar"], correta: 1, explicacao: "O Cerrado se desenvolve no clima tropical do Brasil Central." },
-    { pergunta: "Dizer 'hoje choveu' fala do tempo; dizer 'aqui chove muito em janeiro' fala do...", alternativas: ["relevo", "clima", "mapa", "solo"], correta: 1, explicacao: "Padrões de longo prazo são o clima; o momento é o tempo." }
+    { pergunta: "Distrito diferencia-se de município porque...", alternativas: ["tem prefeito próprio", "é subdivisão interna do município", "é um estado pequeno", "só existe no Norte"], correta: 1, explicacao: "Subordina-se à mesma prefeitura." },
+    { pergunta: "Planícies brasileiras localizam-se geralmente...", alternativas: ["nos picos", "junto aos rios e ao litoral", "no interior seco", "em vulcões"], correta: 1, explicacao: "Sedimentos depositados pelas águas." },
+    { pergunta: "A bacia do Paraná é estratégica para...", alternativas: ["pesca artesanal só", "geração hidrelétrica", "mineração", "reflorestamento só"], correta: 1, explicacao: "Itaipu, Furnas, Ilha Solteira: corredor de energia." },
+    { pergunta: "Os 'rios voadores' dependem da...", alternativas: ["evaporação da Amazônia", "neve do Sul", "maré do litoral", "geada do cerrado"], correta: 0, explicacao: "Vapor florestal que irriga o Centro-Sul." },
+    { pergunta: "A Mata Atlântica é o bioma...", alternativas: ["menos biodiverso", "mais devastado do Brasil", "recente", "sem espécies"], correta: 1, explicacao: "Resta ~12% da cobertura original." }
   ]
 };
