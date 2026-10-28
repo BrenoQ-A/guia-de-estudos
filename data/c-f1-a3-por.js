@@ -4,80 +4,82 @@ window.GuiaConteudo["f1-a3-por"] = {
   aulas: [
     {
       id: "f1-a3-por-1",
-      titulo: "Acentuação simples",
+      titulo: "Acentuação: sílaba tônica e regras básicas",
       blocos: [
-        { tipo: "paragrafo", texto: "Algumas palavras têm um acentinho em cima de uma letra, como em CAFÉ, ÁRVORE e PÉ. Esse acento mostra que a sílaba dele é a mais forte da palavra. Vamos aprender quando usar o acento!" },
-        { tipo: "titulo", texto: "A sílaba forte" },
-        { tipo: "paragrafo", texto: "Quando falamos, uma sílaba soa mais forte que as outras. Ela é a sílaba tônica. Em BA-NA-NA, a sílaba forte é a última: ba-na-NA. Em CA-DEIRA, a forte é a segunda: ca-DEI-ra." },
-        { tipo: "exemplo", texto: "Fale a palavra SOFÁ em voz alta: so-FÁ. Sente que a última sílaba é mais forte? Já em BOLETA o forte é BO: bo-LE-ta. A sílaba forte nunca se esconde!" },
-        { tipo: "titulo", texto: "As regrinhas do acento" },
-        { tipo: "lista", itens: ["Palavras com a última sílaba forte podem levar acento, como CAFÉ, SOFÁ e CIPÓ.", "Palavras com a penúltima sílaba forte podem levar acento, como ÁRVORE, LÁPIS e DÚVIDA.", "Palavras pequenas de uma só sílaba falada com força também podem levar acento, como PÁ, PÉ, SÍ e NÓS."] },
-        { tipo: "paragrafo", texto: "Mas nem toda palavra recebe acento: BOLA, MESA e PATO não levam, porque a regra diz que elas não precisam. Por isso a leitura é a melhor amiga de quem escreve: quem lê muito conhece as palavras de vista. Para descobrir a sílaba forte, fale a palavra batendo palmas e veja em qual palma você bate com mais força." },
-        { tipo: "atencao", texto: "Cuidado com as palavras pequenas de uma sílaba só: PÉ (do corpo) tem acento, mas PAZ não tem. Muitas dessas palavras precisam ser memorizadas com calma." }
+        { tipo: "paragrafo", texto: "O acento gráfico marca a sílaba mais forte da palavra (a tônica). Classificar uma palavra pela posição da sílaba tônica é o primeiro passo para acentuar corretamente — e elimina a dependência da memória." },
+        { tipo: "titulo", texto: "Classificação pela sílaba tônica" },
+        { tipo: "lista", itens: ["Monossílabas (uma sílaba): pé, pá, mês — as tônicas recebem acento", "Oxítonas (última sílaba forte): sofá, café, jornal", "Paroxítonas (penúltima sílaba forte): cadeira, árvore, fácil", "Proparoxítonas (antepenúltima sílaba forte): médico, lâmpada, êxodo"] },
+        { tipo: "titulo", texto: "Regras essenciais" },
+        { tipo: "paragrafo", texto: "Proparoxítonas: TODAS são acentuadas (médico, pátria, lâmpada). Oxítonas: acentuam-se as terminadas em -a(s), -e(s), -o(s), -em(s) e ditongos abertos (sofá, café, cipó, alguém, herói). Paroxítonas: acentuam-se as terminadas em -l, -n, -r, -x, -i(s), -us, -um/-uns, -ps, -ã(s)/-ão(s) e ditongos abertos (réptil, hífen, caráter, tórax, júri, vírus, álbum, bíceps, órfã, órgão, juízes)." },
+        { tipo: "exemplo", texto: "Teste prático: na palavra 'faculdade', a força está em 'DADE' (penúltima) → paroxítona terminada em -de (sem regra de acento) → sem acento. Em 'fácil', força em 'FÁ' (antepenúltima) — não, em 'CI'... conte: FA-CIL são duas sílabas; a forte é FA → paroxítona terminada em -l → acentuada: fácil." },
+        { tipo: "dica", texto: "A regra das proparoxítonas resolve mil palavras de uma vez: 'todas acentuadas' é inabalável. Para classificar, pronuncie a palavra em voz alta e marque onde a voz cai." },
+        { tipo: "atencao", texto: "Monossílabas tônicas recebem acento só nas terminadas em -a(s), -e(s), -o(s): pá, pé, pó. As terminadas em consoante não acentuam: mar, luz, flor (sem acento!)." }
       ],
       atividade: [
-        { pergunta: "Qual é a sílaba forte da palavra CAFÉ?", alternativas: ["não tem sílaba forte", "FE", "as duas são iguais", "CA"], correta: 1, explicacao: "Em CAFÉ, a sílaba forte é a última: ca-FÉ. Por isso a palavra tem acento." },
-        { pergunta: "Qual destas palavras tem acento?", alternativas: ["bola", "pato", "árvore", "mesa"], correta: 2, explicacao: "ÁRVORE tem acento no A. Bola, mesa e pato não levam acento." },
-        { pergunta: "Qual destas é uma palavrinha de uma sílaba com acento?", alternativas: ["PÉ", "MESA", "BOLA", "PATO"], correta: 0, explicacao: "PÉ tem uma sílaba só e leva acento." },
-        { pergunta: "Em que lugar da palavra SOFÁ está a sílaba forte?", alternativas: ["no meio", "não tem sílaba forte", "na primeira", "na última"], correta: 3, explicacao: "Em SOFÁ a sílaba forte é a última: so-FÁ." }
+        { pergunta: "'Sofá' é classificada como palavra...", alternativas: ["paroxítona", "oxítona", "proparoxítona", "monossílaba"], correta: 1, explicacao: "A sílaba tônica é a última (FÁ): oxítona." },
+        { pergunta: "Qual das palavras é proparoxítona?", alternativas: ["caderno", "sofá", "papel", "anéis"], correta: 0, explicacao: "CA-DE-NO: tônica na antepenúltima sílaba." },
+        { pergunta: "'Réptil' recebe acento por ser...", alternativas: ["oxítona em -l", "paroxítona terminada em -l", "proparoxítona", "monossílaba tônica"], correta: 1, explicacao: "RÉP-TIL: paroxítona em -l é acentuada." },
+        { pergunta: "Qual palavra NÃO deve ser acentuada?", alternativas: ["lâmpada", "médico", "caderno", "você"], correta: 2, explicacao: "CA-DER-NO: paroxítona terminada em vogal (-o), caso sem acento pelas regras." }
       ]
     },
     {
       id: "f1-a3-por-2",
       titulo: "Adjetivos, sinônimos e antônimos",
       blocos: [
-        { tipo: "paragrafo", texto: "Os substantivos nomeiam as coisas: gato, bola, flor. Já os adjetivos dizem como as coisas são: grande, pequeno, bonito, vermelho. Sem adjetivos, tudo ficaria sem cor e sem detalhes!" },
-        { tipo: "titulo", texto: "Os adjetivos" },
-        { tipo: "paragrafo", texto: "O adjetivo sempre acompanha um nome e conta uma qualidade dele. Um cachorro pode ser GRANDE ou PEQUENO, ALEGRE ou DORMINHOCO. São os adjetivos que descrevem o mundo." },
-        { tipo: "exemplo", texto: "Compare: 'A casa é velha' e 'A casa é novinha'. O nome é o mesmo (casa), mas os adjetivos mudam tudo: uma é velha, a outra é novinha." },
+        { tipo: "paragrafo", texto: "O substantivo nomeia; o ADJETIVO caracteriza — atribui qualidade, estado ou modo de ser. Dominar adjetivos e suas relações de sentido (sinonímia/antonímia) multiplica a precisão da escrita." },
+        { tipo: "titulo", texto: "O adjetivo" },
+        { tipo: "paragrafo", texto: "O adjetivo sempre se refere a um substantivo e varia em gênero e número com ele: 'relatório detalhado', 'planilha detalhada', 'relatórios detalhados'. Posição: antes do substantivo costuma valorizar; depois, especificar ('um grande homem' x 'um homem grande')." },
+        { tipo: "exemplo", texto: "'O candidato apresentou um projeto AMBICIOSO e PRÁTICO.' Ambos os adjetivos qualificam 'projeto' e concordam com ele. Remover os adjetivos mantém a gramática, mas apaga a informação avaliativa — é onde mora a argumentação." },
         { tipo: "titulo", texto: "Sinônimos e antônimos" },
-        { tipo: "paragrafo", texto: "Sinônimos são palavras com significado parecido, quase irmãs: FELIZ e ALEGRE, BONITO e BELO. Antônimos são palavras com significados opostos, como se fossem rivais." },
-        { tipo: "lista", itens: ["ALTO é o antônimo de BAIXO.", "CLARO é o antônimo de ESCURO.", "CHEIO é o antônimo de VAZIO.", "QUENTE é o antônimo de FRIO."] },
-        { tipo: "paragrafo", texto: "O dicionário é um livro cheio de palavras em ordem alfabética. Ele mostra como escrever cada palavra, o que ela significa e até exemplos de uso. Quando surgir uma dúvida, use a ordem alfabética para procurar: primeiro a letra inicial e depois as letras seguintes!" }
+        { tipo: "lista", itens: ["Sinônimos: sentido equivalente — rápido/veloz, erro/equívoco, início/começo", "Antônimos: sentidos opostos — rápido/lento, erro/acerto, início/fim", "Nuance: sinônimos raramente são intercambiáveis ao 100% ('trabalho duro' ≠ 'trabalho pesado' em todos os contextos)"] },
+        { tipo: "paragrafo", texto: "O dicionário (físico ou digital, como os gratuitos oficiais) é a ferramenta padrão para verificar sentido, sinônimos e a correta colocação. Uso profissional do dicionário é habilidade avaliada em concursos e essencial na escrita formal." },
+        { tipo: "dica", texto: "Para enriquecer um texto sem repetições, mantenha uma lista de sinônimos dos termos-chave do seu tema. Para argumentar, antônimos criam contrastes ('o método é SIMPLES, o resultado é COMPLEXO')." },
+        { tipo: "atencao", texto: "Adjetivo não concorda com o autor da frase, e sim com o substantivo a que se refere. 'As alunas inteligentes' (feminino plural) e não 'as alunas inteligente' — erro de concordância é das falhas mais penalizadas." }
       ],
       atividade: [
-        { pergunta: "Na frase 'O coelho branco saltou', qual palavra é um ADJETIVO?", alternativas: ["coelho", "saltou", "branco", "o"], correta: 2, explicacao: "BRANCO diz como é o coelho, então é adjetivo." },
-        { pergunta: "Qual é o SINÔNIMO de FELIZ?", alternativas: ["alegre", "cansado", "grande", "triste"], correta: 0, explicacao: "ALEGRE tem significado parecido com FELIZ; são sinônimos." },
-        { pergunta: "Qual é o ANTÔNIMO de CHEIO?", alternativas: ["molhado", "vazio", "lotado", "grande"], correta: 1, explicacao: "VAZIO é o oposto de CHEIO; são antônimos." },
-        { pergunta: "Onde procuramos o significado das palavras?", alternativas: ["no dicionário", "no álbum de figurinhas", "na televisão", "no caderno de matemática"], correta: 0, explicacao: "O dicionário mostra o significado e a escrita das palavras." }
+        { pergunta: "No enunciado 'relatório detalhado', a palavra 'detalhado' é...", alternativas: ["substantivo", "adjetivo", "verbo", "advérbio"], correta: 1, explicacao: "Caracteriza o substantivo 'relatório'." },
+        { pergunta: "O adjetivo deve concordar em gênero e número com...", alternativas: ["o verbo", "o substantivo a que se refere", "o autor do texto", "o objeto direto"], correta: 1, explicacao: "Regra de concordância nominal." },
+        { pergunta: "O antônimo de 'eficiente' é...", alternativas: ["competente", "ineficiente", "produtivo", "capaz"], correta: 1, explicacao: "Sentido oposto: ineficiente." },
+        { pergunta: "Qual par é de SINÔNIMOS?", alternativas: ["rápido / veloz", "rápido / lento", "alto / baixo", "claro / escuro"], correta: 0, explicacao: "Sentidos equivalentes: rápido e veloz." }
       ]
     },
     {
       id: "f1-a3-por-3",
-      titulo: "Verbos: ação e tempos",
+      titulo: "Verbos: ação e tempos verbais",
       blocos: [
-        { tipo: "paragrafo", texto: "Os verbos são palavras que mostram ação, como correr, pular, comer e brincar. Sem verbos, ninguém faz nada: eles dão vida às frases!" },
-        { tipo: "titulo", texto: "Palavras que mostram ação" },
-        { tipo: "lista", itens: ["CANTAR: quem canta faz uma ação.", "SALTAR: quem salta faz uma ação.", "DESENHAR: quem desenha faz uma ação.", "DORMIR: até dormir é uma ação!"] },
-        { tipo: "paragrafo", texto: "Os verbos também nos dizem QUANDO a ação acontece: se já passou, se está acontecendo agora ou se ainda vai acontecer. São os três tempos do verbo. Palavras como ontem, agora e amanhã são pistas que ajudam a descobrir o tempo." },
-        { tipo: "titulo", texto: "Os três tempos" },
-        { tipo: "paragrafo", texto: "O passado conta uma ação que já aconteceu: ONTEM eu pulei corda. O presente conta a ação de agora: HOJE eu pulo corda. O futuro conta a ação que ainda vai acontecer: AMANHÃ eu vou pular corda." },
-        { tipo: "exemplo", texto: "Veja o verbo BRINCAR nos três tempos: 'Ontem eu brinquei no parque' (passado), 'Agora eu brinco com meus amigos' (presente) e 'Amanhã eu vou brincar de esconde-esconde' (futuro)." },
-        { tipo: "atencao", texto: "Nem toda palavra que parece ação é verbo: 'corrida' nomeia a ação, mas é substantivo. O verbo é CORRER." }
+        { tipo: "paragrafo", texto: "O verbo é o núcleo da oração: indica ação, estado ou fenômeno, e situa tudo no TEMPO. As três formas básicas — pretérito, presente e futuro — cobrem a maior parte da comunicação prática." },
+        { tipo: "titulo", texto: "Os três tempos básicos" },
+        { tipo: "lista", itens: ["Presente: ação atual ou habitual — 'Trabalho na filial central.'", "Pretérito (passado): ação concluída — 'Entreguei o relatório ontem.'", "Futuro: ação por vir — 'Assinarei o contrato amanhã.'"] },
+        { tipo: "exemplo", texto: "O mesmo fato em três tempos: 'Analiso os dados' (agora) / 'Analisei os dados' (concluído) / 'Analisarei os dados' (por fazer). A escolha do tempo verbal altera o compromisso do falante — essencial em e-mails e propostas." },
+        { tipo: "titulo", texto: "Pessoa e número" },
+        { tipo: "paragrafo", texto: "O verbo também indica QUEM pratica a ação: eu trabalho, tu trabalhas, ele trabalha, nós trabalhamos, eles trabalham. A terminação carrega a pessoa — por isso, em português, o sujeito pode ficar oculto ('Estudamos para o exame' → nós)." },
+        { tipo: "paragrafo", texto: "Verbos indicam modo (certeza, dúvida, ordem): o INDICATIVO exprime certeza ('ele veio'); o SUBJUNTIVO, hipótese ou desejo ('se ele vier'); o IMPERATIVO, ordem ou pedido ('Venha!'). Por ora, domine o indicativo nos três tempos." },
+        { tipo: "dica", texto: "Em e-mails profissionais, o tempo verbal define o compromisso: 'enviarei' é promessa; 'enviaria' é hipótese; 'envio' é ação em curso. Confundir tempos é confundir prazos." },
+        { tipo: "atencao", texto: "Erro comum: 'nós vai' em vez de 'nós vamos'. O verbo concorda com o sujeito em número e pessoa — leia a frase sem o sujeito para conferir: 'vamos' sozinho soa errado? Pois é." }
       ],
       atividade: [
-        { pergunta: "Qual destas palavras é um VERBO?", alternativas: ["azul", "mesa", "correr", "alegre"], correta: 2, explicacao: "CORRER mostra uma ação, então é verbo. Mesa é substantivo e azul e alegre são adjetivos." },
-        { pergunta: "Em 'Ontem eu comprei um picolé', em que tempo está o verbo?", alternativas: ["futuro", "não é verbo", "presente", "passado"], correta: 3, explicacao: "ONTEM indica algo que já aconteceu: passado." },
-        { pergunta: "Qual frase está no FUTURO?", alternativas: ["Amanhã eu vou comer pizza.", "Eu comoi pizza ontem.", "Eu comi pizza anteontem.", "Eu como pizza agora."], correta: 0, explicacao: "AMANHÃ indica que a ação ainda vai acontecer: futuro." },
-        { pergunta: "Qual palavra mostra ação (é um verbo)?", alternativas: ["bola", "pular", "janela", "verde"], correta: 1, explicacao: "PULAR é uma ação, então é verbo." }
+        { pergunta: "'Entreguei o relatório ontem' está no tempo...", alternativas: ["presente", "pretérito (passado)", "futuro", "condicional"], correta: 1, explicacao: "Ação concluída: pretérito perfeito." },
+        { pergunta: "O tempo verbal que indica ação por vir é o...", alternativas: ["presente", "pretérito", "futuro", "imperativo"], correta: 2, explicacao: "Futuro: 'assinarei'." },
+        { pergunta: "Em 'Estudamos para o exame', o sujeito oculto é...", alternativas: ["eu", "nós", "ele", "eles"], correta: 1, explicacao: "A terminação -amos indica 'nós'." },
+        { pergunta: "O modo verbal que exprime certeza é o...", alternativas: ["subjuntivo", "indicativo", "imperativo", "infinitivo"], correta: 1, explicacao: "Indicativo: fatos e certezas." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "Qual palavra está escrita com acento?", alternativas: ["bola", "pato", "sofá", "mesa"], correta: 2, explicacao: "SOFÁ leva acento porque a sílaba forte é a última: so-FÁ." },
-      { pergunta: "Qual é a sílaba forte da palavra BANANA?", alternativas: ["BA", "NÃO TEM", "TODAS", "NA"], correta: 3, explicacao: "Fale ba-na-NA: a última sílaba é a mais forte." },
-      { pergunta: "Em 'A flor é bela', qual palavra é ADJETIVO?", alternativas: ["é", "bela", "flor", "a"], correta: 1, explicacao: "BELA descreve como é a flor; é o adjetivo." },
-      { pergunta: "Qual é o antônimo de ESCURO?", alternativas: ["claro", "preto", "pesado", "noite"], correta: 0, explicacao: "CLARO é o oposto de ESCURO." },
-      { pergunta: "Qual frase tem um verbo no PRESENTE?", alternativas: ["Amanhã eu vou ler um livro.", "Ontem eu li um livro.", "Semana passada eu li.", "Agora eu leio um livro."], correta: 3, explicacao: "AGORA indica o presente." },
-      { pergunta: "Qual destas palavras é um verbo?", alternativas: ["caderno", "papagaio", "desenhar", "colorido"], correta: 2, explicacao: "DESENHAR é uma ação, então é verbo." }
+      { pergunta: "'Cadeira' é palavra...", alternativas: ["oxítona", "paroxítona", "proparoxítona", "monossílaba"], correta: 1, explicacao: "CA-DEI-RA: tônica na penúltima sílaba." },
+      { pergunta: "Todas as proparoxítonas são acentuadas?", alternativas: ["Sim, sem exceção", "Não, nenhuma", "Só as terminadas em -l", "Só as terminadas em -a"], correta: 0, explicacao: "Regra absoluta da língua: médico, lâmpada, êxodo." },
+      { pergunta: "O adjetivo caracteriza...", alternativas: ["o verbo", "o substantivo", "o advérbio", "a frase"], correta: 1, explicacao: "Atribui qualidade ou estado a um substantivo." },
+      { pergunta: "Qual par é de ANTÔNIMOS?", alternativas: ["erro / equívoco", "início / começo", "eficiente / ineficiente", "veloz / rápido"], correta: 2, explicacao: "Sentidos opostos: antonímia." },
+      { pergunta: "'Assinarei o contrato amanhã' está no tempo...", alternativas: ["presente", "pretérito", "futuro", "subjuntivo"], correta: 2, explicacao: "Ação por vir: futuro do presente." },
+      { pergunta: "Em 'eles trabalham', a terminação indica o sujeito...", alternativas: ["eu", "nós", "ele", "eles"], correta: 3, explicacao: "Terceira pessoa do plural: -m final." }
     ]
   },
   exameFinal: [
-    { pergunta: "Em CIPÓ, a sílaba forte está:", alternativas: ["na última sílaba", "na primeira sílaba", "no meio da palavra", "em toda palavra"], correta: 0, explicacao: "Fale ci-PÓ: a sílaba forte é a última." },
-    { pergunta: "Qual é o sinônimo de BONITO?", alternativas: ["belo", "feio", "pequeno", "escuro"], correta: 0, explicacao: "BELO significa quase a mesma coisa que BONITO." },
-    { pergunta: "Qual é o antônimo de ALTO?", alternativas: ["longe", "grande", "comprido", "baixo"], correta: 3, explicacao: "BAIXO é o oposto de ALTO." },
-    { pergunta: "Em 'Amanhã eu visitarei minha avó', o verbo está no tempo:", alternativas: ["passado", "futuro", "nenhum tempo", "presente"], correta: 1, explicacao: "AMANHÃ mostra que a visita ainda vai acontecer: futuro." },
-    { pergunta: "Qual palavra é um ADJETIVO?", alternativas: ["caderno", "pequena", "escola", "estudar"], correta: 1, explicacao: "PEQUENA descreve como é algo; é adjetivo." }
+    { pergunta: "A sílaba tônica de 'fácil' está na...", alternativas: ["última sílaba", "penúltima sílaba", "antepenúltima sílaba", "sílaba inexistente"], correta: 1, explicacao: "FA-CIL: paroxítona — por isso acentuada (termina em -l)." },
+    { pergunta: "Qual palavra é oxítona?", alternativas: ["jornal", "árvore", "médico", "código"], correta: 0, explicacao: "JOR-NAL: tônica na última sílaba." },
+    { pergunta: "'As alunas inteligentes' demonstra a concordância do adjetivo com...", alternativas: ["o verbo", "o substantivo", "o advérbio", "o tempo verbal"], correta: 1, explicacao: "Feminino plural com 'alunas': concordância nominal." },
+    { pergunta: "Sinônimo é a palavra de sentido...", alternativas: ["oposto", "equivalente", "incorreto", "estrangeiro"], correta: 1, explicacao: "Rápido/veloz: equivalentes no contexto." },
+    { pergunta: "O verbo situa o fato no...", alternativas: ["espaço", "tempo", "silêncio", "dicionário"], correta: 1, explicacao: "Pretérito, presente e futuro: eixos temporais." }
   ]
 };
