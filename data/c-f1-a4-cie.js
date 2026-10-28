@@ -6,79 +6,83 @@ window.GuiaConteudo["f1-a4-cie"] = {
       id: "f1-a4-cie-1",
       titulo: "Ecossistemas e cadeias alimentares",
       blocos: [
-        { tipo: "paragrafo", texto: "Um ecossistema é a comunidade de seres vivos de um lugar (plantas, animais, fungos, bactérias) junto com o ambiente onde vivem: água, solo, ar e luz. Tudo está conectado!" },
-        { tipo: "titulo", texto: "A cadeia alimentar" },
-        { tipo: "paragrafo", texto: "Na natureza, um ser vivo alimenta o outro. Essa sequência se chama cadeia alimentar. Ela mostra quem come quem e como a energia passa de um para outro." },
-        { tipo: "lista", itens: ["Produtores: as plantas, que fabricam seu próprio alimento com a luz do Sol", "Consumidores: os animais, que comem plantas ou outros animais", "Decompositores: fungos e bactérias, que reciclam organismos mortos"] },
-        { tipo: "exemplo", texto: "Capim (produtor) → gafanhoto come o capim (consumidor) → sapo come o gafanhoto → cobra come o sapo → gavião come a cobra. Quando todos morrem, os decompositores reciclam a matéria para o solo." },
-        { tipo: "titulo", texto: "Equilíbrio na natureza" },
-        { tipo: "paragrafo", texto: "Se uma parte da cadeia desaparece, todas as outras sofrem. Sem gafanhotos, o sapo passa fome; sem sapos, as cobras também. Preservar cada espécie é manter o equilíbrio do ecossistema." },
-        { tipo: "atencao", texto: "O ser humano também faz parte das cadeias alimentares. Quando caçamos demais ou destroemos habitats, quebramos o equilíbrio de todo o ecossistema." }
+        { tipo: "paragrafo", texto: "Ecossistema é o sistema integrado entre seres vivos (biocenose) e o ambiente físico (biótopo): água, solo, ar e luz. O conceito-chave é a INTERDEPENDÊNCIA — nada sobrevive isolado." },
+        { tipo: "titulo", texto: "Cadeia alimentar: o fluxo de energia" },
+        { tipo: "lista", itens: ["Produtores: plantas e algas — fabricam alimento por fotossíntese (entrada de energia solar no sistema)", "Consumidores primários (herbívoros): comem produtores", "Consumidores secundários/terciários (carnívoros): comem outros consumidores", "Decompositores (fungos e bactérias): reciclam matéria orgânica de volta ao solo"] },
+        { tipo: "exemplo", texto: "Capim → gafanhoto → sapo → cobra → gavião. Cada seta transfere energia: o gafanhoto converte capim em carne; o sapo converte gafanhoto... A cada transferência, ~90% da energia se perde como calor — por isso predadores de topo são raros e territórios grandes." },
+        { tipo: "titulo", texto: "Teia alimentar e equilíbrio" },
+        { tipo: "paragrafo", texto: "Na natureza real, cadeias se cruzam: uma teia alimentar. O equilíbrio depende da DENSIDADE populacional de cada elo: retirar um elo desequilibra a teia inteira — sem sapos, as cobras migram ou morrem; sem cobras, os ratos explodem e a lavoura perde." },
+        { tipo: "paragrafo", texto: "Níveis tróficos e bioacumulação: poluentes persistentes (mercúrio, agrotóxicos) sobem na cadeia e se CONCENTRAM nos predadores de topo — o gavião acumula o mercúrio de todos os elos abaixo. É o princípio por trás da proibição do DDT." },
+        { tipo: "dica", texto: "Em questões de cadeia, a energia SEMPRE começa no produtor (Sol → planta) e a seta aponta para quem come. Bioacumulação é o coringa das questões de ambiente." },
+        { tipo: "atencao", texto: "O ser humano é consumidor onívoro e pode ocupar vários níveis — mas cada 'grau' que sobe (comer o peixe que comeu o camarão) multiplica sua pegada ecológica: é energeticamente caro estar no topo." }
       ],
       atividade: [
-        { pergunta: "Na cadeia alimentar, quem é o PRODUTOR?", alternativas: ["A cobra", "O gafanhoto", "O sapo", "A planta"], correta: 3, explicacao: "Plantas produzem seu alimento com luz do Sol: são os produtores." },
-        { pergunta: "Decompositores são importantes porque...", alternativas: ["voam alto", "dão luz", "reciclam matéria orgânica para o solo", "comem plantas"], correta: 2, explicacao: "Fungos e bactérias decompõem e devolvem nutrientes ao solo." },
-        { pergunta: "O gafanhoto que come capim é um consumidor...", alternativas: ["primário (come planta)", "terciário", "decompositor", "secundário"], correta: 0, explicacao: "Quem come diretamente o produtor é consumidor primário." },
-        { pergunta: "Se todos os sapos de um ecossistema desaparecerem, as cobras...", alternativas: ["ficam sem alimento principal", "viram plantas", "comem mais capim", "nada muda"], correta: 0, explicacao: "Cada elo depende do anterior: sem sapos, as cobras ficam sem comida." }
+        { pergunta: "Na cadeia alimentar, o produtor é...", alternativas: ["o gafanhoto", "a planta (fotossíntese)", "o sapo", "a cobra"], correta: 1, explicacao: "Converte energia solar em alimento." },
+        { pergunta: "Decompositores são importantes porque...", alternativas: ["produzem oxigênio", "reciclam matéria orgânica ao solo", "comem plantas", "voam"], correta: 1, explicacao: "Fungos e bactérias devolvem nutrientes." },
+        { pergunta: "O gafanhoto que come capim é consumidor...", alternativas: ["primário", "secundário", "terciário", "de compositor"], correta: 0, explicacao: "Come diretamente o produtor." },
+        { pergunta: "Bioacumulação significa que poluentes...", alternativas: ["desaparecem na cadeia", "se concentram nos predadores de topo", "afetam só plantas", "viram água"], correta: 1, explicacao: "Cada nível trófico concentra os tóxicos do anterior." }
       ]
     },
     {
       id: "f1-a4-cie-2",
-      titulo: "O solo: formação, camadas e decompositores",
+      titulo: "O solo: formação, camadas e conservação",
       blocos: [
-        { tipo: "paragrafo", texto: "O solo é a camada superficial da Terra onde caminhamos e onde as plantas fixam raízes. Mas ele não é só terra: é um mundo vivo!" },
-        { tipo: "titulo", texto: "Como o solo se forma" },
-        { tipo: "paragrafo", texto: "O solo se forma devagarinho, ao longo de centenas e milhares de anos. As rochas vão se quebrando com o sol, a chuva e o vento, virando pedacinhos cada vez menores, que se misturam a matéria orgânica." },
-        { tipo: "titulo", texto: "As camadas do solo" },
-        { tipo: "lista", itens: ["Camada superficial: folhas secas, galhos e restos de plantas (serapilheira)", "Solo fértil (topsoil): escuro, cheio de nutrientes e raízes", "Subsolo: mais duro e claro, com menos vida", "Rocha-mãe: a rocha compacta que originou o solo"] },
-        { tipo: "titulo", texto: "Os trabalhadores invisíveis" },
-        { tipo: "paragrafo", texto: "Minhocas, formigas, fungos e bactérias são os decompositores do solo. Eles transformam folhas e animais mortos em nutrientes que as plantas absorvem. A minhoca, além disso, cava túneis que deixam o solo solto e cheio de ar." },
-        { tipo: "exemplo", texto: "Uma folha caída no chão vira húmus (adubo natural) graças aos decompositores. O húmus alimenta novas plantas: o ciclo recomeça." },
-        { tipo: "atencao", texto: "Solo descoberto, sem plantas, sofre erosão: a chuva e o vento levam a terra fértil embora. As raízes seguram o solo!" }
+        { tipo: "paragrafo", texto: "O solo é a camada viva e fértil da superfície terrestre — produto da decomposição milenar de rochas (fator físico) somada à matéria orgânica (fator biológico). É recurso 'renovável' apenas em escala de séculos." },
+        { tipo: "titulo", texto: "Como se forma" },
+        { tipo: "paragrafo", texto: "Intemperismo: o sol, a água e o vento fraturam a rocha-mãe em partículas cada vez menores; organismos (líquens primeiro) colonizam, morrem e compõem o húmus. Centenas de anos produzem poucos centímetros de solo fértil — a base da agricultura mundial." },
+        { tipo: "titulo", texto: "Perfis do solo" },
+        { tipo: "lista", itens: ["Horizonte O: serapilheira — folhas e restos orgânicos em decomposição", "Horizonte A: solo fértil escuro, rico em húmus e raízes (onde se planta)", "Horizonte B (subsolo): mineral, mais duro, pouca vida", "Horizonte C / rocha-mãe: material original pouco alterado"] },
+        { tipo: "exemplo", texto: "Os 'trabalhadores invisíveis': minhocas (arejam e fertilizam com seus dejetos — vermicomposto), fungos micorrízicos (estendem as raízes) e bactérias fixadoras de nitrogênio (nas leguminosas). Um punhado de solo fértil tem mais organismos do que humanos na Terra." },
+        { tipo: "titulo", texto: "Erosão e conservação" },
+        { tipo: "paragrafo", texto: "Erosão é a remoção do solo por água e vento — natural quando lenta, catastrófica quando acelerada pelo desmatamento e pelo arado. Soluções técnicas: plantio direto (cobertura permanente), terraceamento (curvas de nível em ladeiras), reflorestamento de nascentes e rotação de culturas." },
+        { tipo: "dica", texto: "Em questões, associe: solo descoberto → erosão → assoreamento de rios → enchentes e perda de agricultura. A cadeia de consequências aparece inteira em provas de ambiente." },
+        { tipo: "atencao", texto: "Comprar terra pensando só no preço do hectare é erro clássico: solo erodido (horizonte A perdido) custa décadas de recuperação. O valor real está na camada fértil, não na área." }
       ],
       atividade: [
-        { pergunta: "O solo se forma a partir de...", alternativas: ["areia do mar apenas", "plástico reciclado", "chuva", "rochas desgastadas + matéria orgânica"], correta: 3, explicacao: "Rochas quebradas pelo tempo se misturam a restos orgânicos e formam o solo." },
-        { pergunta: "A camada mais fértil do solo é...", alternativas: ["o subsolo", "o solo fértil (escuro)", "a rocha-mãe", "o ar"], correta: 1, explicacao: "A camada escura superficial concentra nutrientes e raízes." },
-        { pergunta: "As minhocas ajudam o solo porque...", alternativas: ["comem as plantas", "cavam túneis que arejam e adubam", "espantam pássaros", "fazem chuva"], correta: 1, explicacao: "Os túneis deixam o solo solto e o húmus da minhoca é ótimo adubo." },
-        { pergunta: "A erosão é...", alternativas: ["o aumento de nutrientes", "a plantação de árvores", "a perda de solo pela chuva e pelo vento", "a chuva de estrelas"], correta: 2, explicacao: "Sem cobertura vegetal, o solo fértil é carregado embora." }
+        { pergunta: "O solo fértil se forma pela combinação de...", alternativas: ["plástico e areia", "rocha desgastada + matéria orgânica (húmus)", "água pura", "vento só"], correta: 1, explicacao: "Intemperismo físico + decomposição biológica." },
+        { pergunta: "O horizonte do solo onde se planta é o...", alternativas: ["rocha-mãe", "horizonte A (escuro e fértil)", "subsolo B", "horizonte C"], correta: 1, explicacao: "Camada superficial rica em húmus e raízes." },
+        { pergunta: "As minhocas beneficiam o solo porque...", alternativas: ["comem plantações", "arejam e fertilizam com húmus", "espantam pássaros", "fazem chuva"], correta: 1, explicacao: "Túneis + vermicomposto: aeração e adubo." },
+        { pergunta: "Terraceamento (curvas de nível) serve para...", alternativas: ["acelerar a erosão", "reduzir a perda de solo em declives", "melhorar o sabor", "secar o solo"], correta: 1, explicacao: "Barreiras físicas contra o escorrimento da chuva." }
       ]
     },
     {
       id: "f1-a4-cie-3",
-      titulo: "Calor e temperatura",
+      titulo: "Calor e temperatura: conceitos e propagação",
       blocos: [
-        { tipo: "paragrafo", texto: "Calor é energia que passa de um corpo mais quente para um mais frio. Temperatura é a medida de quão quente ou frio algo está, medida em graus (°C)." },
+        { tipo: "paragrafo", texto: "Temperatura é a medida da agitação das partículas de um corpo (em °C). Calor é a ENERGIA TÉRMICA em trânsito — sempre do corpo mais quente para o mais frio, nunca o contrário espontaneamente." },
         { tipo: "titulo", texto: "Fontes de calor" },
-        { tipo: "lista", itens: ["O Sol: a maior fonte de calor da Terra", "Fogo e combustão: fogão, fogueira, vela", "Eletricidade: chuveiro, ferro de passar", "O próprio corpo: por isso nos abraçamos para esquentar!"] },
-        { tipo: "titulo", texto: "Como o calor se espalha" },
-        { tipo: "paragrafo", texto: "O calor passa de um lugar a outro de três formas: por condução (tocando, como a colher quente no café), por convecção (pelo ar ou água em movimento) e por radiação (sem precisar de matéria, como o calor do Sol)." },
+        { tipo: "lista", itens: ["Sol: fonte primária do planeta (radiação)", "Combustão: fogo, motores, fogão a gás", "Elétrica: chuveiro, ferro de passar — energia elétrica convertida em térmica", "Fricção: atrito entre superfícies", "Reações químicas e nucleares"] },
+        { tipo: "titulo", texto: "As três formas de propagação" },
+        { tipo: "paragrafo", texto: "CONDUÇÃO: por contato direto, partícula a partícula (colher de metal no café). CONVECÇÃO: por movimento de massas de fluido (ar quente sobe, água da panela circula). RADIAÇÃO: por ondas, sem necessidade de meio (calor do Sol atravessando o vácuo do espaço)." },
+        { tipo: "exemplo", texto: "A panela no fogão reúne as três: o cabo esquenta por condução (metal conduz — por isso cabo de madeira ou baquelite, isolantes); a água circula por convecção (quente sobe, frio desce); e você sente o calor ao lado do fogão por radiação." },
         { tipo: "titulo", texto: "Condutores e isolantes" },
-        { tipo: "exemplo", texto: "Metais são ótimos condutores: a colher de metal esquenta rápido na panela. Plástico e madeira são isolantes: a pegador de panela é de madeira para não queimar a mão!" },
-        { tipo: "atencao", texto: "O termômetro mede a temperatura, não o 'tamanho' do calor. Um dia de 35 °C é mais quente que um de 20 °C — sempre com °C!" }
+        { tipo: "paragrafo", texto: "Metais são excelentes condutores térmicos (e elétricos). Madeira, plástico, isopor e ar parado são isolantes. Aplicações: garrafa térmica (parede dupla com vácuo — bloqueia condução e convecção), manta térmica, cabo de panela." },
+        { tipo: "dica", texto: "Termômetro mede TEMPERATURA (graus); calor se mede em joules/calorias. A pergunta 'quanto calor?' pede energia; 'que temperatura?' pede graus. Provas exploram essa distinção." },
+        { tipo: "atencao", texto: "Corpos na MESMA temperatura estão em equilíbrio térmico: não há fluxo de calor entre eles. Por isso o metal da mesa e a madeira parecem ter temperaturas diferentes ao toque — conduzem o calor da sua mão em velocidades diferentes." }
       ],
       atividade: [
-        { pergunta: "Calor é...", alternativas: ["energia que passa do corpo quente para o frio", "uma cor", "um tipo de água", "uma rocha"], correta: 0, explicacao: "Calor é energia térmica em trânsito, do mais quente ao mais frio." },
-        { pergunta: "A maior fonte de calor para a Terra é...", alternativas: ["o vento", "a Lua", "as lâmpadas", "o Sol"], correta: 3, explicacao: "A radiação solar aquece o planeta inteiro." },
-        { pergunta: "A colher de metal que esquenta no café esquentou por...", alternativas: ["evaporação", "fotossíntese", "condução", "reflexão"], correta: 2, explicacao: "Por contato direto, o calor se propagou pelo metal: condução." },
-        { pergunta: "Pegadores de panela são de madeira porque a madeira é...", alternativas: ["magnética", "transparente", "condutora", "isolante térmico"], correta: 3, explicacao: "Isolantes não deixam o calor passar facilmente: protegem a mão." }
+        { pergunta: "Calor é...", alternativas: ["a temperatura do corpo", "energia térmica em trânsito do quente para o frio", "uma medida de tamanho", "a cor do fogo"], correta: 1, explicacao: "Fluxo de energia térmica, nunca o inverso espontâneo." },
+        { pergunta: "O calor do Sol chega à Terra por...", alternativas: ["condução", "convecção", "radiação", "fricção"], correta: 2, explicacao: "Ondas atravessam o vácuo: sem meio material." },
+        { pergunta: "A água de uma panela circula (quente sobe) por...", alternativas: ["condução", "convecção", "radiação", "isolamento"], correta: 1, explicacao: "Movimento de massas de fluido por diferença de densidade." },
+        { pergunta: "O cabo de madeira da panela é um...", alternativas: ["condutor térmico", "isolante térmico", "fonte de calor", "termômetro"], correta: 1, explicacao: "Madeira não conduz bem: protege a mão." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "Um ecossistema é formado por...", alternativas: ["só animais", "só água", "seres vivos + ambiente físico", "só plantas"], correta: 2, explicacao: "Seres vivos e fatores físicos (solo, água, ar, luz) interligados." },
-      { pergunta: "A sequência capim → gafanhoto → sapo é...", alternativas: ["uma dança", "uma receita", "o ciclo da água", "uma cadeia alimentar"], correta: 3, explicacao: "Mostra a passagem de energia de quem é comido para quem come." },
-      { pergunta: "Quais seres são decompositores?", alternativas: ["Plantas verdes", "Fungos e bactérias", "Leões e zebras", "Peixes"], correta: 1, explicacao: "Fungos e bactérias reciclam a matéria orgânica." },
-      { pergunta: "A camada do solo cheia de nutrientes e raízes é...", alternativas: ["a atmosfera", "o subsolo", "o solo fértil", "a rocha-mãe"], correta: 2, explicacao: "O solo fértil (escuro) é a camada mais rica e viva." },
-      { pergunta: "O calor do Sol chega até nós por...", alternativas: ["difusão", "convecção", "condução", "radiação"], correta: 3, explicacao: "A radiação não precisa de matéria para viajar: atravessa o espaço." },
-      { pergunta: "O termômetro serve para medir...", alternativas: ["a temperatura", "o volume", "o peso", "a velocidade"], correta: 0, explicacao: "Temperatura em graus Celsius (°C) é medida pelo termômetro." }
+      { pergunta: "Um ecossistema reúne...", alternativas: ["só animais", "seres vivos + ambiente físico integrados", "só plantas", "apenas água"], correta: 1, explicacao: "Biocenose + biótopo." },
+      { pergunta: "A energia entra na cadeia alimentar pela...", alternativas: ["cobra", "planta (fotossíntese)", "bactéria", "gavião"], correta: 1, explicacao: "Produtores captam a energia solar." },
+      { pergunta: "A camada do solo onde se planta é...", alternativas: ["rocha-mãe", "horizonte A (fértil)", "subsolo duro", "horizonte C"], correta: 1, explicacao: "Escuro, húmus e raízes." },
+      { pergunta: "A erosão acelerada resulta de...", alternativas: ["floresta intacta", "solo descoberto pela remoção da vegetação", "minhocas", "compostagem"], correta: 1, explicacao: "Sem cobertura, chuva e vento levam o solo." },
+      { pergunta: "Temperatura é medida em...", alternativas: ["joules", "graus Celsius (°C)", "metros", "watts"], correta: 1, explicacao: "Termômetro: graus." },
+      { pergunta: "Corpos à mesma temperatura estão em...", alternativas: ["combustão", "equilíbrio térmico", "ebulição", "sublimação"], correta: 1, explicacao: "Sem fluxo de calor entre eles." }
     ]
   },
   exameFinal: [
-    { pergunta: "Na cadeia alimentar, a energia começa em...", alternativas: ["as plantas produtoras", "o solo", "as bactérias", "o gavião"], correta: 0, explicacao: "As plantas captam a energia do Sol e a introduzem na cadeia." },
-    { pergunta: "Folhas caídas transformadas em adubo são resultado da ação de...", alternativas: ["chuva ácida", "decompositores", "produtores", "consumidores"], correta: 1, explicacao: "Decompositores reciclam restos orgânicos em nutrientes (húmus)." },
-    { pergunta: "Plantar vegetação ajuda a combater a erosão porque...", alternativas: ["as folhas afastam o vento", "árvores produzem terra nova", "as raízes seguram o solo", "não ajuda em nada"], correta: 2, explicacao: "Raízes firmam a terra e diminuem a perda de solo." },
-    { pergunta: "O ferro de passar aquece usando energia...", alternativas: ["do vento", "nuclear", "solar", "elétrica (que vira calor)"], correta: 3, explicacao: "A energia elétrica é convertida em calor no ferro." },
-    { pergunta: "Se um metal esquenta rápido ao toque, ele é um bom...", alternativas: ["isolante", "condutor térmico", "papel", "produtor"], correta: 1, explicacao: "Metais conduzem calor rapidamente: condutores térmicos." }
+    { pergunta: "Na cadeia capim → gafanhoto → sapo, o sapo é consumidor...", alternativas: ["primário", "secundário", "produtor", "decompositor"], correta: 1, explicacao: "Come o consumidor primário." },
+    { pergunta: "Retirar um elo da teia alimentar...", alternativas: ["não altera nada", "desequilibra toda a teia", "fortalece os outros", "cria novos produtores"], correta: 1, explicacao: "Interdependência: cada elo sustenta o seguinte." },
+    { pergunta: "A erosão em ladeiras é contida pelo...", alternativas: ["arado constante", "terraceamento (curvas de nível)", "queimada", "monocultura"], correta: 1, explicacao: "Barreiras que freiam o escorrimento." },
+    { pergunta: "A condução térmica exige...", alternativas: ["vácuo", "contato entre materiais", "luz", "vento"], correta: 1, explicacao: "Partícula a partícula, por contato." },
+    { pergunta: "A garrafa térmica mantém a temperatura porque...", alternativas: ["aquece sozinha", "bloqueia condução, convecção e radiação", "é de metal puro", "tem gelo interno"], correta: 1, explicacao: "Parede dupla + vácuo: barreiras às três formas." }
   ]
 };

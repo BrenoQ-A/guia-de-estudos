@@ -4,87 +4,85 @@ window.GuiaConteudo["f1-a4-mat"] = {
   aulas: [
     {
       id: "f1-a4-mat-1",
-      titulo: "Números até 100.000",
+      titulo: "Números até 100.000: classes e decomposição",
       blocos: [
-        { tipo: "paragrafo", texto: "Agora os números ficam grandes de verdade: até 100.000! Para ler e escrever esses números, precisamos conhecer as classes." },
-        { tipo: "titulo", texto: "As ordens e classes" },
-        { tipo: "paragrafo", texto: "Cada casa do número tem um nome: unidades (U), dezenas (D), centenas (C), unidades de milhar (UM), dezenas de milhar (DM) e centenas de milhar (CM). As primeiras três casas formam a classe das UNIDADES; as próximas, a classe dos MILHARES." },
-        { tipo: "exemplo", texto: "O número 34.521 se lê: trinta e quatro mil, quinhentos e vinte e um. Ou seja: 3 DM + 4 UM + 5 C + 2 D + 1 U." },
+        { tipo: "paragrafo", texto: "Números grandes organizam-se em CLASSES (unidades e milhares), cada uma com três ordens: unidade, dezena e centena. Ler um número grande é ler duas classes com o mesmo vocabulário." },
+        { tipo: "titulo", texto: "As ordens até 100.000" },
+        { tipo: "lista", itens: ["Classe das unidades: U, D, C (1 a 999)", "Classe dos milhares: UM, DM, CM (1.000 a 999.999)", "Exemplo de leitura: 45.230 = quarenta e cinco mil (classe dos milhares) + duzentos e trinta (classe das unidades)"] },
         { tipo: "titulo", texto: "Decomposição" },
-        { tipo: "paragrafo", texto: "Decompor é 'desmontar' o número em suas partes: 34.521 = 30.000 + 4.000 + 500 + 20 + 1. Isso ajuda a entender o valor de cada algarismo." },
-        { tipo: "titulo", texto: "Comparando números grandes" },
-        { tipo: "paragrafo", texto: "Para comparar, conte primeiro quantos algarismos cada número tem: o de mais casas é maior (se não houver zeros à esquerda). Tendo o mesmo número de casas, compare algarismo por algarismo, da esquerda para a direita." },
-        { tipo: "exemplo", texto: "72.500 > 9.999 (5 casas vencem 4 casas). E 72.500 vs 72.400? Mesmas casas; compare da esquerda: 7=7, 2=2, 5>4, então 72.500 > 72.400." },
-        { tipo: "atencao", texto: "O zero no meio muda tudo: 40.007 tem 40 mil e 7 unidades; não é 'quatro mil e sete'!" }
+        { tipo: "paragrafo", texto: "Decompor é expressar o número como soma do valor posicional de cada algarismo. É a habilidade que sustenta contas encaixadas e estimativas." },
+        { tipo: "exemplo", texto: "34.521 = 30.000 + 4.000 + 500 + 20 + 1. O algarismo 4 vale 4.000 (4 unidades de milhar), não 4 — o VALOR depende da POSIÇÃO. Esse é o princípio do sistema decimal indo-arábico." },
+        { tipo: "titulo", texto: "Comparação e arredondamento" },
+        { tipo: "paragrafo", texto: "Para comparar: mais algarismos vence (sem zeros à esquerda); empatando, compare algarismo a algarismo da esquerda para a direita. Arredondar para o milhar mais próximo: olhe a centena — 5 ou mais, sobe; 4 ou menos, mantém (72.500 → 73.000; 72.400 → 72.000)." },
+        { tipo: "dica", texto: "Leitura com classe: separe mentalmente 3 algarismos por vez da direita para a esquerda (34.521 → 34 | 521): 'trinta e quatro mil' + 'quinhentos e vinte e um'. Funciona até milhões." },
+        { tipo: "atencao", texto: "Zeros internos mudam tudo: 40.007 ≠ 4.007 ≠ 470. E o algarismo 0 entre não zeros ('dezena vazia') é o erro mais comum na escrita por extenso: 40.007 = quarenta mil e sete." }
       ],
       atividade: [
-        { pergunta: "Como se lê o número 45.000?", alternativas: ["Quatro mil", "Quatrocentos e cinco mil", "Quatro mil e quinhentos", "Quarenta e cinco mil"], correta: 3, explicacao: "45.000 tem 4 DM e 5 UM: quarenta e cinco mil." },
-        { pergunta: "A decomposição de 23.400 é...", alternativas: ["200 + 34", "20.000 + 3.000 + 400", "2.000 + 3.400", "23.000 + 4.000"], correta: 1, explicacao: "2 DM (20.000) + 3 UM (3.000) + 4 C (400)." },
-        { pergunta: "Qual número é MAIOR?", alternativas: ["10.001", "9.998", "10.000", "9.999"], correta: 0, explicacao: "10.001 é o único com 5 algarismos e o maior valor." },
-        { pergunta: "No número 58.731, o algarismo 8 vale...", alternativas: ["8 unidades", "800", "8.000", "80"], correta: 2, explicacao: "O 8 está na casa das unidades de milhar: 8.000." }
+        { pergunta: "Como se lê 45.000?", alternativas: ["Quatro mil e quinhentos", "Quarenta e cinco mil", "Quatrocentos e cinco mil", "Quatro mil"], correta: 1, explicacao: "4 DM + 5 UM: quarenta e cinco mil." },
+        { pergunta: "A decomposição de 23.400 é...", alternativas: ["2.000 + 3.400", "20.000 + 3.000 + 400", "23.000 + 4.000", "200 + 34"], correta: 1, explicacao: "Valor posicional de cada algarismo." },
+        { pergunta: "No número 58.731, o algarismo 8 vale...", alternativas: ["8", "80", "800", "8.000"], correta: 3, explicacao: "Está na casa das unidades de milhar." },
+        { pergunta: "Arredondando 72.500 para o milhar mais próximo:", alternativas: ["72.000", "73.000", "70.000", "75.000"], correta: 1, explicacao: "Centena 5: arredonda para cima." }
       ]
     },
     {
       id: "f1-a4-mat-2",
       titulo: "Frações equivalentes e números decimais",
       blocos: [
-        { tipo: "paragrafo", texto: "Frações dividem o todo em partes iguais. E os números decimais são outra forma de representar partes do todo, usando a vírgula." },
+        { tipo: "paragrafo", texto: "Fração e decimal são duas escritas para a mesma ideia: parte de um todo. Converter entre elas e compará-las com segurança é competência diária — de descontos a medidas de receita." },
         { tipo: "titulo", texto: "Frações equivalentes" },
-        { tipo: "paragrafo", texto: "Frações equivalentes representam a MESMA quantidade, apesar de parecerem diferentes: 1/2 = 2/4 = 4/8. Multiplicando ou dividindo numerador e denominador pelo mesmo número, a fração continua a mesma quantidade." },
-        { tipo: "exemplo", texto: "Meia pizza: se cortar em 2 pedaços e comer 1 (1/2), ou cortar em 4 e comer 2 (2/4) — a pizza comida é a mesma!" },
-        { tipo: "titulo", texto: "Do décimo ao centésimo" },
-        { tipo: "paragrafo", texto: "Quando dividimos o todo em 10 partes, cada parte é 1/10 = 0,1 (um décimo). Em 100 partes, cada uma é 1/100 = 0,01 (um centésimo). A vírgula marca essa transição: 0,5 é metade; 0,25 é um quarto." },
-        { tipo: "lista", itens: ["1/2 = 0,5", "1/4 = 0,25", "3/4 = 0,75", "1/10 = 0,1", "1/100 = 0,01"] },
+        { tipo: "paragrafo", texto: "Multiplicar ou dividir numerador e denominador pelo MESMO número mantém o valor: 1/2 = 2/4 = 3/6 = 5/10. É o princípio que permite simplificar (dividir até a forma mínima) e comparar (igualar denominadores)." },
+        { tipo: "exemplo", texto: "Simplificação: 6/8 ÷ 2/2 = 3/4. Comparação: 2/3 x 3/4 → comum em 12: 8/12 x 9/12 → 3/4 > 2/3. O 'pedaço' de 3/4 é maior." },
+        { tipo: "titulo", texto: "Decimais: a escrita com vírgula" },
+        { tipo: "paragrafo", texto: "A vírgula separa inteiros das partes: 1ª casa = décimos, 2ª = centésimos, 3ª = milésimos. Conversões fundamentais: 1/2 = 0,5; 1/4 = 0,25; 3/4 = 0,75; 1/10 = 0,1; 1/100 = 0,01." },
         { tipo: "titulo", texto: "Comparando decimais" },
-        { tipo: "paragrafo", texto: "Para comparar 0,7 e 0,25, alinhe as casas decimais: 0,70 e 0,25. Agora compare: 70 centésimos > 25 centésimos. Então 0,7 > 0,25." },
-        { tipo: "atencao", texto: "0,7 é MAIOR que 0,25, apesar de 7 parecer menor que 25! Sempre compare pelo valor da casa decimal, não pelos algarismos crus." }
+        { tipo: "paragrafo", texto: "Iguale o número de casas decimais com zeros e compare como inteiros: 0,7 → 0,70; 0,25 → 0,25; logo 0,70 > 0,25. Na soma/subtração, ALINHE AS VÍRGULAS." },
+        { tipo: "dica", texto: "Traduza todo decimal para 'centésimos' quando comparar: 0,7 = 70/100; 0,25 = 25/100. Setenta centésimos vencem vinte e cinco — a intuição desmonta a pegadinha '25 é maior que 7'." },
+        { tipo: "atencao", texto: "0,7 é MAIOR que 0,25 apesar de '7 < 25': a comparação se faz casa a casa (décimos primeiro), não pelos algarismos crus. Esse erro aparece em toda prova de concursos." }
       ],
       atividade: [
-        { pergunta: "Qual fração é equivalente a 1/2?", alternativas: ["3/6", "1/4", "2/5", "2/3"], correta: 0, explicacao: "2/4, 3/6, 4/8... todas equivalem a 1/2." },
-        { pergunta: "Quanto é 1/4 em decimal?", alternativas: ["0,10", "0,25", "0,40", "0,75"], correta: 1, explicacao: "Um quarto do todo é 0,25 (25 centésimos)." },
-        { pergunta: "Qual é MAIOR: 0,8 ou 0,45?", alternativas: ["0,8", "depende", "são iguais", "0,45"], correta: 0, explicacao: "0,80 > 0,45: oitenta centésimos vencem quarenta e cinco." },
-        { pergunta: "3/4 do bolo comido significa...", alternativas: ["um quarto restante", "bolo dobrado", "nada restante", "meio bolo"], correta: 0, explicacao: "Se 3/4 foram comidos, resta 1/4 do bolo." }
+        { pergunta: "Qual fração é equivalente a 1/2?", alternativas: ["2/3", "3/6", "2/5", "1/4"], correta: 1, explicacao: "3/6 simplificado: 1/2." },
+        { pergunta: "Quanto vale 1/4 em decimal?", alternativas: ["0,10", "0,25", "0,40", "0,75"], correta: 1, explicacao: "Um quarto: 25 centésimos." },
+        { pergunta: "Qual é MAIOR: 0,8 ou 0,45?", alternativas: ["0,45", "0,8", "iguais", "depende do contexto"], correta: 1, explicacao: "0,80 > 0,45." },
+        { pergunta: "3/4 de um bolo consumidos deixam...", alternativas: ["um quarto", "metade", "três quartos", "nada"], correta: 0, explicacao: "4/4 − 3/4 = 1/4." }
       ]
     },
     {
       id: "f1-a4-mat-3",
-      titulo: "Perímetro e área de retângulos",
+      titulo: "Perímetro e área de retângulos e quadrados",
       blocos: [
-        { tipo: "paragrafo", texto: "Perímetro é a medida do CONTORNO de uma figura, como uma cerca em volta do terreno. Área é a medida da SUPERFÍCIE interna, como o gramado dentro da cerca." },
-        { tipo: "titulo", texto: "Calculando o perímetro" },
-        { tipo: "paragrafo", texto: "Para achar o perímetro, some todos os lados. No retângulo, os lados opostos são iguais: P = 2 × (base + altura)." },
-        { tipo: "exemplo", texto: "Um retângulo de 6 m por 4 m: P = 6 + 4 + 6 + 4 = 20 metros de cerca." },
-        { tipo: "titulo", texto: "Calculando a área do retângulo" },
-        { tipo: "paragrafo", texto: "A área é base × altura. Pense em quadradinhos de 1 m² preenchendo o chão: em 6 colunas de 4 quadradinhos, são 24 quadradinhos." },
-        { tipo: "exemplo", texto: "A = 6 × 4 = 24 metros quadrados (m²) de gramado." },
-        { tipo: "titulo", texto: "Quadrado e o triângulo" },
-        { tipo: "lista", itens: ["Quadrado: P = 4 × lado; A = lado × lado", "Retângulo: P = 2 × (b + h); A = b × h", "Unidades: perímetro em metros (m); área em metros quadrados (m²)"] },
-        { tipo: "dica", texto: "Dois terrenos podem ter o mesmo perímetro e áreas diferentes! Um 10×2 e um 6×6 ambos têm perímetro 24 m, mas as áreas são 20 m² e 36 m²." },
-        { tipo: "atencao", texto: "Não esqueça as unidades: perímetro em m (ou cm), área em m² (ou cm²). Esquecer o 'quadrado' da área é erro clássico!" }
+        { tipo: "paragrafo", texto: "Perímetro mede o CONTORNO (cerca, rodapé, corrimão); área mede a SUPERFÍCIE (piso, grama, tinta). São grandezas diferentes, com unidades diferentes — confundi-las é o erro de maior custo em obras e provas." },
+        { tipo: "titulo", texto: "Fórmulas essenciais" },
+        { tipo: "lista", itens: ["Retângulo: P = 2 × (base + altura); A = base × altura", "Quadrado: P = 4 × lado; A = lado²", "Unidades: perímetro em m (linear); área em m² (quadrada)", "Conversão de área: 1 m² = 100 dm² = 10.000 cm²"] },
+        { tipo: "exemplo", texto: "Sala de 6 m × 4 m: perímetro = 2 × (6 + 4) = 20 m de rodapé; área = 6 × 4 = 24 m² de piso. Se o piso custa R$ 80/m², a obra: 24 × 80 = R$ 1.920. Perímetro e área respondem perguntas diferentes — e têm preços diferentes." },
+        { tipo: "titulo", texto: "Propriedades que resolvem problemas" },
+        { tipo: "paragrafo", texto: "Figuras de MESMO perímetro podem ter áreas diferentes: retângulos 10×2 e 6×6 ambos têm P = 24 m, mas áreas de 20 m² e 36 m². Entre retângulos de mesmo perímetro, o QUADRADO maximiza a área — princípio usado de cercas a embalagens." },
+        { tipo: "paragrafo", texto: "Figuras compostas: quebre a forma em retângulos, calcule cada área e some; para perímetro, percorra o contorno somando TODOS os lados (inclusive os que a figura 'esconde')." },
+        { tipo: "dica", texto: "Sempre pergunte: 'a questão fala de contorno ou de superfície?' Cerca, moldura, fita = perímetro. Piso, tinta, grama, tapete = área. A unidade (m x m²) já entrega a resposta." },
+        { tipo: "atencao", texto: "Área tem expoente: 24 m², nunca '24 m'. E dobrar o lado QUADRUPLICA a área (k²): um terreno de lado dobrado não custa o dobro de cerca nem o dobro de grama — perimetra com k e areja com k²." }
       ],
       atividade: [
-        { pergunta: "O perímetro de um quadrado de lado 5 cm é...", alternativas: ["10 cm", "25 cm", "20 cm", "50 cm"], correta: 2, explicacao: "P = 4 × 5 = 20 cm (soma dos 4 lados)." },
-        { pergunta: "A área de um retângulo de 8 m por 3 m é...", alternativas: ["24 m²", "11 m²", "30 m²", "22 m²"], correta: 0, explicacao: "A = 8 × 3 = 24 m²." },
-        { pergunta: "Perímetro mede...", alternativas: ["a superfície interna", "o contorno da figura", "o peso", "o volume"], correta: 1, explicacao: "Perímetro é a medida da borda, do contorno." },
-        { pergunta: "Um terreno de 7 m por 7 m tem área de...", alternativas: ["77 m²", "49 m²", "28 m²", "14 m²"], correta: 1, explicacao: "7 × 7 = 49 m² (é um quadrado: lado × lado)." }
+        { pergunta: "O perímetro de um quadrado de lado 5 cm é...", alternativas: ["10 cm", "20 cm", "25 cm", "50 cm"], correta: 1, explicacao: "P = 4 × 5 = 20 cm." },
+        { pergunta: "A área de um retângulo de 8 m por 3 m é...", alternativas: ["11 m²", "22 m²", "24 m²", "30 m²"], correta: 2, explicacao: "A = 8 × 3 = 24 m²." },
+        { pergunta: "Perímetro mede...", alternativas: ["a superfície", "o contorno", "o volume", "o peso"], correta: 1, explicacao: "Medida linear da borda." },
+        { pergunta: "Um terreno quadrado de 7 m de lado tem área de...", alternativas: ["14 m²", "28 m²", "49 m²", "77 m²"], correta: 2, explicacao: "7 × 7 = 49 m²." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "Como se lê 60.050?", alternativas: ["Sessenta mil e cinquenta", "Sessenta e cinco mil", "Seiscentos e cinquenta", "Seis mil e cinquenta"], correta: 0, explicacao: "6 DM + 5 D: sessenta mil e cinquenta." },
-      { pergunta: "A decomposição de 12.307 é...", alternativas: ["1.000 + 2.307", "12.000 + 307", "12.300 + 70", "10.000 + 2.000 + 300 + 7"], correta: 3, explicacao: "1 DM + 2 UM + 3 C + 0 D + 7 U." },
-      { pergunta: "Qual fração é equivalente a 2/4?", alternativas: ["2/8", "1/2", "3/4", "1/3"], correta: 1, explicacao: "2/4 simplificado é 1/2." },
-      { pergunta: "Quanto é 0,5 + 0,25?", alternativas: ["0,70", "0,75", "7,5", "0,30"], correta: 1, explicacao: "0,50 + 0,25 = 0,75." },
-      { pergunta: "O perímetro de um retângulo 9 cm × 2 cm é...", alternativas: ["27 cm", "11 cm", "18 cm", "22 cm"], correta: 3, explicacao: "P = 2 × (9 + 2) = 22 cm." },
-      { pergunta: "A área de um quadrado de lado 6 m é...", alternativas: ["36 m²", "24 m²", "66 m²", "12 m²"], correta: 0, explicacao: "A = 6 × 6 = 36 m²." }
+      { pergunta: "Como se lê 60.050?", alternativas: ["Seis mil e cinquenta", "Sessenta mil e cinquenta", "Seiscentos e cinquenta", "Sessenta e cinco mil"], correta: 1, explicacao: "6 DM + 5 D: sessenta mil e cinquenta." },
+      { pergunta: "Qual fração é equivalente a 2/4?", alternativas: ["1/3", "1/2", "2/8", "3/4"], correta: 1, explicacao: "Simplificação por 2: 1/2." },
+      { pergunta: "Quanto é 0,5 + 0,25?", alternativas: ["0,30", "0,70", "0,75", "7,5"], correta: 2, explicacao: "0,50 + 0,25 = 0,75." },
+      { pergunta: "O perímetro de um retângulo 9 cm × 2 cm é...", alternativas: ["11 cm", "18 cm", "22 cm", "27 cm"], correta: 2, explicacao: "P = 2 × (9 + 2) = 22 cm." },
+      { pergunta: "A área de um quadrado de lado 6 m é...", alternativas: ["12 m²", "24 m²", "36 m²", "66 m²"], correta: 2, explicacao: "6 × 6 = 36 m²." },
+      { pergunta: "No número 73.402, o algarismo 3 vale...", alternativas: ["3", "30", "300", "3.000"], correta: 3, explicacao: "Casa das unidades de milhar." }
     ]
   },
   exameFinal: [
-    { pergunta: "No número 73.402, o algarismo 3 está na casa das...", alternativas: ["unidades de milhar", "centenas", "dezenas de milhar", "unidades"], correta: 0, explicacao: "7 DM, 3 UM, 4 C, 0 D, 2 U: o 3 vale 3.000." },
-    { pergunta: "Frações equivalentes representam...", alternativas: ["quantidades diferentes", "a mesma quantidade", "soma de frações", "números inteiros"], correta: 1, explicacao: "1/2, 2/4, 3/6... mesma quantidade, escritas diferentes." },
-    { pergunta: "Qual decimal equivale a 7/10?", alternativas: ["7,0", "0,7", "0,07", "70"], correta: 1, explicacao: "Sete décimos = 0,7." },
-    { pergunta: "Comparando 0,35 e 0,4:", alternativas: ["não dá para comparar", "0,35 > 0,4", "são iguais", "0,35 < 0,4"], correta: 3, explicacao: "0,35 vs 0,40: quarenta centésimos > trinta e cinco." },
-    { pergunta: "Uma piscina de 10 m × 5 m tem perímetro de...", alternativas: ["25 m", "15 m", "30 m", "50 m"], correta: 2, explicacao: "P = 2 × (10 + 5) = 30 m (a área seria 50 m²)." }
+    { pergunta: "Comparando 72.400 e 72.500 arredondados ao milhar:", alternativas: ["ambos viram 73.000", "72.000 e 73.000", "ambos viram 72.000", "não se arredonda"], correta: 1, explicacao: "Centena 4 mantém; centena 5 sobe." },
+    { pergunta: "Frações equivalentes representam...", alternativas: ["a mesma quantidade", "quantidades distintas", "somas", "inteiros só"], correta: 0, explicacao: "1/2 = 2/4 = 3/6." },
+    { pergunta: "Qual decimal equivale a 7/10?", alternativas: ["0,07", "0,7", "7,0", "70"], correta: 1, explicacao: "Sete décimos." },
+    { pergunta: "0,35 comparado a 0,4 é...", alternativas: ["maior", "menor", "igual", "incomparável"], correta: 1, explicacao: "0,35 < 0,40." },
+    { pergunta: "Uma piscina de 10 m × 5 m tem perímetro de...", alternativas: ["15 m", "30 m", "50 m", "25 m"], correta: 1, explicacao: "P = 2 × (10 + 5) = 30 m (área seria 50 m²)." }
   ]
 };

@@ -4,83 +4,86 @@ window.GuiaConteudo["f1-a4-geo"] = {
   aulas: [
     {
       id: "f1-a4-geo-1",
-      titulo: "Divisão política: estados e as 5 regiões",
+      titulo: "Divisão política: estados, regiões e federação",
       blocos: [
-        { tipo: "paragrafo", texto: "O Brasil é um país gigante: é o 5º maior do mundo em território. Para organizar tão grande espaço, ele é dividido em 26 estados + o Distrito Federal, e estes são agrupados em 5 grandes regiões." },
-        { tipo: "titulo", texto: "As cinco regiões brasileiras" },
-        { tipo: "lista", itens: ["Norte: 7 estados, a maior região, com a Amazônia. Capitais como Manaus e Belém", "Nordeste: 9 estados, lindo litoral e sertão. Salvador, Recife, Fortaleza", "Centro-Oeste: 3 estados + Distrito Federal, com o Cerrado e Brasília", "Sudeste: 4 estados, o mais populoso e industrializado. São Paulo, Rio de Janeiro, Minas Gerais, Espírito Santo", "Sul: 3 estados, com clima mais frio. Paraná, Santa Catarina, Rio Grande do Sul"] },
-        { tipo: "titulo", texto: "Estado, capital e município" },
-        { tipo: "paragrafo", texto: "Cada estado tem uma capital (sede do governo estadual) e é dividido em municípios, administrados por prefeitos. O Distrito Federal abriga Brasília, a capital do país, inaugurada em 1960." },
-        { tipo: "exemplo", texto: "Exemplo completo: Brasília (capital do país) fica no Distrito Federal, dentro da região Centro-Oeste." },
-        { tipo: "dica", texto: "Para memorizar as capitais, junte-as por região e associe a uma curiosidade: Manaus → teatro amazonense; Curitiba → cidade planejada; Salvador → primeira capital do Brasil." },
-        { tipo: "atencao", texto: "Brasília não fica em nenhum estado: fica no Distrito Federal, uma unidade própria da federação." }
+        { tipo: "paragrafo", texto: "O Brasil é uma federação de 26 estados + Distrito Federal, agrupados em 5 regiões. A divisão regional é uma construção do IBGE (1970) com fins de planejamento — não fronteiras naturais." },
+        { tipo: "titulo", texto: "As cinco regiões" },
+        { tipo: "lista", itens: ["Norte: 7 estados, ~45% do território, Amazônia (Manaus, Belém, Porto Velho)", "Nordeste: 9 estados, litoral + sertão (Salvador, Recife, Fortaleza, São Luís)", "Centro-Oeste: 3 estados + DF, Cerrado e agro (Brasília, Goiânia, Cuiabá)", "Sudeste: 4 estados, o mais populoso e industrializado (SP, RJ, MG, ES)", "Sul: 3 estados, clima subtropical e colonização europeia (Curitiba, Florianópolis, Porto Alegre)"] },
+        { tipo: "titulo", texto: "Município, estado e União" },
+        { tipo: "paragrafo", texto: "A federação tem três níveis com competências próprias: União (moeda, defesa, relações exteriores), estados (polícia civil, universidades estaduais) e municípios (ensino fundamental, transporte urbano). Brasília, no DF, é a capital federal desde 1960 — Juscelino Kubitschek e o 'cinquenta anos em cinco'." },
+        { tipo: "exemplo", texto: "Distribuição desigual: o Sudeste concentra ~42% da população e o maior PIB; o Norte ocupa metade do território com ~9% da população. Essa assimetria (concentração econômica x extensão) é o fio condutor da geografia política brasileira." },
+        { tipo: "titulo", texto: "Capitais e curiosidades" },
+        { tipo: "paragrafo", texto: "Cada estado tem uma capital (sede do governo estadual). Três cidades capitais não são as maiores do estado (Brasília/DF, Florianópolis menor que Joinville, Vitória menor que Vila Velha). Palmas (TO) é a capital mais jovem (criada em 1989)." },
+        { tipo: "dica", texto: "Memorize por blocos com âncoras: Norte=7 (Amazônia), Nordeste=9 (litoral), SE=4 (SP, RJ, MG, ES), S=3 (PR, SC, RS), CO=3+DF. Soma: 26 + DF." },
+        { tipo: "atencao", texto: "Região ≠ estado ≠ município: regiões agrupam estados (conceito do IBGE); estados são unidades federativas com governo próprio; municípios são autônomos dentro dos estados. Não misture os níveis em prova." }
       ],
       atividade: [
-        { pergunta: "Quantos estados o Brasil tem?", alternativas: ["25", "20", "26 + Distrito Federal", "30"], correta: 2, explicacao: "26 estados mais o Distrito Federal formam a federação." },
-        { pergunta: "A maior região do Brasil em área é a...", alternativas: ["Norte", "Sudeste", "Sul", "Nordeste"], correta: 0, explicacao: "A região Norte concentra quase metade do território nacional." },
-        { pergunta: "Brasília fica em qual unidade?", alternativas: ["Em Goiás", "No Distrito Federal", "No Tocantins", "Em Minas Gerais"], correta: 1, explicacao: "O Distrito Federal é uma unidade própria, onde fica a capital." },
-        { pergunta: "São Paulo, Rio de Janeiro e Minas Gerais pertencem à região...", alternativas: ["Sudeste", "Centro-Oeste", "Nordeste", "Sul"], correta: 0, explicacao: "O Sudeste tem 4 estados, incluindo Espírito Santo." }
+        { pergunta: "O Brasil é dividido em quantas regiões?", alternativas: ["3", "4", "5", "6"], correta: 2, explicacao: "Norte, Nordeste, Centro-Oeste, Sudeste e Sul." },
+        { pergunta: "A maior região em área é a...", alternativas: ["Sudeste", "Norte", "Nordeste", "Centro-Oeste"], correta: 1, explicacao: "~45% do território: Amazônia Legal." },
+        { pergunta: "Brasília localiza-se no...", alternativas: ["estado de Goiás", "Distrito Federal", "estado de Tocantins", "Mato Grosso"], correta: 1, explicacao: "Unidade federativa própria, criada em 1960." },
+        { pergunta: "A região mais populosa e industrializada é a...", alternativas: ["Norte", "Nordeste", "Sudeste", "Sul"], correta: 2, explicacao: "SP, RJ, MG e ES: ~42% da população." }
       ]
     },
     {
       id: "f1-a4-geo-2",
       titulo: "Unidades de conservação e proteção da natureza",
       blocos: [
-        { tipo: "paragrafo", texto: "Para proteger a natureza, o Brasil cria unidades de conservação: áreas delimitadas onde o ecossistema é preservado ou usado com cuidado." },
-        { tipo: "titulo", texto: "Tipos de unidades de conservação" },
-        { tipo: "lista", itens: ["Parques nacionais: protegem ecossistemas e permitem visitas, como o Parque Nacional do Iguaçu", "Reservas biológicas: proteção máxima, visita restrita a pesquisas", "Reservas extrativistas: comunidades locais vivem de forma sustentável, coletando castanhas e borracha", "Estações ecológicas: áreas de pesquisa científica"] },
-        { tipo: "exemplo", texto: "O Parque Nacional do Iguaçu, no Paraná, protege a maior floresta subtropical do mundo e as Cataratas, patrimônio natural da humanidade. Os turistas visitam, os animais vivem protegidos." },
-        { tipo: "titulo", texto: "Por que proteger?" },
-        { tipo: "paragrafo", texto: "Florestas e rios nos dão água limpa, ar puro, alimentos, medicamentos e clima equilibrado. Espécies ameaçadas, como a onça-pintada e o mico-leão-dourado, só sobrevivem em ambientes protegidos." },
-        { tipo: "titulo", texto: "O que cada um pode fazer" },
-        { tipo: "paragrafo", texto: "Visitar parques respeitando as regras, não alimentar animais, não levar plantas ou animais para casa, separar o lixo e apoiar projetos ambientais da sua cidade." },
-        { tipo: "atencao", texto: "Área protegida não é terra 'sem dono' para ocupar: desmatar unidade de conservação é crime ambiental." }
+        { tipo: "paragrafo", texto: "Unidade de conservação (UC) é área protegida por lei com o objetivo de preservar ecossistemas, espécies e processos naturais. O sistema brasileiro (SNUC, Lei 9.985/2000) divide-as em dois grandes grupos: proteção integral e uso sustentável." },
+        { tipo: "titulo", texto: "Proteção integral" },
+        { tipo: "lista", itens: ["Parque Nacional: preserva ecossistemas com visitação turística controlada (Iguaçu, Tijuca, Lençóis Maranhenses)", "Reserva Biológica (Rebio): proteção máxima, acesso restrito a pesquisa (Rebio de Sooretama)", "Estação Ecológica: pesquisa científica, sem turismo", "Monumento Natural: protege paisagens ou elementos únicos (Pão de Açúcar)"] },
+        { tipo: "titulo", texto: "Uso sustentável" },
+        { tipo: "paragrafo", texto: "Permitem convivência entre conservação e uso: Reserva Extrativista (Resex — comunidades tradicionais vivem da coleta, como na Resex Chico Mendes, no Acre), Área de Proteção Ambiental (APA — ocupação regulada, ex.: APA da Bacia do rio São Bartolomeu), Floresta Nacional (Flona — manejo florestal), Reserva de Desenvolvimento Sustentável (RDS — Mamirauá, na Amazônia)." },
+        { tipo: "exemplo", texto: "O modelo Resex nasceu da luta dos seringueiros: em vez de expulsar as comunidades para 'proteger' a floresta, protege-se a floresta COM as comunidades dentro (borracha, castanha, açaí de manejo). A prova frequentemente pergunta a diferença: parque (visita) x resex (moradia e uso) x rebio (nada além de pesquisa)." },
+        { tipo: "titulo", texto: "Aplicação e fiscalização" },
+        { tipo: "paragrafo", texto: "Gestão: ICMBio (federal) e secretarias estaduais. Fiscalização: IBAMA e polícia ambiental. Desmatar ou caçar em UC é crime ambiental (Lei 9.605/98) com pena de reclusão. Dados: ~30% do território brasileiro está sob alguma forma de proteção (UCs + terras indígenas)." },
+        { tipo: "dica", texto: "Terras indígenas são as áreas MAIS preservadas do Brasil: onde há povos originários, o desmatamento cai drasticamente. Reconhecer esse dado vale ponto em questões ambientais." },
+        { tipo: "atencao", texto: "UC não é 'terra improdutiva': ela gera serviços ecossistêmicos (água, clima, turismo, pesca) avaliados em bilhões. E desmatamento em UC é crime — não 'opção de desenvolvimento'." }
       ],
       atividade: [
-        { pergunta: "Unidades de conservação servem para...", alternativas: ["vender madeira", "construir shoppings", "aumentar o desmatamento", "proteger ecossistemas e espécies"], correta: 3, explicacao: "São áreas protegidas por lei para manter a natureza." },
-        { pergunta: "As Cataratas do Iguaçu ficam em qual parque?", alternativas: ["Parque do Tumucumaque", "Parque do Lençóis", "Parque Nacional do Iguaçu", "Parque da Serra da Capivara"], correta: 2, explicacao: "No Paraná, patrimônio natural da humanidade pela Unesco." },
-        { pergunta: "Reservas extrativistas permitem que...", alternativas: ["indústrias desmatem", "turistas morem em hotéis", "comunidades vivam da natureza de forma sustentável", "não haja nenhuma atividade"], correta: 2, explicacao: "Populações tradicionais coletam recursos sem destruir a floresta." },
-        { pergunta: "Um comportamento correto em um parque nacional é...", alternativas: ["respeitar as trilhas e as regras", "levar plantas para casa", "acender fogueiras", "alimentar os animais"], correta: 0, explicacao: "Visite respeitando natureza e sinalizações." }
+        { pergunta: "O sistema brasileiro de UCs é regulado pela...", alternativas: ["Lei 9.985/2000 (SNUC)", "CLT", "Lei Áurea", "Código Civil"], correta: 0, explicacao: "Sistema Nacional de Unidades de Conservação." },
+        { pergunta: "Reservas Biológicas permitem...", alternativas: ["turismo livre", "acesso restrito a pesquisa", "agropecuária", "mineração"], correta: 1, explicacao: "Proteção integral máxima." },
+        { pergunta: "Resex (Reserva Extrativista) permite que...", alternativas: ["indústrias desmatem", "comunidades tradicionais vivam da coleta", "não haja moradores", "só turistas entrem"], correta: 1, explicacao: "Modelo nascido da luta dos seringueiros." },
+        { pergunta: "As áreas mais preservadas do Brasil são as...", alternativas: ["fazendas de grãos", "terras indígenas", "urbanas", "mineradoras"], correta: 1, explicacao: "Desmatamento cai drasticamente onde há povos originários." }
       ]
     },
     {
       id: "f1-a4-geo-3",
       titulo: "Problemas ambientais urbanos: lixo, poluição e enchentes",
       blocos: [
-        { tipo: "paragrafo", texto: "As cidades crescem rápido, e o ambiente urbano sofre com problemas como lixo, poluição do ar e das águas e enchentes. A boa notícia: todos dependem de hábitos — e podem mudar." },
-        { tipo: "titulo", texto: "O problema do lixo" },
-        { tipo: "paragrafo", texto: "O Brasil gera toneladas de lixo por dia. Parte vai para aterros, outra parte para lixões irregulares, poluindo solo e água. Plástico demora séculos para se decompor e muito acaba em rios e no mar." },
-        { tipo: "titulo", texto: "Poluição do ar e das águas" },
-        { tipo: "paragrafo", texto: "A fumaça dos carros e das fábricas polui o ar e piora alergias e asma. Esgoto sem tratamento vai para rios, que ficam impróprios. Poluição sonora (barulho) também faz mal à saúde." },
-        { tipo: "titulo", texto: "Por que acontecem enchentes?" },
-        { tipo: "exemplo", texto: "Quando o lixo entope as bocas de lobo e os rios da cidade, a água da chuva não tem para onde ir e alaga as ruas. Asfalto demais e áreas verdes de menos também dificultam a infiltração da água." },
-        { tipo: "titulo", texto: "Soluções que começam em casa" },
-        { tipo: "lista", itens: ["Separar o lixo para reciclagem", "Jogar lixo na lixeira, nunca no chão ou em rios", "Priorizar caminhada, bicicleta e transporte coletivo", "Economizar água e apoiar projetos de arborização urbana"] },
-        { tipo: "atencao", texto: "Jogar lixo na rua não 'some': ele entupa bueiros, atrai doenças e desce para os rios. Um saco de plástico leva até 400 anos para se decompor." }
+        { tipo: "paragrafo", texto: "As cidades concentram demanda e degradação: resíduos, poluição do ar e das águas, calor excessivo e enchentes. Todos têm causas técnico-políticas — e, portanto, soluções técnicas e políticas." },
+        { tipo: "titulo", texto: "Resíduos sólidos" },
+        { tipo: "paragrafo", texto: "O Brasil gera ~80 milhões de toneladas de resíduos por ano, com reciclagem baixa (~4%). Política Nacional de Resíduos Sólidos (2010) estabelece hierarquia: NÃO GERAR → reduzir → reutilizar → reciclar → tratar → dispor. Lixões (a céu aberto) ainda existem; aterros sanitários são a solução mínima; logística reversa (embalagens de volta ao fabricante) é a meta." },
+        { tipo: "titulo", texto: "Poluição: ar, água e sonora" },
+        { tipo: "paragrafo", texto: "Ar: frota de veículos e indústria (inversão térmica prende poluentes nas metrópoles — nublado cinza de SP). Água: esgoto sem tratamento (cerca de 40% do esgoto brasileiro não é tratado) e lixo em rios. Sonora: barulho acima de 85 dB contínuos causa perda auditiva — é poluição com lei (PCCS municipal)." },
+        { tipo: "exemplo", texto: "A enchente urbana tem receita conhecida: solo impermeabilizado (asfalto e concreto) + lixo entupindo bueiros + rios canalizados = água sem para onde ir. Soluções: cidades-esponja (parques que absorvem), pavimento permeável, despoluição de rios (caso Tietê) e coleta eficiente." },
+        { tipo: "titulo", texto: "Ilha de calor e arborização" },
+        { tipo: "paragrafo", texto: "Concreto e asfalto acumulam calor; a falta de árvores impede evapotranspiração: metrópoles ficam 5-8 °C mais quentes que o entorno rural. Arborização urbana (calçadas verdes, parques) reduz temperatura, absorve poluição e previne enchentes — é infraestrutura, não enfeite." },
+        { tipo: "dica", texto: "Para questões, ligue o par problema-causa: enchente = impermeabilização + bueiro entupido; ilha de calor = concreto + falta de árvores; poluição do ar = frota + inversão térmica. Cada problema tem receita técnica conhecida." },
+        { tipo: "atencao", texto: "Reciclar não é a solução principal: a hierarquia começa em NÃO GERAR e REDUZIR. Reciclagem de plástico real é menor que 20% — o grosso vira lixo, aterro ou oceano. Redução na fonte vale mais que separação na saída." }
       ],
       atividade: [
-        { pergunta: "Uma causa comum de enchentes nas cidades é...", alternativas: ["muita bicicleta", "chuva de verão só", "lixo entupindo bueiros e rios", "o excesso de árvores"], correta: 2, explicacao: "Entupimento e falta de áreas permeáveis impedem o escoamento da chuva." },
-        { pergunta: "A poluição do ar nas cidades vem principalmente de...", alternativas: ["chuva", "veículos e fábricas", "pássaros", "praças e parques"], correta: 1, explicacao: "Fumaça de combustão polui o ar urbano." },
-        { pergunta: "Reciclar significa...", alternativas: ["jogar lixo na rua", "queimar o lixo", "comprar mais plástico", "transformar materiais usados em novos produtos"], correta: 3, explicacao: "Papel, vidro, metal e plástico retornam à produção." },
-        { pergunta: "Qual hábito ajuda o ambiente urbano?", alternativas: ["Separar o lixo para reciclagem", "Jogar óleo na pia", "Usar carro para tudo", "Lavar a calçada com mangueira"], correta: 0, explicacao: "Reciclagem reduz lixo e poluição; óleo na pia entuba e polui rios." }
+        { pergunta: "A hierarquia da Política Nacional de Resíduos começa por...", alternativas: ["reciclar", "não gerar e reduzir", "queimar", "enterrar"], correta: 1, explicacao: "Prevenção vem antes de tratamento." },
+        { pergunta: "A inversão térmica nas metrópoles...", alternativas: ["dispersa poluentes", "prende poluentes junto ao solo", "esfria a cidade", "produz chuva limpa"], correta: 1, explicacao: "Camada quente impede a subida dos poluentes." },
+        { pergunta: "A principal causa de enchentes urbanas é...", alternativas: ["excesso de árvores", "impermeabilização + bueiros entupidos", "chuva ácida", "transporte coletivo"], correta: 1, explicacao: "Solo impermeável e drenagem bloqueada." },
+        { pergunta: "Ilha de calor urbana é causada por...", alternativas: ["vegetação densa", "concreto, asfalto e falta de árvores", "rios limpos", "parques"], correta: 1, explicacao: "Materiais que acumulam calor sem evapotranspiração." }
       ]
     }
   ],
   prova: {
     questoes: [
-      { pergunta: "O Brasil é dividido em quantas regiões?", alternativas: ["4", "6", "5", "3"], correta: 2, explicacao: "Norte, Nordeste, Centro-Oeste, Sudeste e Sul." },
-      { pergunta: "A capital do Brasil fica em qual região?", alternativas: ["Sudeste", "Norte", "Nordeste", "Centro-Oeste"], correta: 3, explicacao: "Brasília fica no Distrito Federal, no Centro-Oeste." },
-      { pergunta: "O estado mais populoso do país é...", alternativas: ["Pará", "Rio de Janeiro", "Bahia", "São Paulo"], correta: 3, explicacao: "São Paulo concentra a maior população brasileira." },
-      { pergunta: "Reserva biológica é uma unidade de conservação...", alternativas: ["sem lei", "com visita livre para festas", "de proteção máxima, com acesso restrito", "onde se desmata legalmente"], correta: 2, explicacao: "Reservas biológicas protegem integralmente a fauna e a flora." },
-      { pergunta: "Esgoto sem tratamento vai para os rios e...", alternativas: ["deixa a água mais limpa", "faz chover mais", "torna a água imprópria e mata a vida aquática", "ajuda os peixes"], correta: 2, explicacao: "Poluição orgânica consome o oxigênio da água." },
-      { pergunta: "Cidades com mais áreas verdes têm...", alternativas: ["menos chuva", "menos calor e melhor qualidade de ar", "mais enchentes", "mais poluição"], correta: 1, explicacao: "Árvores e parques amenizam o clima e absorvem poluição." }
+      { pergunta: "O Brasil tem quantos estados + Distrito Federal?", alternativas: ["24 + DF", "26 + DF", "27 + DF", "30 + DF"], correta: 1, explicacao: "26 estados federativos + DF." },
+      { pergunta: "A capital federal desde 1960 é...", alternativas: ["Rio de Janeiro", "Salvador", "Brasília", "São Paulo"], correta: 2, explicacao: "JK e o plano de interiorização." },
+      { pergunta: "Parques nacionais diferenciam-se de Reservas Biológicas porque...", alternativas: ["não protegem nada", "admitem visitação turística", "só existem no exterior", "permitem mineração"], correta: 1, explicacao: "Iguaçu e Tijuca recebem milhões de visitantes." },
+      { pergunta: "A Resex Chico Mendes fica no...", alternativas: ["Acre", "Ceará", "Espírito Santo", "Distrito Federal"], correta: 0, explicacao: "Modelo de conservação com seringueiros." },
+      { pergunta: "O esgoto brasileiro sem tratamento é cerca de...", alternativas: ["5%", "40%", "90%", "100%"], correta: 1, explicacao: "~40% segue sem tratamento para rios." },
+      { pergunta: "A poluição sonora acima de 85 dB contínuos causa...", alternativas: ["melhora da audição", "perda auditiva", "crescimento", "nada"], correta: 1, explicacao: "Dano cumulativo às células do ouvido." }
     ]
   },
   exameFinal: [
-    { pergunta: "A região Nordeste tem quantos estados?", alternativas: ["8", "10", "9", "7"], correta: 2, explicacao: "São 9 estados, de Maranhão a Bahia, mais Sergipe e Alagoas." },
-    { pergunta: "Parques nacionais se diferenciam das reservas biológicas porque...", alternativas: ["não protegem nada", "são zonas rurais", "só existem no exterior", "permitem visitação turística"], correta: 3, explicacao: "Parques conciliam proteção com visitação pública." },
-    { pergunta: "O mico-leão-dourado é um exemplo de espécie...", alternativas: ["extinta", "invasora", "ameaçada, protegida em unidades de conservação", "que só existe em zoológicos"], correta: 2, explicacao: "Sobrevive na Mata Atlântica protegida do Rio de Janeiro." },
-    { pergunta: "Asfalto em excesso nas cidades...", alternativas: ["refresca o solo", "dificulta a infiltração e agrava enchentes", "diminui o esgoto", "aumenta a infiltração da água"], correta: 1, explicacao: "Solo impermeabilizado impede a água de escoar naturalmente." },
-    { pergunta: "Reduzir o lixo começa com...", alternativas: ["comprar mais embalagens", "consumir menos e separar recicláveis", "jogar no rio", "enterrar tudo"], correta: 1, explicacao: "Menos consumo e reciclagem diminuem a pressão sobre aterros e natureza." }
+    { pergunta: "A região Nordeste possui...", alternativas: ["7 estados", "9 estados", "4 estados", "3 estados"], correta: 1, explicacao: "De Maranhão a Bahia, mais Sergipe e Alagoas." },
+    { pergunta: "O SNUC divide as UCs em...", alternativas: ["urbanas e rurais", "proteção integral e uso sustentável", "nacionais e municipais", "novas e antigas"], correta: 1, explicacao: "Parque/Rebio x Resex/APA/Flona." },
+    { pergunta: "Terras indígenas hoje representam...", alternativas: ["áreas de desmatamento recorde", "as áreas mais preservadas do país", "minas ativas", "zonas urbanas"], correta: 1, explicacao: "Povos originários = floresta em pé." },
+    { pergunta: "Cidades-esponja combatem enchentes com...", alternativas: ["mais asfalto", "áreas permeáveis que absorvem a chuva", "canalização total", "bueiros menores"], correta: 1, explicacao: "Parques e pavimentos que infiltram água." },
+    { pergunta: "Arborização urbana é considerada...", alternativas: ["enfeite dispensável", "infraestrutura ambiental (clima e drenagem)", "causa de enchentes", "poluição"], correta: 1, explicacao: "Reduz temperatura e absorve água da chuva." }
   ]
 };
